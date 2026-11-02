@@ -5,8 +5,7 @@ Adds a `demo` language. Texts that are missing in
 
 ## All keys (1190)
 
-A key works in any of the feature files below. Using the same file as
-Twilit Essentials makes it easier to find.
+Dumped keys for TE 3.0.1
 
 <details><summary><code>settings</code> (91)</summary>
 
