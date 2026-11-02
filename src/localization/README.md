@@ -3,22 +3,6 @@
 Adds a `demo` language. Texts that are missing in
 `res/localization/demo/<feature>/<feature>.json` fall back to English.
 
-## Listing the keys yourself
-
-`add_language` calls `translate` once for every key that your JSON does not cover,
-so a language without JSON files sees every key with its fallback text:
-
-```cpp
-static const char* dump_key(const char* key, const char* text, void*) {
-    printf("%s = %s\n", key, text);
-    return nullptr;
-}
-
-desc.translate = dump_key;
-```
-
-Returning `nullptr` keeps the fallback text.
-
 ## All keys (1190)
 
 A key works in any of the feature files below. Using the same file as
