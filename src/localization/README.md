@@ -3,11 +3,11 @@
 Adds a `demo` language. Texts that are missing in
 `res/localization/demo/<feature>/<feature>.json` fall back to English.
 
-## All keys (1190)
+## All keys (1754)
 
-Dumped keys for TE 3.0.1
+Dumped keys for TE 3.0.2
 
-<details><summary><code>settings</code> (91)</summary>
+<details><summary><code>settings</code> (159)</summary>
 
 | Key | English |
 | --- | --- |
@@ -54,6 +54,7 @@ Dumped keys for TE 3.0.1
 | `panel.help_text` | Need help, found a bug or have feedback? Let us know in the Twilit Essentials Discord channel: |
 | `panel.view_channel_in_discord` | View channel in Discord |
 | `panel.create_bug_report` | Create bug report |
+| `panel.send_suggestion` | Send suggestion |
 | `panel.known_issues` | Known Issues |
 | `panel.language` | Language |
 | `panel.game_language` | Game language |
@@ -72,6 +73,33 @@ Dumped keys for TE 3.0.1
 | `panel.preset_modern_tip` | Comfort plus new combat and movement features like Stamina, Flurry Rush, Quick Draw and Third-Person Aim. |
 | `panel.preset_ultra_tip` | Modern plus Photo Mode and every graphics upgrade: shadows, water, volumetric clouds and wind. |
 | `panel.preset_performance_tip` | Default features with the demanding graphics features (shadows, water, clouds, wind) turned off. |
+| `quick_start.title` | Quick Start |
+| `quick_start.body` | Tick what you want to use: it gets turned on, the rest is turned off. You can change everything later in the mod settings. |
+| `quick_start.own` | I have my own already |
+| `quick_start.own_tip` | Keeps your current settings and changes nothing. |
+| `quick_start.cutscenes` | Faster Cutscenes & Animations |
+| `quick_start.cutscenes_tip` | Unskippable cutscenes play faster, doors open faster, Midna warps faster and you warp as human Link. |
+| `quick_start.quick_access` | Quick Access & Z Button |
+| `quick_start.quick_access_tip` | Quick item menu on a button of your choice and the Z button back on the HUD. |
+| `quick_start.map_markers` | Map Markers |
+| `quick_start.map_markers_tip` | Place markers on the map like in Breath of the Wild. |
+| `quick_start.hp_bars` | HP Bars & Damage Numbers |
+| `quick_start.hp_bars_tip` | Health bars above enemies, damage numbers on hits and a boss health bar at the top of the screen. |
+| `quick_start.stamina` | Stamina |
+| `quick_start.stamina_tip` | Sprinting, attacks, rolls and climbing use a stamina meter. |
+| `quick_start.moves` | New Moves & Combat |
+| `quick_start.moves_tip` | Flurry Rush, Bullet Time, spin attack with the sword sheathed, Quick Draw, Shield Surfing and switching targets with the right stick. |
+| `quick_start.camera` | Camera |
+| `quick_start.camera_tip` | Aim over Link's shoulder and a slightly wider view while sprinting. |
+| `quick_start.swimming` | Zora Swimming |
+| `quick_start.swimming_tip` | Smoother Zora Armor swimming and the Zora Armor goes on in water by itself. |
+| `quick_start.visible_equipment` | Visible Equipment |
+| `quick_start.visible_equipment_tip` | Shows your bow, quiver, lantern, bottles, keys and horse call on Link. |
+| `quick_start.photo_mode` | Photo Mode |
+| `quick_start.photo_mode_tip` | Freeze the game, move the camera freely and take photos with filters. |
+| `quick_start.graphics` | Graphics |
+| `quick_start.graphics_tip` | Shadows, realistic water, volumetric clouds, wind and 3D grass. Costs performance. |
+| `quick_start.apply` | Apply |
 | `options.default` | Default |
 | `options.botw_wheel` | BotW Wheel |
 | `options.thinner` | Thinner |
@@ -102,10 +130,50 @@ Dumped keys for TE 3.0.1
 | `tabs.dungeon_rush` | Dungeon Rush |
 | `tabs.replays` | Replays |
 | `tabs.split_presets` | Splits |
+| `bug_report.your_bug_report_has_been_sent_thank` | Your bug report has been sent. Thank you! |
+| `bug_report.report_id` | Report ID: %s |
+| `bug_report.if_the_problem_persists_mention_this_id` | If the problem persists, mention this ID in the Twilit Essentials Discord channel so your report can be found. |
+| `bug_report.the_bug_report_could_not_be_sent` | The bug report could not be sent. |
+| `bug_report.report_id_copied_to_clipboard` | Report ID copied to clipboard. |
+| `bug_report.copy_id` | Copy ID |
+| `bug_report.bug_report_sent` | Bug report sent |
+| `bug_report.bug_report_failed` | Bug report failed |
+| `bug_report.unknown_network_error` | Unknown network error. |
+| `bug_report.networking_is_unavailable_in_this_build` | Networking is unavailable in this build. |
+| `bug_report.please_describe_the_bug_before_sending_the` | Please describe the bug before sending the report. |
+| `bug_report.sending_bug_report` | Sending bug report... |
+| `bug_report.discord_username_optional` | Discord username (optional) |
+| `bug_report.describe_the_bug_required` | Describe the bug (required) |
+| `bug_report.a_bug_report_is_already_being_sent` | A bug report is already being sent. |
+| `bug_report.send_report` | Send report |
+| `bug_report.send_bug_report` | Send bug report |
+| `bug_report.do_you_agree_to_send_a_bug` | Do you agree to send a bug report to Fimmel? It will include:\n\n– The last three log files<br/>– Your Twilit Essentials settings<br/>– Your current save file<br/>– The list of installed mods<br/>\n\nYour report gets an ID you can use to follow up in the Discord channel if something is still wrong.\n\nA short description of what went wrong is required. |
+| `settings_transfer.the_file_is_not_valid_json` | The file is not valid JSON. |
+| `settings_transfer.settings_must_be_an_object` | "settings" must be an object. |
+| `settings_transfer.this_is_not_a_twilit_essentials_settings` | This is not a Twilit Essentials settings file. |
+| `settings_transfer.settings_exported` | Settings exported. |
+| `settings_transfer.settings_export_failed` | Settings export failed |
+| `settings_transfer.the_settings_file_could_not_be_saved` | The settings file could not be saved. |
+| `settings_transfer.file_access_is_unavailable_in_this_build` | File access is unavailable in this build. |
+| `settings_transfer.the_settings_file_could_not_be_created` | The settings file could not be created. |
+| `settings_transfer.another_file_dialog_is_already_open` | Another file dialog is already open. |
+| `settings_transfer.the_save_dialog_could_not_be_opened` | The save dialog could not be opened. |
+| `settings_transfer.settings_import_failed` | Settings import failed |
+| `settings_transfer.no_file_was_selected` | No file was selected. |
+| `settings_transfer.settings_are_unavailable_in_this_build` | Settings are unavailable in this build. |
+| `settings_transfer.the_file_could_not_be_read` | The file could not be read. |
+| `settings_transfer.the_file_is_too_large_to_be` | The file is too large to be a settings file. |
+| `settings_transfer.imported_settings` | Imported %s settings. |
+| `settings_transfer.unknown_or_invalid_entries_were_skipped` | %s unknown or invalid entries were skipped. |
+| `settings_transfer.the_file_picker_could_not_be_opened` | The file picker could not be opened. |
+| `settings_transfer.export_settings` | Export settings |
+| `settings_transfer.import_settings` | Import settings |
+| `settings_transfer.export_import_settings` | Export / import settings |
+| `bug_report.request_not_started` | The request could not be started (HTTP service unavailable). |
 
 </details>
 
-<details><summary><code>general</code> (58)</summary>
+<details><summary><code>general</code> (49)</summary>
 
 | Key | English |
 | --- | --- |
@@ -133,15 +201,6 @@ Dumped keys for TE 3.0.1
 | `general.hud_auto_fade_settings.help` | How long Link stands still before the HUD fades, and how long the fade takes. |
 | `general.cosmetics_hd_textures` | Use HD textures for Cosmetics |
 | `general.cosmetics_hd_textures.help` | Cosmetics recolors use your HD texture pack instead of the low-res originals. |
-| `general.chu_jelly` | Chu Jelly |
-| `general.chu_jelly.sword_coating` | Dip sword in Chu Jelly |
-| `general.chu_jelly.sword_coating.help` | Draw your sword, stand next to the jelly a defeated **Chu** leaves behind and press {btn:A}. With jelly or lantern oil in a bottle: hover it in the item wheel and press {btn:R} (**Dip Sword**), Link coats the blade once you close the wheel.<br/>**Red**: 30% chance of a critical hit with triple damage.<br/>**Purple**: strong poison, extra damage and heavy damage over 10 seconds.<br/>**Yellow**: fire sword for 10 seconds, extra damage and sets enemies on fire.<br/>**Blue**: every hit heals a quarter heart.<br/>**Rare**: all of them.<br/>Lasts 20 hits or 90 seconds and washes off in water. A colored outline around the sword icon on {btn:B} shrinks from top to bottom as the coating wears off. |
-| `general.chu_jelly.ring_dip_sword` | Dip Sword |
-| `general.chu_jelly.debug_spawn_red` | Debug: spawn Red Chu |
-| `general.chu_jelly.debug_spawn_purple` | Debug: spawn Purple Chu |
-| `general.chu_jelly.debug_spawn_yellow` | Debug: spawn Yellow Chu |
-| `general.chu_jelly.debug_spawn_blue` | Debug: spawn Blue Chu |
-| `general.chu_jelly.debug_spawn_rare` | Debug: spawn Rare Chu |
 | `general.indicator` | Indicator |
 | `general.indicator.damage_vignette` | Damage vignette |
 | `general.indicator.damage_vignette.help` | Red screen edges when hit and at low health. |
@@ -170,7 +229,7 @@ Dumped keys for TE 3.0.1
 
 </details>
 
-<details><summary><code>qol</code> (41)</summary>
+<details><summary><code>qol</code> (43)</summary>
 
 | Key | English |
 | --- | --- |
@@ -189,6 +248,8 @@ Dumped keys for TE 3.0.1
 | `qol.auto_zora_armor.help` | **On**: puts on the **Zora Armor** in water and switches back on land.<br/>**On + shallow water**: also shows it under the water surface in shallow water.<br/>**On + shallow water, both feet**: the raised foot gets it at the same depth too. |
 | `qol.improved_zora_swimming` | Improved Zora Swimming |
 | `qol.improved_zora_swimming.help` | Smoother **Zora Armor** swimming: tap {btn:A} for a speed burst and roll, hold it to swim fast. |
+| `qol.shield_surfing` | Shield Surfing |
+| `qol.shield_surfing.help` | Hold {btn:L} and press {btn:A} in the air to surf on your shield. |
 | `qol.spin_attack_charge_levels` | Spin attack charge levels |
 | `qol.spin_attack_charge_levels.help` | Hold the spin attack longer for up to three stronger levels with more reach. Drains stamina with **Stamina** on. |
 | `qol.disable_hit_stun` | Disable hit stun |
@@ -399,7 +460,7 @@ Dumped keys for TE 3.0.1
 
 </details>
 
-<details><summary><code>quick_access</code> (10)</summary>
+<details><summary><code>quick_access</code> (29)</summary>
 
 | Key | English |
 | --- | --- |
@@ -413,20 +474,29 @@ Dumped keys for TE 3.0.1
 | `quick_access.pages.tunics` | Tunics |
 | `quick_access.hints.customize` | Customize |
 | `quick_access.hints.customize_fallback` | X Customize |
+| `quick_access.iron_boots_equipped` | Iron Boots [Equipped] |
+| `quick_access.iron_boots` | Iron Boots |
+| `quick_access.lantern_active` | Lantern [Active] |
+| `quick_access.lantern_no_oil` | Lantern (No Oil) |
+| `quick_access.fishing_rod` | Fishing Rod |
+| `quick_access.a_add_remove` | A Add/Remove |
+| `quick_access.hints.y_clear` | Y Clear |
+| `quick_access.x_back` | X Back |
+| `quick_access.b_close` | B Close |
+| `quick_access.customize_quick_slots` | Customize Quick Slots |
+| `quick_access.customize_quick_slots_4` | Customize Quick Slots   %d/4 |
+| `quick_access.no_items` | No items |
+| `quick_access.warp` | Warp |
+| `quick_access.howl` | Howl |
+| `quick_access.a_warp` | A Warp |
+| `quick_access.a_howl` | A Howl |
+| `quick_access.sun_song` | Sun Song |
+| `quick_access.items.horse_call` | Horse Call |
+| `quick_access.items.lantern` | Lantern |
 
 </details>
 
-<details><summary><code>talents</code> (3)</summary>
-
-| Key | English |
-| --- | --- |
-| `menus.talent_tree` | Talent Tree |
-| `menus.talent_tree.enable_talents` | Enable Talents |
-| `menus.talent_tree.enable_talents.help` | Adds a talent tree to the Collection screen (press {btn:Y} there). Every heart gives 2 talent points. Switch branches with {btn:L} / {btn:R}, reset for free with {btn:X}. Saved per file, no effect in the Boss Rush. |
-
-</details>
-
-<details><summary><code>boss_rush</code> (217)</summary>
+<details><summary><code>boss_rush</code> (250)</summary>
 
 | Key | English |
 | --- | --- |
@@ -479,6 +549,15 @@ Dumped keys for TE 3.0.1
 | `boss_rush.master_rush.hard_3_hearts` | Hard (3 hearts) |
 | `boss_rush.master_rush.difficulty` | Difficulty |
 | `boss_rush.master_rush.difficulty.help` | Hearts you have for the whole Master Rush. |
+| `boss_rush.pvp` | PvP |
+| `boss_rush.pvp.arena` | Arena |
+| `boss_rush.pvp.arena.help` | When you challenge someone, the duel takes place in this arena. |
+| `boss_rush.pvp.random` | Random |
+| `boss_rush.pvp.temple_of_time` | Temple of Time |
+| `boss_rush.pvp.goron_mines` | Goron Mines |
+| `boss_rush.pvp.snowpeak_ruins` | Snowpeak Ruins |
+| `boss_rush.pvp.city_in_the_sky` | City in the Sky |
+| `boss_rush.pvp.hyrule_castle` | Hyrule Castle |
 | `boss_rush.practice.infinite_items` | Infinite items |
 | `boss_rush.practice.infinite_items.help` | Only in Practice mode: arrows, bombs, slingshot seeds and lantern oil are refilled during a fight, and so are rupees while you wear the Magic Armor.\n\nStanding in front of the Diababa, Morpheel, Stallord, Blizzeta, Argorok or Zant statue, {btn:DPAD_LEFT_RIGHT} picks the phase the fight starts in. At the Master Sword it picks the boss the Master Rush starts at. |
 | `boss_rush.practice.infinite_hearts` | Infinite hearts |
@@ -511,7 +590,7 @@ Dumped keys for TE 3.0.1
 | `boss_rush.leaderboard_status.maintenance_soon` | Runs you start after that are not ranked. |
 | `boss_rush.online` | Online |
 | `boss_rush.online.allow_online` | Allow online |
-| `boss_rush.online.allow_online.help` | Play with others in the chamber (needs Online leaderboard and a player name). Times set while you are in a party are not uploaded. |
+| `boss_rush.online.allow_online.help` | Play with others in the chamber and the Dungeon Rush hub (needs Online leaderboard and a player name). Times set while you are in a party are not uploaded. |
 | `boss_rush.online.leave_party` | Leave party |
 | `boss_rush.online.leave_party.help` | Leaves your current party. |
 | `boss_rush.online.rejoin_fight` | Rejoin party fight |
@@ -534,22 +613,27 @@ Dumped keys for TE 3.0.1
 | `boss_rush.tutorial.10` | *Glitchless* keeps you to vanilla\ngear. *Glitched* lets you use\nevery item you have. |
 | `boss_rush.tutorial.11` | To upload your times, turn on the\n*online leaderboard* in the Boss Rush\nsettings. |
 | `boss_rush.tutorial.12` | Turn it on *before* you fight. Runs\nyou did while it was off can't be\nuploaded, you'd have to redo them. |
-| `boss_rush.tutorial.13` | During a fight, call me to head back\nhere. Good luck, Link! |
+| `boss_rush.tutorial.13` | During a fight, call me to head back\nhere. Good luck, {P}! |
 | `dungeon_rush.tutorial.1` | Welcome to the *Dungeon Rush*!\nLet me show you how this place\nworks. |
 | `dungeon_rush.tutorial.2` | Each *door* leads to a dungeon.\nWalk through one to start a run\nat that dungeon's entrance. |
 | `dungeon_rush.tutorial.3` | A run is always the *whole dungeon*.\nThe timer stops when the boss\nfalls. |
 | `dungeon_rush.tutorial.4` | In front of a door, set up your\nitems in the *item wheel*. I'll\nremember them for that dungeon. |
-| `dungeon_rush.tutorial.5` | Press {B} at a door to see its\n*splits*: personal best, best\nsegments and Sum of Best. |
-| `dungeon_rush.tutorial.6` | During a run, the *split list*\ncompares you to your best. You\ncan move or hide it in the settings. |
-| `dungeon_rush.tutorial.7` | Call me any time to *change the\nmode*, open the *leaderboard* or\nleave the Dungeon Rush. |
-| `dungeon_rush.tutorial.8` | *Normal* allows everything.\n*Glitchless* gives you only the gear\nLink has when entering a dungeon. |
-| `dungeon_rush.tutorial.9` | *Glitched* unlocks every item.\nBoth turn off cheats and other\nmods, so every run is fair. |
-| `dungeon_rush.tutorial.10` | Inside a dungeon, call me to head\nback here, or press the *retry\nbutton* to restart. Good luck! |
+| `dungeon_rush.tutorial.5` | Press {Y} at a door to see its\n*splits*: personal best, best\nsegments and Sum of Best. |
+| `dungeon_rush.tutorial.6` | Press {X} at a door to change your\nstarting *loadout*, edit your *splits*\nand upload them to the website. |
+| `dungeon_rush.tutorial.7` | During a run, the *split list*\ncompares you to your best. You\ncan move or hide it in the settings. |
+| `dungeon_rush.tutorial.8` | Call me any time to *change the\nmode*, open the *leaderboard* or\nleave the Dungeon Rush. |
+| `dungeon_rush.tutorial.9` | *Normal* allows everything.\n*Glitchless* gives you only the gear\nLink has when entering a dungeon. |
+| `dungeon_rush.tutorial.10` | *Glitched* unlocks every item.\nBoth turn off cheats and other\nmods, so every run is fair. |
+| `dungeon_rush.tutorial.11` | Inside a dungeon, call me to head\nback here, or press the *retry\nbutton* to restart. Good luck, {P}! |
 | `dungeon_rush.replay_tutorial.help` | Midna explains the Dungeon Rush again in the hub. |
 | `dungeon_rush.clear_splits` | Clear All Splits |
 | `dungeon_rush.clear_splits.help` | Deletes all saved split times and best segments. |
 | `dungeon_rush.clear_splits.confirm` | Delete all saved split times and best segments of every dungeon? |
 | `dungeon_rush.yes_clear` | Yes, clear |
+| `dungeon_rush.party_mode` | Party mode |
+| `dungeon_rush.party_mode.together` | Together |
+| `dungeon_rush.party_mode.versus` | Against each other |
+| `dungeon_rush.party_mode.help` | **Together**: items, keys and dungeon progress are shared.<br/>**Against each other**: nothing is shared, the others only appear as ghosts.\n\nWhoever opens a door takes the whole party in with this mode. |
 | `dungeon_rush.splits_section` | Splits |
 | `dungeon_rush.splits_scale` | Splits Size |
 | `dungeon_rush.splits_scale.help` | How big the split list is. |
@@ -647,10 +731,29 @@ Dumped keys for TE 3.0.1
 | `dungeon_rush.presets.rename` | Rename |
 | `dungeon_rush.presets.rename.help` | Leave the name empty to use the flag's name. |
 | `dungeon_rush.presets.preset` | Preset |
+| `boss_rush.emotes.sit` | Sit |
+| `boss_rush.emotes.flourish` | Flourish |
+| `boss_rush.emotes.play_dead` | Play Dead |
+| `boss_rush.emotes.tired` | Tired |
+| `boss_rush.emotes.ready` | Ready |
+| `boss_rush.emotes.customize` | Customize Emotes |
+| `boss_rush.emotes.nod` | Nod |
+| `boss_rush.emotes.shock` | Shock |
+| `boss_rush.emotes.wave` | Wave |
+| `boss_rush.emotes.cheer` | Cheer |
+| `boss_rush.emotes.disco` | Disco |
+| `boss_rush.emotes.chicken` | Chicken Dance |
+| `boss_rush.emotes.take_a_bow` | Take a Bow |
+| `boss_rush.emotes.salute` | Salute |
+| `boss_rush.emotes.facepalm` | Facepalm |
+| `boss_rush.emotes.flex` | Flex |
+| `boss_rush.emotes.pushups` | Push-Ups |
+| `boss_rush.emotes.headspin` | Headspin |
+| `boss_rush.emotes.robot` | Robot |
 
 </details>
 
-<details><summary><code>controls</code> (33)</summary>
+<details><summary><code>controls</code> (37)</summary>
 
 | Key | English |
 | --- | --- |
@@ -680,7 +783,11 @@ Dumped keys for TE 3.0.1
 | `controls.stamina.sprint_mode.help` | **Hold**: sprint while held.<br/>**Toggle**: tap to sprint. Stops when you release the stick, tap again or run out of stamina. |
 | `controls.jump` | Jump |
 | `controls.jump.jump_button` | Jump button |
-| `controls.jump.jump_button.help` | Button for **Manual jump**. {btn:LS\|L3}/{btn:C\|R3} are the stick clicks, {btn:L\|L2}/{btn:R\|R2} the triggers. |
+| `controls.jump.jump_button.help` | Button for **Manual jump**. {btn:LS\|L3}/{btn:C\|R3} are the stick clicks, {btn:L\|L2}/{btn:R\|R2} the triggers, {btn:LB}/{btn:RB} the bumpers; on {btn:LB}, Midna moves to {btn:DPAD_LEFT}. |
+| `controls.jump.mode` | Jump direction |
+| `controls.jump.mode.help` | **Forward**: Link always hops forward. **Upward**: standing still, Link jumps straight up; while moving, he jumps forward. |
+| `controls.jump.mode_forward` | Forward |
+| `controls.jump.mode_up` | Upward |
 | `controls.photo_mode` | Photo Mode |
 | `controls.photo_mode.hold_button` | Hold button |
 | `controls.photo_mode.hold_button.help` | Button held while pressing the photo mode button. **None**: the photo mode button works alone. |
@@ -759,11 +866,11 @@ Dumped keys for TE 3.0.1
 
 </details>
 
-<details><summary><code>graphics</code> (146)</summary>
+<details><summary><code>graphics</code> (165)</summary>
 
 | Key | English |
 | --- | --- |
-| `graphics.description` | Color and lens effects, swaying foliage, snow on Link and the world, real-time shadows and realistic water. |
+| `graphics.description` | Color and lens effects, swaying foliage, 3D grass, snow on Link and the world, real-time shadows and realistic water. |
 | `graphics.color_lens` | Color & Lens |
 | `graphics.color_lens.saturation` | Saturation |
 | `graphics.color_lens.contrast` | Contrast |
@@ -784,6 +891,24 @@ Dumped keys for TE 3.0.1
 | `graphics.wind.everything` | Everything |
 | `graphics.wind.snowpeak_only` | Snowpeak Only |
 | `graphics.wind.wherever_it_snows` | Wherever It Snows |
+| `graphics.grass` | 3D Grass |
+| `graphics.grass.patch_density` | Patch Density |
+| `graphics.grass.patch_size` | Patch Size |
+| `graphics.grass.patch_height` | Patch Height |
+| `graphics.grass.patch_distance` | Patch Distance |
+| `graphics.grass.ground` | Grass on the Ground |
+| `graphics.grass.ground_density` | Ground Density |
+| `graphics.grass.ground_height` | Ground Height |
+| `graphics.grass.ground_distance` | Ground Distance |
+| `graphics.grass.full_range` | Full Density Range |
+| `graphics.grass.path_edges` | Grass Beside Paths |
+| `graphics.grass.blade_width` | Blade Width |
+| `graphics.grass.color_variation` | Color Variation |
+| `graphics.grass.ground_color` | Ground Color Blend |
+| `graphics.grass.brightness` | Brightness |
+| `graphics.grass.wind` | Wind Response |
+| `graphics.grass.interaction` | Bends Around Characters |
+| `graphics.grass.ivy` | 3D Ivy |
 | `graphics.snow_cover` | Snow Cover |
 | `graphics.snow_cover.snow_falls_on` | Snow Falls On |
 | `graphics.snow_cover.where` | Where |
@@ -907,6 +1032,7 @@ Dumped keys for TE 3.0.1
 | `graphics.volumetric.flare_halo` | Lens Halo |
 | `graphics.volumetric.above_terrain` | Keep Clouds Above Terrain |
 | `graphics.dynamic_shadows.light_source_shadows_warning` | Can cause flickering in certain areas and situations. |
+| `graphics.dynamic_shadows.deferred_fog_warning` | Not compatible with "Deferred Fog" and causes flickering with it. |
 | `graphics.realistic_water.mirror_distortion` | Mirror Distortion |
 | `graphics.realistic_water.mirror_distortion_scale` | Mirror Distortion Scale |
 
@@ -1233,7 +1359,7 @@ Dumped keys for TE 3.0.1
 
 </details>
 
-<details><summary><code>collection</code> (69)</summary>
+<details><summary><code>collection</code> (76)</summary>
 
 | Key | English |
 | --- | --- |
@@ -1242,17 +1368,21 @@ Dumped keys for TE 3.0.1
 | `menus.collection_screen.add_wooden_sword_ordon_shield.help` | Adds Wooden Sword, Ordon Shield and Ordon Clothes to the Collection screen. |
 | `menus.collection_screen.keep_ordon_shield_in_collection` | Keep Ordon Shield in collection |
 | `menus.collection_screen.keep_ordon_shield_in_collection.help` | Keeps the Ordon Shield in the Collection even after it burns. Needs the starter gear option. |
+| `menus.collection_screen.tunics` | Tunics |
 | `menus.collection_screen.show_ordon_hero` | Show Ordon Hero |
 | `menus.collection_screen.show_ordon_hero.help` | Adds the Reinforced Shield and the Ordon Hero tunic on a second Collection page (hold {btn:R} or {btn:L} to switch). Not available with Linkle. |
 | `menus.collection_screen.note_the_ordon_hero_gear` | The Ordon Hero gear is off while the Linkle mod is enabled. |
 | `menus.collection_screen.show_always_ordon_hero` | Show always Ordon Hero |
 | `menus.collection_screen.show_always_ordon_hero.help` | Shows the Ordon Hero gear right away instead of only after getting the Hero's Clothes. |
+| `menus.collection_screen.ordon_hero_cap` | Ordon Hero cap |
+| `menus.collection_screen.ordon_hero_cap.help` | Gives the Ordon Hero tunic Link's cap. |
 | `menus.collection_screen.show_yeti_tunic` | Show Yeti Tunic |
 | `menus.collection_screen.show_yeti_tunic.help` | Shows the Yeti Tunic in the Collection once you have it. |
 | `menus.collection_screen.yeti_textures` | Yeti Textures |
 | `menus.collection_screen.yeti_textures.help` | Only Tunic changes just the clothes, but switches the sword, shield, bow, face and hair to the Yeti look on Snowpeak and in Snowpeak Ruins. |
 | `menus.collection_screen.yeti_textures.tunic` | Only Tunic |
 | `menus.collection_screen.yeti_textures.all` | Everything |
+| `menus.advanced_collection` | Advanced UI |
 | `collection.ordon_hero.name` | Ordon Hero |
 | `collection.ordon_hero.description` | Traditional clothes worn by the hero of Ordon. Simple, but made for adventure. |
 | `collection.reinforced_shield.name` | Reinforced Shield |
@@ -1272,16 +1402,19 @@ Dumped keys for TE 3.0.1
 | `collection.unequip` | Unequip |
 | `menus.collection_tracker` | Collection Tracker |
 | `menus.collection_tracker.help` | Shows found **chests**, **Pieces of Heart**, **golden bugs** and **Poe Souls** per region on the map. |
-| `menus.collection_screen.advanced_screen` | Advanced Collection Screen |
-| `menus.collection_screen.advanced_screen.help` | Replaces the Collection screen with a new tabbed design. |
-| `menus.collection_screen.dpad_items` | D-pad Up opens Items |
-| `menus.collection_screen.dpad_items.help` | {btn:DPAD_UP} opens the Items tab instead of the item wheel. |
+| `menus.collection_screen.advanced_screen` | Advanced UI |
+| `menus.collection_screen.advanced_screen.help` | Replaces the Collection screen, maps, menus and text boxes with a new design. |
+| `menus.collection_screen.dpad_items` | D-pad Up/Down opens Items |
+| `menus.collection_screen.dpad_items.help` | {btn:DPAD_UP} and {btn:DPAD_DOWN} open the Items tab instead of the item wheel. |
 | `menus.collection_screen.item_glyphs` | Item Button Glyphs |
 | `menus.collection_screen.item_glyphs.help` | Shows the X/Y/Z glyphs on assigned items even without {btn:DPAD_UP} opening Items. |
+| `menus.collection_screen.item_wheel` | Advanced Item Wheel |
+| `menus.collection_screen.item_wheel.help` | Gives the item wheel the Advanced UI look. |
 | `menus.collection_screen.save_preview` | Save Preview |
 | `menus.collection_screen.save_preview.help` | Saving takes a small screenshot that the file select shows next to each file. |
 | `advanced_collection.tab.equipment` | Equipment |
 | `advanced_collection.tab.tools` | Items |
+| `advanced_collection.tab.map` | Map |
 | `advanced_collection.tab.collection` | Collection |
 | `advanced_collection.tab.expansions` | Expansions |
 | `advanced_collection.tab.settings` | Settings |
@@ -1306,5 +1439,443 @@ Dumped keys for TE 3.0.1
 | `advanced_collection.settings.exit.help` | Closes Dusklight. Unsaved progress is lost. |
 | `advanced_collection.exit.title` | Exit the game? |
 | `advanced_collection.exit.warning` | All progress since your last save will be lost. |
+
+</details>
+
+<details><summary><code>names</code> (146)</summary>
+
+| Key | English |
+| --- | --- |
+| `names.diababa` | Diababa |
+| `names.fyrus` | Fyrus |
+| `names.morpheel` | Morpheel |
+| `names.stallord` | Stallord |
+| `names.blizzeta` | Blizzeta |
+| `names.armogohma` | Armogohma |
+| `names.argorok` | Argorok |
+| `names.zant` | Zant |
+| `names.phantom_zant` | Phantom Zant |
+| `names.ganondorf` | Ganondorf |
+| `names.beast_ganon` | Beast Ganon |
+| `names.dark_beast_ganon` | Dark Beast Ganon |
+| `names.horseback_ganon` | Horseback Ganon |
+| `names.ganondorf_all_phases` | Ganondorf (All Phases) |
+| `names.king_bulblin` | King Bulblin |
+| `names.death_sword` | Death Sword |
+| `names.deku_toad` | Deku Toad |
+| `names.ook` | Ook |
+| `names.dangoro` | Dangoro |
+| `names.darknut` | Darknut |
+| `names.darkhammer` | Darkhammer |
+| `names.aeralfos` | Aeralfos |
+| `names.final` | Final |
+| `names.boss` | Boss |
+| `names.miniboss` | Miniboss |
+| `names.diababa_the_twilit_parasite` | Diababa, the Twilit Parasite |
+| `names.fyrus_the_twilit_igniter` | Fyrus, the Twilit Igniter |
+| `names.morpheel_the_twilit_aquatic` | Morpheel, the Twilit Aquatic |
+| `names.stallord_the_twilit_fossil` | Stallord, the Twilit Fossil |
+| `names.blizzeta_the_twilit_ice_mass` | Blizzeta, the Twilit Ice Mass |
+| `names.armogohma_the_twilit_arachnid` | Armogohma, the Twilit Arachnid |
+| `names.argorok_the_twilit_dragon` | Argorok, the Twilit Dragon |
+| `names.zant_the_usurper_king` | Zant, the Usurper King |
+| `names.phantom_zant_the_false_king` | Phantom Zant, the False King |
+| `names.zelda_the_puppet_princess` | Zelda, the Puppet Princess |
+| `names.ganondorf_the_dark_lord` | Ganondorf, the Dark Lord |
+| `names.ganon_the_dark_beast` | Ganon, the Dark Beast |
+| `names.king_bulblin_the_warlord` | King Bulblin, the Warlord |
+| `names.death_sword_the_cursed_blade` | Death Sword, the Cursed Blade |
+| `names.darkhammer_the_iron_wall` | Darkhammer, the Iron Wall |
+| `names.deku_toad_the_tunnel_dweller` | Deku Toad, the Tunnel Dweller |
+| `names.dangoro_the_goron_guardian` | Dangoro, the Goron Guardian |
+| `names.ook_the_forest_thief` | Ook, the Forest Thief |
+| `names.darknut_the_iron_knight` | Darknut, the Iron Knight |
+| `names.dark_link_the_twili_imposter` | Dark Link, the Twili Imposter |
+| `names.aeralfos_the_sky_guard` | Aeralfos, the Sky Guard |
+| `names.forest_temple` | Forest Temple |
+| `names.lakebed_temple` | Lakebed Temple |
+| `names.arbiter_s_grounds` | Arbiter's Grounds |
+| `names.palace_of_twilight` | Palace of Twilight |
+| `names.faron_woods` | Faron Woods |
+| `names.death_mountain` | Death Mountain |
+| `names.lake_hylia` | Lake Hylia |
+| `names.gerudo_desert` | Gerudo Desert |
+| `names.snowpeak` | Snowpeak |
+| `names.sacred_grove` | Sacred Grove |
+| `names.twilight_realm` | Twilight Realm |
+| `names.castle_town` | Castle Town |
+| `names.cave_of_ordeals` | Cave of Ordeals |
+| `names.floors_1_50` | Floors 1-50 |
+| `names.floors_1_10` | Floors 1-10 |
+| `names.floors_11_20` | Floors 11-20 |
+| `names.floors_21_30` | Floors 21-30 |
+| `names.floors_31_40` | Floors 31-40 |
+| `names.floors_41_50` | Floors 41-50 |
+| `names.cave_of_ordeals_floors_1_50` | Cave of Ordeals (Floors 1-50) |
+| `names.cave_of_ordeals_floors_1_10` | Cave of Ordeals (Floors 1-10) |
+| `names.cave_of_ordeals_floors_11_20` | Cave of Ordeals (Floors 11-20) |
+| `names.cave_of_ordeals_floors_21_30` | Cave of Ordeals (Floors 21-30) |
+| `names.cave_of_ordeals_floors_31_40` | Cave of Ordeals (Floors 31-40) |
+| `names.cave_of_ordeals_floors_41_50` | Cave of Ordeals (Floors 41-50) |
+| `names.replay` | Replay |
+| `names.monkeys_4_8` | Monkeys 4/8 |
+| `names.all_monkeys` | All Monkeys |
+| `names.boomerang` | Boomerang |
+| `names.boss_key` | Boss Key |
+| `names.boss_door` | Boss Door |
+| `names.key_shard_1` | Key Shard 1 |
+| `names.key_shard_2` | Key Shard 2 |
+| `names.clawshot` | Clawshot |
+| `names.double_clawshot` | Double Clawshot |
+| `names.poe_gate` | Poe Gate |
+| `names.poe_1` | Poe 1 |
+| `names.poe_2` | Poe 2 |
+| `names.poe_3` | Poe 3 |
+| `names.poe_4` | Poe 4 |
+| `names.spinner` | Spinner |
+| `names.ordon_pumpkin` | Ordon Pumpkin |
+| `names.ordon_cheese` | Ordon Cheese |
+| `names.ball_and_chain` | Ball and Chain |
+| `names.bedroom_key` | Bedroom Key |
+| `names.dominion_rod` | Dominion Rod |
+| `names.phantom_zant_1` | Phantom Zant 1 |
+| `names.phantom_zant_2` | Phantom Zant 2 |
+| `names.light_sword` | Light Sword |
+| `names.throne_room` | Throne Room |
+| `names.king_bulblin_key` | King Bulblin Key |
+| `names.cheat_tool_running` | cheat tool running |
+| `names.debugger_attached` | debugger attached |
+| `names.injected_cheat_module` | injected cheat module |
+| `names.game_speed_manipulated` | game speed manipulated |
+| `names.mod_code_modified` | mod code modified |
+| `names.timer_modified` | timer modified |
+| `names.hearts_modified` | hearts modified |
+| `names.items_added` | items added |
+| `names.link_teleported` | Link teleported |
+| `names.upload_modified` | upload modified |
+| `names.turbo_key` | Turbo key |
+| `names.damage_multiplier` | Damage multiplier |
+| `names.instant_death` | Instant death |
+| `names.no_heart_drops` | No heart drops |
+| `names.sun_s_song` | Sun's Song |
+| `names.infinite_arrows` | Infinite arrows |
+| `names.infinite_seeds` | Infinite seeds |
+| `names.infinite_bombs` | Infinite bombs |
+| `names.infinite_oil` | Infinite oil |
+| `names.infinite_oxygen` | Infinite oxygen |
+| `names.infinite_rupees` | Infinite rupees |
+| `names.items_never_disappear` | Items never disappear |
+| `names.moon_jump` | Moon jump |
+| `names.super_clawshot` | Super Clawshot |
+| `names.always_great_spin` | Always Great Spin |
+| `names.fast_iron_boots` | Fast Iron Boots |
+| `names.transform_anywhere` | Transform anywhere |
+| `names.fast_roll` | Fast roll |
+| `names.fast_spinner` | Fast Spinner |
+| `names.magic_armor_mode` | Magic Armor mode |
+| `names.invincible_enemies` | Invincible enemies |
+| `names.free_camera` | Free camera |
+| `names.move_link_combo` | Move Link combo |
+| `names.teleport_combo` | Teleport combo |
+| `names.easy_quick_spin` | Easy quick spin |
+| `names.no_sword_recoil` | No sword recoil |
+| `names.quick_transform` | Quick transform |
+| `names.cross` | Cross |
+| `names.circle` | Circle |
+| `names.square` | Square |
+| `names.triangle` | Triangle |
+| `names.options` | Options |
+| `names.stick` | Stick |
+| `names.d_pad` | D-Pad |
+| `names.d_pad_left_right` | D-Pad Left/Right |
+| `names.d_pad_up_down` | D-Pad Up/Down |
+| `names.preset` | Preset  |
+| `names.track` | Track  |
+| `names.hyrule_field` | Hyrule Field |
+
+</details>
+
+<details><summary><code>rush</code> (278)</summary>
+
+| Key | English |
+| --- | --- |
+| `rush.3_hearts` | 3 Hearts |
+| `rush.leaderboard_is_back_online` | Leaderboard is back online |
+| `rush.times_are_uploaded_again` | Times are uploaded again. |
+| `rush.this_discord_account_is_not_linked_to` | This Discord account is not linked to a player yet. Set a player name first, then try again. |
+| `rush.this_player_is_already_linked_to_another` | This player is already linked to another Discord account. Unlink it first. |
+| `rush.cancelled_in_the_browser` | Cancelled in the browser. |
+| `rush.the_code_expired_try_again` | The code expired. Try again. |
+| `rush.discord_sign_in_is_not_available_right` | Discord sign-in is not available right now. |
+| `rush.too_many_attempts_try_again_in_a` | Too many attempts. Try again in a few minutes. |
+| `rush.the_leaderboard_is_under_maintenance_try_again` | The leaderboard is under maintenance. Try again later. |
+| `rush.the_leaderboard_server_is_not_reachable` | The leaderboard server is not reachable. |
+| `rush.this_mod_version_cannot_connect_discord_update` | This mod version cannot connect Discord. Update Twilit Essentials. |
+| `rush.this_player_is_not_registered_yet` | This player is not registered yet. |
+| `rush.something_went_wrong_try_again` | Something went wrong. Try again. |
+| `rush.discord_not_connected` | Discord not connected |
+| `rush.discord_connected` | Discord connected |
+| `rush.discord_is_now_linked_to_connect_the` | Discord @%s is now linked to %s. Connect the same Discord account on your other devices to play as %s there. |
+| `rush.this_device_now_plays_as` | This device now plays as %s. |
+| `rush.1_run_from_this_device_moved_to` | 1 run from this device moved to %s. |
+| `rush.runs_from_this_device_moved_to` | %s runs from this device moved to %s. |
+| `rush.this_device_already_plays_as` | This device already plays as %s. |
+| `rush.discord_account_unlinked_devices_that_are_already` | Discord account unlinked. Devices that are already signed in keep playing as %s. |
+| `rush.this_player_is_linked_to_the_discord` | This player is linked to the Discord account %s. |
+| `rush.to_play_as_on_another_device_choose` | To play as %s on another device, choose Discord account there and sign in with the same Discord account. |
+| `rush.unlinking` | Unlinking... |
+| `rush.sign_in_with_discord_in_your_browser` | Sign in with Discord in your browser and confirm there. This window updates by itself. |
+| `rush.code` | Code: %s |
+| `rush.the_browser_did_not_open_go_to` | The browser did not open? Go to %s and enter the code, or use Copy link. |
+| `rush.if_your_discord_account_already_belongs_to` | If your Discord account already belongs to a leaderboard player, this device plays as that player from now on. If not, it gets linked to the player of this device. |
+| `rush.signed_in_as_confirm_in_your_browser` | Signed in as %s - confirm in your browser. |
+| `rush.open_browser` | Open browser |
+| `rush.copy_link` | Copy link |
+| `rush.close` | Close |
+| `rush.unlink_discord` | Unlink Discord |
+| `rush.discord_account` | Discord Account |
+| `rush.discord_account_2` | Discord account |
+| `rush.sign_in_with_discord_to_play_as` | Sign in with Discord to play as the same leaderboard player on all your devices.\n\nThe first time, your Discord account gets linked to this player. On another device, sign in with the same Discord account: that device then plays as this player, and times it already uploaded under its own name move over.\n\nOnly your Discord user ID and username are stored. |
+| `rush.rules` | %s rules: %s |
+| `rush.not_uploaded` | Not uploaded: %s %s (%s) |
+| `rush.not_uploaded_2` | Not uploaded: %s %s |
+| `rush.time_is_not_plausible` | time is not plausible |
+| `rush.game_clock_did_not_match_real_time` | game clock did not match real time |
+| `rush.run_was_not_registered` | run was not registered |
+| `rush.outdated_dusklight_version_update_to_the_latest` | outdated Dusklight version, update to the latest release |
+| `rush.unknown_category` | unknown category |
+| `rush.rejected_by_the_server` | rejected by the server |
+| `rush.sent_for_review` | Sent for review: %s %s |
+| `rush.unknown_dusklight_build_only_official_releases_are` | Unknown Dusklight build - only official releases are ranked |
+| `rush.faster_than_the_minimum_time_shown_after` | Faster than the minimum time - shown after approval |
+| `rush.new_online_best` | New online best: %s %s (#%d) |
+| `rush.uploaded_your_best_stays` | Uploaded: %s %s (your best stays #%d) |
+| `rush.server_not_reachable` | server not reachable |
+| `rush.no_leaderboard_connection_when_the_fight_started` | no leaderboard connection when the fight started |
+| `rush.tampering_detected` | tampering detected |
+| `rush.tampering_detected_2` | tampering detected: %s |
+| `rush.a_ranked_rule_was_broken_during_the` | a ranked rule was broken during the fight |
+| `rush.boss_rush_settings_changed_during_the_run` | Boss Rush settings changed during the run |
+| `rush.online_leaderboard_unavailable` | Online leaderboard unavailable |
+| `rush.online_leaderboard_is_off` | Online leaderboard is off |
+| `rush.set_a_player_name_in_mod_settings` | Set a player name in Mod Settings |
+| `rush.name_taken_choose_another` | Name taken - choose another |
+| `rush.leaderboard_access_removed` | Leaderboard access removed |
+| `rush.leaderboard_maintenance_back_soon` | Leaderboard maintenance - back soon |
+| `rush.leaderboard_offline` | Leaderboard offline |
+| `rush.loading` | Loading... |
+| `rush.no_times_yet_be_the_first` | No times yet - be the first! |
+| `rush.online_top_10` | Online Top 10 |
+| `rush.turn_it_on_in_mod_settings` | Turn it on in Mod Settings |
+| `rush.you` | You |
+| `rush.replay_uploaded` | Replay uploaded: %s |
+| `rush.watch_it_on_the_website` | Watch it on the website |
+| `rush.replay_not_uploaded` | Replay not uploaded: %s |
+| `rush.replay_too_large` | replay too large |
+| `rush.run_not_found_on_the_server` | run not found on the server |
+| `rush.replay_from_the_website` | Replay from the website |
+| `rush.every_boss_in_a_row` | Every boss in a row |
+| `rush.your_best` | Your Best |
+| `rush.online_rank` | Online Rank %d |
+| `rush.leaderboard_maintenance` | Leaderboard maintenance |
+| `rush.uploads_are_paused_new_runs_are_not` | Uploads are paused - new runs are not ranked. |
+| `rush.tampering_detected_glitchless_and_glitched_are_off` | Tampering detected: Glitchless and Glitched are off until you restart |
+| `rush.lazy_tweaks_is_not_allowed_in_times` | Lazy Tweaks is not allowed in %s - times will not be uploaded |
+| `rush.outdated_dusklight_version_times_will_not_be` | Outdated Dusklight version - %s times will not be uploaded |
+| `rush.practice_other_mods_and_cheats_are_not` | Practice: other mods and cheats are not allowed |
+| `rush.times_will_not_be_uploaded` | %s: times will not be uploaded |
+| `rush.leaderboard` | Leaderboard |
+| `rush.glitchless_and_glitched_are_disabled` | Glitchless and Glitched are disabled |
+| `rush.tampering_detected_restart_the_game_to_use` | Tampering detected: %s. Restart the game to use them again. |
+| `rush.lazy_tweaks_is_not_allowed_play_on` | Lazy Tweaks is not allowed, play on the official Dusklight build |
+| `rush.update_dusklight_to_the_latest_release` | update Dusklight to the latest release |
+| `rush.update_twilit_essentials_to_the_latest_release` | update Twilit Essentials to the latest release |
+| `rush.update_twilit_essentials_to` | update Twilit Essentials to %s |
+| `rush.leave_your_party` | leave your party |
+| `rush.disable_these_mods` | disable these mods: %s |
+| `rush.dusklight_cheats_forced_by_launch_options` | Dusklight cheats forced by launch options: %s |
+| `rush.normal_mode` | Normal mode |
+| `rush.practice_mode` | Practice mode |
+| `rush.not_in_the_boss_rush` | not in the Boss Rush |
+| `rush.best` | Best  %s |
+| `rush.best_2` | Best  --:--.-- |
+| `rush.best_3` | Best |
+| `rush.sum_of_best` | Sum of Best  %s |
+| `rush.floor` | Floor %d / %d |
+| `rush.start_phase` | <  Start: Phase %d/%d  > |
+| `rush.start` | <  Start: %s (%d/%d)  > |
+| `rush.start_phase_2` | Start Phase |
+| `rush.phase` | Phase |
+| `rush.fight` | Fight |
+| `rush.start_master_rush` | Start Master Rush |
+| `rush.leave_boss_rush` | Leave Boss Rush |
+| `rush.start_cave` | Start Cave |
+| `rush.new_record` | NEW RECORD! |
+| `rush.new_record_2` | New Record! |
+| `rush.retry` | RETRY |
+| `rush.fight_2` | Fight! |
+| `rush.draw` | Draw |
+| `rush.victory` | Victory |
+| `rush.defeat` | Defeat |
+| `rush.your_opponent_left_the_duel` | Your opponent left the duel |
+| `rush.opponent` | Opponent |
+| `rush.not_available_in_dungeon_rush` | Not available in Dungeon Rush. |
+| `rush.not_available_in_boss_rush` | Not available in Boss Rush. |
+| `rush.add_remove` | Add/Remove |
+| `rush.clear_slots` | Clear |
+| `rush.glitchless` | Glitchless: |
+| `rush.glitched` | Glitched: |
+| `rush.normal` | Normal: |
+| `rush.practice` | Practice: |
+| `rush.only_the_gear_and_hearts_link_has` |  only the gear and hearts Link\nhas when entering that dungeon.\nNo mods, no cheats. |
+| `rush.every_item_is_unlocked_no_mods_no` |  every item is unlocked except\nthe dungeon item and Double Clawshots\nuntil City in the Sky. No mods, no cheats. |
+| `rush.anything_goes_mods_cheats_and_every_twilit` |  anything goes. Mods, cheats and\nevery Twilit Essentials feature work.\nEvery item is unlocked. |
+| `rush.only_the_gear_and_hearts_link_has_2` |  only the gear and hearts Link\nhas at that boss. No mods, no cheats.\nTimes go to the Glitchless leaderboard. |
+| `rush.every_item_is_unlocked_no_mods_no_2` |  every item is unlocked.\nNo mods, no cheats. Times go to the\nGlitched leaderboard. |
+| `rush.glitched_rules_with_infinite_items_and_hearts` |  Glitched rules with infinite\nitems and hearts. D-Pad at a statue\nsets the start phase. Nothing is saved. |
+| `rush.anything_goes_mods_cheats_and_every_twilit_2` |  anything goes. Mods, cheats and\nevery Twilit Essentials feature work.\nTimes are not uploaded. |
+| `rush.back_to_boss_rush` | Back to Boss Rush |
+| `rush.leave_dungeon_rush` | Leave Dungeon Rush |
+| `rush.back_to_dungeon_rush` | Back to Dungeon Rush |
+| `rush.show_leaderboard` | Show Leaderboard |
+| `rush.transform_to_wolf` | Transform to wolf |
+| `rush.transform_to_human` | Transform to human |
+| `rush.change_mode` | Change Mode |
+| `rush.leave_duel` | Leave Duel |
+| `rush.mode` | Mode: %s |
+| `rush.vanilla_gear_and_hearts_for_each_dungeon` | Vanilla gear and hearts for each dungeon |
+| `rush.all_items_no_mods_or_cheats` | All items, no mods or cheats |
+| `rush.everything_allowed_all_items` | Everything allowed, all items |
+| `rush.times_are_not_uploaded` | Times are not uploaded |
+| `rush.vanilla_gear_uploads_to_the_glitchless_leaderboard` | Vanilla gear, uploads to the Glitchless leaderboard |
+| `rush.all_items_uploads_to_the_glitched_leaderboard` | All items, uploads to the Glitched leaderboard |
+| `rush.glitched_rules_infinite_items_no_best_times` | Glitched rules, infinite items, no best times or replays |
+| `rush.dungeon_rush_leaderboard` | Dungeon Rush Leaderboard |
+| `rush.not_available_yet` | Not available yet |
+| `rush.connection_lost` | Connection lost |
+| `rush.you_rejoin_your_party_when_it_is` | You rejoin your party when it is back. |
+| `rush.duel_cancelled` | Duel cancelled |
+| `rush.the_connection_to_the_server_was_lost` | The connection to the server was lost. |
+| `rush.rejoined_your_party` | Rejoined your party |
+| `rush.is_playing_press_a_in_the_hub` | %s is playing %s. Press A in the hub to join. |
+| `rush.is_fighting_press_a_in_the_chamber` | %s is fighting %s. Press A in the chamber to join. |
+| `rush.is_playing` | %s is playing %s |
+| `rush.is_fighting` | %s is fighting %s |
+| `rush.your_party_is_playing` | Your party is playing %s |
+| `rush.your_party_is_fighting` | Your party is fighting %s |
+| `rush.party_formed` | Party formed |
+| `rush.with_normal_mode_no_leaderboard` | With %s. Normal mode, no leaderboard. |
+| `rush.party_disbanded` | Party disbanded |
+| `rush.you_are_on_your_own_again` | You are on your own again. |
+| `rush.online_needs_an_update` | Online needs an update |
+| `rush.update_twilit_essentials_to_play_online` | Update Twilit Essentials to play online. |
+| `rush.online_is_not_available` | Online is not available |
+| `rush.this_player_is_banned` | This player is banned. |
+| `rush.invites_you_to_a_party` | %s invites you to a party |
+| `rush.walk_up_to_them_and_press_x` | Walk up to them and press X to join. |
+| `rush.cancelled_the_party_invite` | %s cancelled the party invite |
+| `rush.joined_the_party` | %s joined the party |
+| `rush.lost_connection` | %s lost connection |
+| `rush.they_can_rejoin_the_party_for_10` | They can rejoin the party for 10 minutes. |
+| `rush.rejoined_the_party` | %s rejoined the party |
+| `rush.left_the_party` | %s left the party |
+| `rush.challenges_you_to_a_duel` | %s challenges you to a duel |
+| `rush.walk_up_to_them_and_press_y` | Walk up to them and press Y to accept. |
+| `rush.cancelled_the_duel_challenge` | %s cancelled the duel challenge |
+| `rush.versus` | %s (Versus) |
+| `rush.together` | %s (Together) |
+| `rush.cave_of_ordeals` | Cave of Ordeals (%s) |
+| `rush.your_party` | your party |
+| `rush.your_partner` | your partner |
+| `rush.party_invite_cancelled` | Party invite cancelled |
+| `rush.party_invite_sent` | Party invite sent |
+| `rush.waiting_for_to_accept` | Waiting for %s to accept. |
+| `rush.waiting_for_to_confirm` | Waiting for %s to confirm. |
+| `rush.duel_challenge_cancelled` | Duel challenge cancelled |
+| `rush.duel_challenge_sent` | Duel challenge sent |
+| `rush.could_not_follow_your_party` | Could not follow your party |
+| `rush.go_back_to_the_dungeon_rush_hub` | Go back to the Dungeon Rush hub to join them. |
+| `rush.finish_what_you_are_doing_and_pick` | Finish what you are doing and pick the boss yourself. |
+| `rush.that_boss_is_not_available_here` | That boss is not available here. |
+| `rush.following` | Following %s |
+| `rush.went_back_to_the_hub` | %s went back to the hub |
+| `rush.your_party_goes_back_with_them` | Your party goes back with them. |
+| `rush.restarted_the_dungeon` | %s restarted the dungeon |
+| `rush.defeated_the_boss` | %s defeated the boss |
+| `rush.returned_to_the_chamber` | %s returned to the chamber |
+| `rush.died` | %s died |
+| `rush.the_fight_is_over_for_the_whole` | The fight is over for the whole party. |
+| `rush.restarted_the_fight` | %s restarted the fight |
+| `rush.cleared_the_cave` | %s cleared the cave |
+| `rush.shared_boss` | Shared boss |
+| `rush.you_are_fighting_s_boss_together` | You are fighting %s's boss together. |
+| `rush.joined_s_fight` | Joined %s's fight |
+| `rush.joined_your_party_s_fight` | Joined your party's fight |
+| `rush.leave` | Leave |
+| `rush.join_party` | Join party |
+| `rush.cancel_invite` | Cancel invite |
+| `rush.accept_duel` | Accept duel |
+| `rush.cancel_duel` | Cancel duel |
+| `rush.leave_the_party_with` | Leave the party with %s? |
+| `rush.join_run` | Join run |
+| `rush.join_fight` | Join fight |
+| `rush.dodge` | Dodge |
+| `rush.wants_to_restart` | %s wants to restart |
+| `rush.restart_requested` | Restart requested |
+| `rush.spectating` | Spectating %s |
+| `rush.waiting_for_your_party` | Waiting for your party |
+| `rush.next` | Next |
+| `rush.previous` | Previous |
+| `rush.online_is_paused` | Online is paused |
+| `rush.turn_off_to_see_other_players` | Turn off %s to see other players. |
+| `rush.online_needs_the_online_leaderboard_and_a` | Online needs the online leaderboard and a player name. |
+| `rush.online_is_off` | Online is off. |
+| `rush.online_is_not_available_in_this_dusklight` | Online is not available in this Dusklight build. |
+| `rush.online_needs_a_newer_twilit_essentials` | Online needs a newer Twilit Essentials. |
+| `rush.online_is_paused_turn_off` | Online is paused. Turn off %s. |
+| `rush.connects_when_you_enter_boss_rush_or` | Connects when you enter Boss Rush or Dungeon Rush. |
+| `rush.online_as_players` | Online as %s - %s players |
+| `rush.party` | Party: |
+| `rush.boss_models_shown_loading_missing` | Boss models: %s shown, %s loading, %s missing |
+| `rush.no_memory_for_boss_models` |  (no memory for boss models) |
+| `rush.host` |  (Host) |
+| `rush.you_2` |  (You) |
+| `rush.you_are_down` | You are down |
+| `rush.you_watch_your_party_until_the_fight` | You watch your party until the fight ends. |
+| `rush.party_run_started` | Party run started |
+| `rush.not_a_valid_boss_rush_replay` | Not a valid Boss Rush replay |
+| `rush.replay_file_is_truncated` | Replay file is truncated |
+| `rush.stand_in_the_chamber_as_hylian_link` | Stand in the chamber as Hylian Link |
+| `rush.link_s_models_do_not_match_this` | Link's models do not match this old replay |
+| `rush.old_replay_could_not_be_converted` | Old replay could not be converted |
+| `rush.replay_could_not_be_opened` | Replay could not be opened |
+| `rush.replay_could_not_be_read` | Replay could not be read |
+| `rush.replay_boss_is_not_available` | Replay boss is not available |
+| `rush.go_to_the_boss_rush_chamber_first` | Go to the Boss Rush chamber first |
+| `rush.then_pick_the_replay_again` | Then pick the replay again. |
+| `rush.old_replay_could_not_be_opened` | Old replay could not be opened |
+| `rush.a_pause_left_right_1s_1s_hold` | A Pause   Left/Right -1s/+1s (hold L: frames)   X Speed   Y Camera   B Exit |
+| `rush.play` | Play |
+| `rush.pause` | Pause |
+| `rush.game_cam` | Game cam |
+| `rush.free_cam` | Free cam |
+| `rush.replays_need_file_access` | Replays need file access |
+| `rush.not_available_in_this_dusklight_build` | Not available in this Dusklight build. |
+| `rush.another_file_dialog_is_open` | Another file dialog is open. |
+| `rush.replay_could_not_start` | Replay could not start |
+| `rush.stand_in_the_chamber_and_try_again` | Stand in the chamber and try again. |
+| `rush.loading_replay` | Loading replay... |
+| `rush.paused` | PAUSED |
+| `rush.free_cam_2` | FREE CAM |
+| `rush.splits` | %s  -  Splits |
+| `rush.segment` | Segment |
+| `rush.split_time` | Time |
+| `rush.pb` | PB |
+| `rush.best_seg` | Best Seg. |
+| `rush.pb_seg` | PB Seg. |
+| `rush.final_time` | Final Time |
+| `rush.personal_best` | Personal Best |
+| `rush.sum_of_best_2` | Sum of Best |
+| `rush.continue` | Continue |
 
 </details>
