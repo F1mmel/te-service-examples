@@ -3,7 +3,7 @@
 Adds a `demo` language. Texts that are missing in
 `res/localization/demo/<feature>/<feature>.json` fall back to English.
 
-## All keys (1754)
+## All keys (1757)
 
 Dumped keys for TE 3.0.2
 
@@ -797,7 +797,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>customization</code> (62)</summary>
+<details><summary><code>customization</code> (64)</summary>
 
 | Key | English |
 | --- | --- |
@@ -821,6 +821,8 @@ Dumped keys for TE 3.0.2
 | `customization.button_hud.playstation` | PlayStation |
 | `customization.button_hud.nintendo_switch` | Nintendo Switch |
 | `customization.button_hud.layout.help` | **GameCube**: original button cluster.<br/>**HD**: {btn:A}, {btn:B}, {btn:X} and {btn:Y} in a diamond like on a controller. All button prompts show the chosen controller symbols. |
+| `customization.button_hud.scale` | Scale |
+| `customization.button_hud.scale.help` | Size of the HD buttons. |
 | `customization.button_hud.button_icons` | Button Icons |
 | `customization.button_hud.button_icons.help` | Which controller symbols the HD layout shows in the HUD and in button prompts. |
 | `customization.button_hud.mirror_sword_slot` | Mirror sword slot |
@@ -866,7 +868,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>graphics</code> (165)</summary>
+<details><summary><code>graphics</code> (166)</summary>
 
 | Key | English |
 | --- | --- |
@@ -908,6 +910,7 @@ Dumped keys for TE 3.0.2
 | `graphics.grass.brightness` | Brightness |
 | `graphics.grass.wind` | Wind Response |
 | `graphics.grass.interaction` | Bends Around Characters |
+| `graphics.grass.ground_cut` | Sword Cuts Ground Grass |
 | `graphics.grass.ivy` | 3D Ivy |
 | `graphics.snow_cover` | Snow Cover |
 | `graphics.snow_cover.snow_falls_on` | Snow Falls On |
