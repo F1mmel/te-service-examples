@@ -3,7 +3,7 @@
 Adds a `demo` language. Texts that are missing in
 `res/localization/demo/<feature>/<feature>.json` fall back to English.
 
-## All keys (1757)
+## All keys (1753)
 
 Dumped keys for TE 3.0.2
 
@@ -279,7 +279,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>combat</code> (39)</summary>
+<details><summary><code>combat</code> (35)</summary>
 
 | Key | English |
 | --- | --- |
@@ -318,10 +318,6 @@ Dumped keys for TE 3.0.2
 | `combat.flurry_rush.status.learn_seven_first` | Not learned yet. Learn all seven hidden skills from the Hero's Shade first. |
 | `combat.flurry_rush.status.howling_stone` | Not learned yet. Somewhere in the Gerudo Desert, a howling stone sings a forgotten melody. |
 | `combat.bullet_time.enabled.help` | Aim the bow mid-air to slow down time. Drains stamina and ends when you land, press {btn:A} or run out. |
-| `combat.puppet_zelda` | Puppet Zelda |
-| `combat.puppet_zelda.enabled.help` | Gives Puppet Zelda a fixed, learnable attack pattern. |
-| `combat.puppet_zelda.always_shortest_attacks_sword_dive` | Always shortest attacks (Sword Dive only) |
-| `combat.puppet_zelda.always_shortest_attacks_sword_dive.help` | Puppet Zelda only uses Sword Dive. |
 
 </details>
 
