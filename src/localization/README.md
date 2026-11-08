@@ -3,7 +3,7 @@
 Adds a `demo` language. Texts that are missing in
 `res/localization/demo/<feature>/<feature>.json` fall back to English.
 
-## All keys (1753)
+## All keys (1751)
 
 Dumped keys for TE 3.0.2
 
@@ -229,7 +229,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>qol</code> (43)</summary>
+<details><summary><code>qol</code> (41)</summary>
 
 | Key | English |
 | --- | --- |
@@ -248,8 +248,6 @@ Dumped keys for TE 3.0.2
 | `qol.auto_zora_armor.help` | **On**: puts on the **Zora Armor** in water and switches back on land.<br/>**On + shallow water**: also shows it under the water surface in shallow water.<br/>**On + shallow water, both feet**: the raised foot gets it at the same depth too. |
 | `qol.improved_zora_swimming` | Improved Zora Swimming |
 | `qol.improved_zora_swimming.help` | Smoother **Zora Armor** swimming: tap {btn:A} for a speed burst and roll, hold it to swim fast. |
-| `qol.shield_surfing` | Shield Surfing |
-| `qol.shield_surfing.help` | Hold {btn:L} and press {btn:A} in the air to surf on your shield. |
 | `qol.spin_attack_charge_levels` | Spin attack charge levels |
 | `qol.spin_attack_charge_levels.help` | Hold the spin attack longer for up to three stronger levels with more reach. Drains stamina with **Stamina** on. |
 | `qol.disable_hit_stun` | Disable hit stun |
