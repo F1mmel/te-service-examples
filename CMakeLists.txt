@@ -33,7 +33,14 @@ add_mod(te_quick_access_example
         MOD_JSON src/quick_access/mod.json
 )
 
-foreach (target te_stamina_example te_collection_example te_localization_example te_quick_access_example)
+add_mod(te_midna_flow_example
+        FEATURES game
+        SOURCES src/midna_flow/mod.cpp
+        MOD_JSON src/midna_flow/mod.json
+)
+
+foreach (target te_stamina_example te_collection_example te_localization_example te_quick_access_example
+         te_midna_flow_example)
     target_include_directories(${target} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include")
     if (MSVC)
         target_link_options(${target} PRIVATE "/OPT:NOREF")

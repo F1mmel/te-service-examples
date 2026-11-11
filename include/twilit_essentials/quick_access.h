@@ -4,7 +4,7 @@
 
 #define TWILIT_ESSENTIALS_QUICK_ACCESS_SERVICE_ID "com.dusklight.twilit_essentials.quick_access"
 #define TWILIT_ESSENTIALS_QUICK_ACCESS_SERVICE_MAJOR 1u
-#define TWILIT_ESSENTIALS_QUICK_ACCESS_SERVICE_MINOR 0u
+#define TWILIT_ESSENTIALS_QUICK_ACCESS_SERVICE_MINOR 1u
 
 // Maximum length of an item id
 #define TWILIT_ESSENTIALS_QUICK_ACCESS_ID_MAX 63u
@@ -39,11 +39,21 @@ struct TwilitEssentialsQuickAccessItemDesc {
 
     // Custom data passed to the callbacks
     void* user_data;
+
+    // Combined item, only available while both parts are. Each part is a game item number
+    // or the id of a Quick Access item from any mod (0xFF / nullptr = unused)
+    uint32_t combine_a_item;
+    const char* combine_a_id;
+    uint32_t combine_b_item;
+    const char* combine_b_id;
+
+    // Game item Link takes out before use runs, like the bow (aiming works as usual), 0xFF = none
+    uint32_t use_item;
 };
 
 #define TWILIT_ESSENTIALS_QUICK_ACCESS_ITEM_DESC_INIT                                          \
     {sizeof(TwilitEssentialsQuickAccessItemDesc), nullptr, nullptr, nullptr, 0xFFu, 0, nullptr, \
-        nullptr, nullptr, nullptr}
+        nullptr, nullptr, nullptr, 0xFFu, nullptr, 0xFFu, nullptr, 0xFFu}
 
 struct TwilitEssentialsQuickAccessService {
     ServiceHeader header;
