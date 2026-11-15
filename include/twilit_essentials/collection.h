@@ -4,7 +4,7 @@
 
 #define TWILIT_ESSENTIALS_COLLECTION_SERVICE_ID "com.dusklight.twilit_essentials.collection"
 #define TWILIT_ESSENTIALS_COLLECTION_SERVICE_MAJOR 1u
-#define TWILIT_ESSENTIALS_COLLECTION_SERVICE_MINOR 0u
+#define TWILIT_ESSENTIALS_COLLECTION_SERVICE_MINOR 1u
 
 // Supported collection slot types
 enum TwilitEssentialsCollectionKind : uint32_t {
@@ -56,12 +56,15 @@ struct TwilitEssentialsCollectionSlotDesc {
 
     // Custom data passed to the unlock callback
     void* user_data;
+
+    // Looping colour animation (brk file id in model_arc), like the Death Sword pulse, 0xFFFF = none (v1.1)
+    uint32_t brk_file_id;
 };
 
 #define TWILIT_ESSENTIALS_COLLECTION_SLOT_DESC_INIT                                      \
     {sizeof(TwilitEssentialsCollectionSlotDesc), 0, 0, 0xFFu, nullptr, nullptr, nullptr, \
         0xFFFFu, nullptr, 0, 0xFFFFu, {0.0f, 0.0f, 0.0f}, {0.0f, 0.0f, 0.0f}, 1.0f,      \
-        0xFFFFFFFFu, 1, nullptr, nullptr}
+        0xFFFFFFFFu, 1, nullptr, nullptr, 0xFFFFu}
 
 struct TwilitEssentialsCollectionService {
     ServiceHeader header;
@@ -79,6 +82,15 @@ struct TwilitEssentialsCollectionService {
 
     // Refreshes the collection menu or its registered slots
     ModResult (*refresh)(ModContext* caller);
+
+    // Changes how an existing slot looks (model, icon, name, offsets...), the kind has to stay the
+    // same. The slot keeps its place and stays equipped if it was (v1.1)
+    ModResult (*update_slot)(ModContext* caller, TwilitEssentialsCollectionSlotHandle handle,
+        const TwilitEssentialsCollectionSlotDesc* desc);
+
+    // Equips (1) or unequips (0) the slot, same as pressing A on it in the menu (v1.1)
+    ModResult (*set_equipped)(ModContext* caller, TwilitEssentialsCollectionSlotHandle handle,
+        uint32_t equipped);
 };
 
 MOD_DECLARE_SERVICE(TwilitEssentialsCollectionService, svc_te_collection,
