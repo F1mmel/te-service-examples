@@ -3,11 +3,11 @@
 Adds a `demo` language. Texts that are missing in
 `res/localization/demo/<feature>/<feature>.json` fall back to English.
 
-## All keys (1751)
+## All keys (1887)
 
 Dumped keys for TE 3.0.2
 
-<details><summary><code>settings</code> (159)</summary>
+<details><summary><code>settings</code> (166)</summary>
 
 | Key | English |
 | --- | --- |
@@ -128,8 +128,10 @@ Dumped keys for TE 3.0.2
 | `options.y_left` | Y (left) |
 | `options.x_top` | X (top) |
 | `tabs.dungeon_rush` | Dungeon Rush |
+| `tabs.online` | Online |
 | `tabs.replays` | Replays |
 | `tabs.split_presets` | Splits |
+| `tabs.splits` | Splits |
 | `bug_report.your_bug_report_has_been_sent_thank` | Your bug report has been sent. Thank you! |
 | `bug_report.report_id` | Report ID: %s |
 | `bug_report.if_the_problem_persists_mention_this_id` | If the problem persists, mention this ID in the Twilit Essentials Discord channel so your report can be found. |
@@ -144,6 +146,11 @@ Dumped keys for TE 3.0.2
 | `bug_report.sending_bug_report` | Sending bug report... |
 | `bug_report.discord_username_optional` | Discord username (optional) |
 | `bug_report.describe_the_bug_required` | Describe the bug (required) |
+| `bug_report.type` | Type |
+| `bug_report.type_bug` | Bug |
+| `bug_report.type_grass_here` | Grass should grow here |
+| `bug_report.type_no_grass_here` | No grass should grow here |
+| `bug_report.type_help` | For grass reports, stand exactly on the spot before sending. |
 | `bug_report.a_bug_report_is_already_being_sent` | A bug report is already being sent. |
 | `bug_report.send_report` | Send report |
 | `bug_report.send_bug_report` | Send bug report |
@@ -420,7 +427,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>visuals</code> (27)</summary>
+<details><summary><code>visuals</code> (32)</summary>
 
 | Key | English |
 | --- | --- |
@@ -436,12 +443,17 @@ Dumped keys for TE 3.0.2
 | `visuals.visual_equipment.choose_visible_items.help` | Select which items are displayed on Link. |
 | `visuals.visual_equipment.mirror_bow_angle` | Mirror bow angle |
 | `visuals.visual_equipment.mirror_bow_angle.help` | Moves the bow to Link's other shoulder. |
+| `visuals.visual_equipment.wolf_sword_shield` | Sword & shield on wolf |
+| `visuals.visual_equipment.wolf_sword_shield.help` | Wolf Link keeps your sword and shield on his back. |
 | `visuals.visual_equipment.quiver_on_left_belt` | Quiver on left belt |
 | `visuals.visual_equipment.quiver_on_left_belt.help` | Moves the quiver from the back to the left hip. |
 | `visuals.visual_equipment.dynamic_quiver_arrows` | Dynamic quiver arrows |
 | `visuals.visual_equipment.dynamic_quiver_arrows.help` | The quiver shows as many arrows as you have, and they sway as you move. |
 | `visuals.visual_equipment.on_other_players` | On other players |
 | `visuals.visual_equipment.on_other_players.help` | Shows your gear on other players in Crests of Courage. |
+| `visuals.visual_equipment.share_custom_gear` | Share custom weapons |
+| `visuals.visual_equipment.share_custom_gear.help` | Crests of Courage players with Twilit Essentials see your custom swords and shields. |
+| `visuals.crests_of_courage` | Crests of Courage |
 | `visuals.visual_equipment.default_by_arrow_capacity` | Default (by arrow capacity) |
 | `visuals.visual_equipment.big_quiver` | Big Quiver |
 | `visuals.visual_equipment.giant_quiver` | Giant Quiver |
@@ -454,7 +466,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>quick_access</code> (29)</summary>
+<details><summary><code>quick_access</code> (30)</summary>
 
 | Key | English |
 | --- | --- |
@@ -481,6 +493,7 @@ Dumped keys for TE 3.0.2
 | `quick_access.customize_quick_slots_4` | Customize Quick Slots   %d/4 |
 | `quick_access.no_items` | No items |
 | `quick_access.warp` | Warp |
+| `quick_access.mods` | Mods |
 | `quick_access.howl` | Howl |
 | `quick_access.a_warp` | A Warp |
 | `quick_access.a_howl` | A Howl |
@@ -490,7 +503,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>boss_rush</code> (250)</summary>
+<details><summary><code>boss_rush</code> (296)</summary>
 
 | Key | English |
 | --- | --- |
@@ -585,6 +598,32 @@ Dumped keys for TE 3.0.2
 | `boss_rush.online` | Online |
 | `boss_rush.online.allow_online` | Allow online |
 | `boss_rush.online.allow_online.help` | Play with others in the chamber and the Dungeon Rush hub (needs Online leaderboard and a player name). Times set while you are in a party are not uploaded. |
+| `boss_rush.online.chat_scale` | Chat size |
+| `boss_rush.online.chat_scale.help` | Size of the online chat, open it with Enter and switch between all and party with Tab. |
+| `boss_rush.online.chat_x` | Chat X |
+| `boss_rush.online.chat_x.help` | Distance of the chat from the left edge of the screen. |
+| `boss_rush.online.chat_y` | Chat Y |
+| `boss_rush.online.chat_y.help` | Height of the chat above the bottom edge of the screen. |
+| `boss_rush.voice` | Voice chat |
+| `boss_rush.voice.enabled` | Voice chat |
+| `boss_rush.voice.enabled.help` | Talk to other players with your microphone, always sent encrypted through the server. |
+| `boss_rush.voice.channel` | Voice channel |
+| `boss_rush.voice.channel.help` | Talk to and hear everyone in the lobby or only your party, Off lets you just listen to everyone. |
+| `boss_rush.voice.channel_off` | Off (listen only) |
+| `boss_rush.voice.mic` | Microphone |
+| `boss_rush.voice.mic.help` | Which microphone is used. |
+| `boss_rush.voice.default_mic` | Default |
+| `boss_rush.voice.mic_volume` | Microphone volume |
+| `boss_rush.voice.mic_volume.help` | How loud the others hear you. |
+| `boss_rush.voice.players_volume` | Players volume |
+| `boss_rush.voice.players_volume.help` | How loud you hear the other players. |
+| `boss_rush.voice.mic_level` | Microphone level |
+| `boss_rush.voice.player_volumes` | Volume per player |
+| `boss_rush.voice.player_volume.help` | How loud you hear this player. |
+| `boss_rush.voice.nobody_heard` | Nobody heard yet, players show up here once they talk. |
+| `boss_rush.chat.all` | All |
+| `boss_rush.chat.party` | Party |
+| `boss_rush.chat.no_party` | You are not in a party. |
 | `boss_rush.online.leave_party` | Leave party |
 | `boss_rush.online.leave_party.help` | Leaves your current party. |
 | `boss_rush.online.rejoin_fight` | Rejoin party fight |
@@ -624,15 +663,19 @@ Dumped keys for TE 3.0.2
 | `dungeon_rush.clear_splits.help` | Deletes all saved split times and best segments. |
 | `dungeon_rush.clear_splits.confirm` | Delete all saved split times and best segments of every dungeon? |
 | `dungeon_rush.yes_clear` | Yes, clear |
+| `boss_rush.clear_splits.help` | Deletes the saved split times and best segments of Boss Rush and the Cave of Ordeals. |
+| `boss_rush.clear_splits.confirm` | Delete all saved split times and best segments of Boss Rush and the Cave of Ordeals? |
 | `dungeon_rush.party_mode` | Party mode |
 | `dungeon_rush.party_mode.together` | Together |
 | `dungeon_rush.party_mode.versus` | Against each other |
 | `dungeon_rush.party_mode.help` | **Together**: items, keys and dungeon progress are shared.<br/>**Against each other**: nothing is shared, the others only appear as ghosts.\n\nWhoever opens a door takes the whole party in with this mode. |
 | `dungeon_rush.splits_section` | Splits |
+| `dungeon_rush.overlay_section` | Overlay |
+| `dungeon_rush.presets_section` | Split Presets |
 | `dungeon_rush.splits_scale` | Splits Size |
 | `dungeon_rush.splits_scale.help` | How big the split list is. |
 | `dungeon_rush.show_splits` | Show Splits |
-| `dungeon_rush.show_splits.help` | Shows a split list like LiveSplit during a Dungeon Rush run. |
+| `dungeon_rush.show_splits.help` | Shows a split list like LiveSplit in Boss Rush and Dungeon Rush, these settings apply to both. |
 | `dungeon_rush.splits_x` | Splits X Offset |
 | `dungeon_rush.splits_x.help` | Moves the split list left or right. |
 | `dungeon_rush.splits_y` | Splits Y Offset |
@@ -719,6 +762,22 @@ Dumped keys for TE 3.0.2
 | `dungeon_rush.customize.form.locked` | In this mode the wolf form unlocks in a later dungeon. |
 | `dungeon_rush.customize.human` | Link |
 | `dungeon_rush.customize.wolf` | Wolf |
+| `dungeon_rush.customize.items_section` | Items |
+| `dungeon_rush.customize.item_set` | Item Set |
+| `dungeon_rush.customize.item_set.all` | All |
+| `dungeon_rush.customize.item_set.vanilla` | Vanilla |
+| `dungeon_rush.customize.item_set.help` | **All**: every item of the save file.<br/>**Vanilla**: only the items and gear Link has when entering this dungeon, like in Glitchless. |
+| `dungeon_rush.customize.dungeon_item` | Dungeon Item |
+| `dungeon_rush.customize.dungeon_item.help` | Turn it off to enter without the item this dungeon gives you. Vanilla items never have it. |
+| `dungeon_rush.customize.dungeon_item.none` | This dungeon has no dungeon item. |
+| `dungeon_rush.customize.hearts_section` | Hearts |
+| `dungeon_rush.customize.hearts` | Hearts |
+| `dungeon_rush.customize.hearts.full` | Full |
+| `dungeon_rush.customize.hearts.vanilla` | Vanilla |
+| `dungeon_rush.customize.hearts.custom` | Custom |
+| `dungeon_rush.customize.hearts.help` | **Full**: the hearts of the save file.<br/>**Vanilla**: the hearts Link has when entering this dungeon.<br/>**Custom**: the count below. |
+| `dungeon_rush.customize.heart_count` | Heart Containers |
+| `dungeon_rush.customize.heart_count.help` | Left and right change it by one heart. |
 | `dungeon_rush.presets.current_section` | Current Preset |
 | `dungeon_rush.presets.switch_hint` | Switch presets at the dungeon's door with {btn:DPAD_LEFT_RIGHT}. |
 | `dungeon_rush.presets.pick_hint` | Drag a split to move it. Press the selected split again to rename it. |
@@ -747,7 +806,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>controls</code> (37)</summary>
+<details><summary><code>controls</code> (39)</summary>
 
 | Key | English |
 | --- | --- |
@@ -782,6 +841,8 @@ Dumped keys for TE 3.0.2
 | `controls.jump.mode.help` | **Forward**: Link always hops forward. **Upward**: standing still, Link jumps straight up; while moving, he jumps forward. |
 | `controls.jump.mode_forward` | Forward |
 | `controls.jump.mode_up` | Upward |
+| `controls.jump.height` | Jump height |
+| `controls.jump.height.help` | How high the manual jump goes, 100% is the normal height. |
 | `controls.photo_mode` | Photo Mode |
 | `controls.photo_mode.hold_button` | Hold button |
 | `controls.photo_mode.hold_button.help` | Button held while pressing the photo mode button. **None**: the photo mode button works alone. |
@@ -791,7 +852,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>customization</code> (64)</summary>
+<details><summary><code>customization</code> (68)</summary>
 
 | Key | English |
 | --- | --- |
@@ -811,14 +872,18 @@ Dumped keys for TE 3.0.2
 | `customization.button_hud.layout` | Layout |
 | `customization.button_hud.gamecube` | GameCube |
 | `customization.button_hud.hd` | HD |
+| `customization.button_hud.oot` | OoT (Modern) |
+| `customization.button_hud.oot_select` | Select |
+| `customization.button_hud.oot_controls` | OoT Controls |
+| `customization.button_hud.oot_controls.help` | {btn:X} swings the sword, {btn:B} puts it away, {btn:A} rolls and sprints. |
 | `customization.button_hud.xbox` | Xbox |
 | `customization.button_hud.playstation` | PlayStation |
 | `customization.button_hud.nintendo_switch` | Nintendo Switch |
-| `customization.button_hud.layout.help` | **GameCube**: original button cluster.<br/>**HD**: {btn:A}, {btn:B}, {btn:X} and {btn:Y} in a diamond like on a controller. All button prompts show the chosen controller symbols. |
+| `customization.button_hud.layout.help` | **GameCube**: original button cluster.<br/>**HD**: {btn:A}, {btn:B}, {btn:X} and {btn:Y} in a diamond like on a controller. All button prompts show the chosen controller symbols.<br/>**OoT (Modern)**: one item slot. {btn:R} uses it, hold {btn:Z} for the item list, {btn:Y} jumps, Midna is on {btn:MIDNA}. These buttons are fixed. |
 | `customization.button_hud.scale` | Scale |
 | `customization.button_hud.scale.help` | Size of the HD buttons. |
 | `customization.button_hud.button_icons` | Button Icons |
-| `customization.button_hud.button_icons.help` | Which controller symbols the HD layout shows in the HUD and in button prompts. |
+| `customization.button_hud.button_icons.help` | Which controller symbols the HD and OoT layouts show in the HUD and in button prompts. |
 | `customization.button_hud.mirror_sword_slot` | Mirror sword slot |
 | `customization.button_hud.mirror_sword_slot_buttons` | Mirror sword slot + buttons |
 | `customization.button_hud.mirror_sword_slot_2` | Mirror Sword Slot |
@@ -862,11 +927,18 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>graphics</code> (166)</summary>
+<details><summary><code>graphics</code> (175)</summary>
 
 | Key | English |
 | --- | --- |
 | `graphics.description` | Color and lens effects, swaying foliage, 3D grass, snow on Link and the world, real-time shadows and realistic water. |
+| `graphics.preset` | Preset |
+| `graphics.preset.help` | Sets all graphics options together, from **Performance** (lightest) to **Ultra** (most demanding). |
+| `graphics.preset.performance` | Performance |
+| `graphics.preset.balanced` | Balanced |
+| `graphics.preset.quality` | Quality |
+| `graphics.preset.ultra` | Ultra |
+| `graphics.preset.custom` | Custom |
 | `graphics.color_lens` | Color & Lens |
 | `graphics.color_lens.saturation` | Saturation |
 | `graphics.color_lens.contrast` | Contrast |
@@ -905,7 +977,9 @@ Dumped keys for TE 3.0.2
 | `graphics.grass.wind` | Wind Response |
 | `graphics.grass.interaction` | Bends Around Characters |
 | `graphics.grass.ground_cut` | Sword Cuts Ground Grass |
+| `graphics.grass.burn` | Fire Burns Grass |
 | `graphics.grass.ivy` | 3D Ivy |
+| `graphics.grass.detailed_lighting` | Detailed Blade Lighting |
 | `graphics.snow_cover` | Snow Cover |
 | `graphics.snow_cover.snow_falls_on` | Snow Falls On |
 | `graphics.snow_cover.where` | Where |
@@ -1356,7 +1430,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>collection</code> (76)</summary>
+<details><summary><code>collection</code> (132)</summary>
 
 | Key | English |
 | --- | --- |
@@ -1367,32 +1441,88 @@ Dumped keys for TE 3.0.2
 | `menus.collection_screen.keep_ordon_shield_in_collection.help` | Keeps the Ordon Shield in the Collection even after it burns. Needs the starter gear option. |
 | `menus.collection_screen.tunics` | Tunics |
 | `menus.collection_screen.show_ordon_hero` | Show Ordon Hero |
-| `menus.collection_screen.show_ordon_hero.help` | Adds the Reinforced Shield and the Ordon Hero tunic on a second Collection page (hold {btn:R} or {btn:L} to switch). Not available with Linkle. |
-| `menus.collection_screen.note_the_ordon_hero_gear` | The Ordon Hero gear is off while the Linkle mod is enabled. |
-| `menus.collection_screen.show_always_ordon_hero` | Show always Ordon Hero |
-| `menus.collection_screen.show_always_ordon_hero.help` | Shows the Ordon Hero gear right away instead of only after getting the Hero's Clothes. |
+| `menus.collection_screen.show_ordon_hero.help` | Adds the Ordon Hero tunic and the Reinforced Shield on a second Collection page once the people of Ordon give them to you. |
 | `menus.collection_screen.ordon_hero_cap` | Ordon Hero cap |
-| `menus.collection_screen.ordon_hero_cap.help` | Gives the Ordon Hero tunic Link's cap. |
-| `menus.collection_screen.show_yeti_tunic` | Show Yeti Tunic |
-| `menus.collection_screen.show_yeti_tunic.help` | Shows the Yeti Tunic in the Collection once you have it. |
+| `menus.collection_screen.ordon_hero_cap.help` | Gives the Ordon Hero tunic Link's cap or Linkle's hood. |
+| `menus.collection_screen.show_yeti_tunic` | Show Yeti Clothes |
+| `menus.collection_screen.show_yeti_tunic.help` | Shows the Yeti Clothes in the Collection once you have them. Ashei gives them to you the first time you talk to her on Snowpeak. |
 | `menus.collection_screen.yeti_textures` | Yeti Textures |
-| `menus.collection_screen.yeti_textures.help` | Only Tunic changes just the clothes, but switches the sword, shield, bow, face and hair to the Yeti look on Snowpeak and in Snowpeak Ruins. |
-| `menus.collection_screen.yeti_textures.tunic` | Only Tunic |
+| `menus.collection_screen.yeti_textures.help` | Only Clothes changes just the outfit, but switches the sword, shield, bow, face and hair to the Yeti look on Snowpeak and in Snowpeak Ruins. |
+| `menus.collection_screen.yeti_textures.tunic` | Only Clothes |
 | `menus.collection_screen.yeti_textures.all` | Everything |
 | `menus.advanced_collection` | Advanced UI |
 | `collection.ordon_hero.name` | Ordon Hero |
 | `collection.ordon_hero.description` | Traditional clothes worn by the hero of Ordon. Simple, but made for adventure. |
+| `collection.ordon_hero.name_linkle` | Ordon Heroine |
+| `collection.ordon_hero.description_linkle` | Traditional clothes worn by the heroine of Ordon. Simple, but made for adventure. |
 | `collection.reinforced_shield.name` | Reinforced Shield |
 | `collection.reinforced_shield.description` | A traditional Ordon shield reinforced with metal. Stronger and will never burn. |
+| `collection.ordon_hero.epona` | Epona runs faster while worn. |
+| `collection.reinforced_shield.effect` | Shield attacks knock enemies over, but you take more damage. |
+| `collection.ordon_quest.letter_subject` | Come Home to Ordon! |
+| `collection.ordon_quest.letter_sender` | Ordon Village |
+| `collection.ordon_quest.letter_text` | Dear {N},\n\nIt's been so long! Are you\nwell out there? We've all been\nworried about you and the kids.\n\nWe made something for you. Come\nback to Ordon and see Bo when\nyou get the chance.\n\nWe'll be waiting!\n\nBo and everyone in Ordon |
+| `collection.ordon_quest.letter_text_linkle` | Dear {N},\n\nIt's been so long! Are you\nwell out there? We've all been\nworried about you and the kids.\n\nWe made something for you. Come\nback to Ordon and see Bo when\nyou get the chance.\n\nWe'll be waiting!\n\nBo and everyone in Ordon |
+| `collection.ordon_quest.shield_letter_subject` | Your Shield's Ready! |
+| `collection.ordon_quest.shield_letter_sender` | Jaggle |
+| `collection.ordon_quest.shield_letter_text` | Hup! {N}!\n\nYour shield's all done! I put\ngood, solid metal on it. It's\ntougher than a goat's head now,\nI tell ya!\n\nCome by Ordon and pick it up\nwhenever you can. Hup!\n\nJaggle |
+| `collection.ordon_quest.invite_letter_subject` | Bring Me Your Shield! |
+| `collection.ordon_quest.invite_letter_text` | Hup! {N}!\n\nWord is you cleared out the\nGoron Mines! Not bad at all!\n\nBet your shield took a real\nbeating in there. Bring it by\nOrdon and I'll make it tougher.\n\nHup! See you soon!\n\nJaggle |
+| `collection.ordon_quest.bo_1` | Ho! {N}! You're back! Did our\nletter find you? |
+| `collection.ordon_quest.bo_1_linkle` | Ho! {N}! You're back! Did our\nletter find you? |
+| `collection.ordon_quest.bo_1_early` | Ho! {N}! Good timing! We were\njust about to send you a letter! |
+| `collection.ordon_quest.bo_news` | What's that? The children are\nsafe in Kakariko? Gwa ha ha!\nThat's the best news in ages! |
+| `collection.ordon_quest.bo_come_back` | Once you've told them all, come\nback here. I've got something\nfor you! |
+| `collection.ordon_quest.bo_back` | Ho! {N}! Does everyone know\nnow? Thank you! That's a load\noff the whole village! |
+| `collection.ordon_quest.bo_2` | Thanks to you, the children are\nsafe. The whole village wanted to\nthank you for it. |
+| `collection.ordon_quest.bo_3` | Uli did the sewing, Jaggle made\nthe metal parts, and I... I kept\nan eye on things! Gwa ha ha! |
+| `collection.ordon_quest.bo_4` | These are the clothes of Ordon's\nhero. Wear them with pride! |
+| `collection.ordon_quest.bo_4_linkle` | These are the clothes of Ordon's\nheroine. Wear them with pride! |
+| `collection.ordon_quest.bo_jaggle` | Oh, and Jaggle wants to see you\nabout your shield. Go have a\nword with him! |
+| `collection.ordon_quest.bo_tell_1` | Ho! Thanks for telling me about\nthe kids, {N}! But everyone\nelse is still worried sick. |
+| `collection.ordon_quest.bo_tell_2` | Go tell {LIST} too! |
+| `collection.ordon_quest.bo_tell_and` | and |
+| `collection.ordon_quest.bo_tell_ranch` | Fado should be out at the ranch. |
+| `collection.ordon_quest.name_uli` | Uli |
+| `collection.ordon_quest.name_jaggle` | Jaggle |
+| `collection.ordon_quest.name_pergie` | Pergie |
+| `collection.ordon_quest.name_sera` | Sera |
+| `collection.ordon_quest.name_hanch` | Hanch |
+| `collection.ordon_quest.name_fado` | Fado |
+| `collection.ordon_quest.go_to_bo` | Have you seen Bo yet? He's got\nsomething for you. Go see him! |
+| `collection.ordon_quest.go_to_bo_linkle` | Have you seen Bo yet? He's got\nsomething for you. Go see him! |
+| `collection.ordon_quest.hero_get` | You got the *Ordon Hero*\nclothes! While you wear them,\nEpona runs faster. |
+| `collection.ordon_quest.hero_get_linkle` | You got the *Ordon Heroine*\nclothes! While you wear them,\nEpona runs faster. |
+| `collection.ordon_quest.shield_get` | You got the *Reinforced\nShield*! It knocks foes over,\nbut you'll take more damage. |
+| `collection.ordon_quest.jaggle_greet` | Hup! {N}! I hear you've been\nbusting up monsters all over\nHyrule! |
+| `collection.ordon_quest.jaggle_has_1` | Bet that Ordon Shield of yours\nhas taken a beating. Wood only\nholds up so long, y'know. |
+| `collection.ordon_quest.jaggle_has_2` | Leave it with me, and I'll put\nsome metal on it. It'll be tougher\nthan a goat's head! Hup! |
+| `collection.ordon_quest.jaggle_has_ask` | So, whaddya say? Hand it over? |
+| `collection.ordon_quest.jaggle_has_yes` | Here you go. |
+| `collection.ordon_quest.jaggle_has_no` | Not now. |
+| `collection.ordon_quest.jaggle_none_1` | Huh? You lost the Ordon Shield?\nWell... these things happen. |
+| `collection.ordon_quest.jaggle_none_2` | I could make you a new one, with\nmetal on it while I'm at it.\nMaterials ain't free, though. |
+| `collection.ordon_quest.jaggle_none_ask` | How about *100 Rupees*? |
+| `collection.ordon_quest.jaggle_none_yes` | Deal! |
+| `collection.ordon_quest.jaggle_none_no` | No thanks. |
+| `collection.ordon_quest.jaggle_broke` | Hey now, you don't have enough\nRupees! Come back when you do. |
+| `collection.ordon_quest.jaggle_accept` | Hup! Leave it to me! This'll take\na while, so go do your thing.\nI'll send word when it's done! |
+| `collection.ordon_quest.jaggle_decline` | Suit yourself. Talk to me if you\nchange your mind. |
+| `collection.ordon_quest.jaggle_wait` | Hup! Still working on that shield.\nGood work takes time, y'know! |
+| `collection.ordon_quest.jaggle_ready_1` | Hup! {N}! Your shield's done!\nHere, take a look at this beauty! |
+| `collection.ordon_quest.jaggle_ready_2` | Bash 'em hard with it! Just don't\nget careless. It's heavy, so it\nwon't block as well. Hup! |
+| `collection.ordon_quest.uli_thanks_1` | {N}! You've seen Colin?\nHe's safe? Oh, thank the\ngoddesses... |
+| `collection.ordon_quest.uli_thanks_2` | Thank you for looking after\nhim. I was so afraid I'd never\nsee him again. |
+| `collection.ordon_quest.uli_thanks_3` | This little one and I owe you\nso much. Please, take care of\nyourself out there. |
 | `collection.ordon_clothes.name` | Ordon Clothes |
 | `collection.ordon_clothes.description` | The clothes Link wore at the beginning\nof his journey in Ordon Village. |
 | `collection.linkle_clothes.name` | Linkle's Clothes |
 | `collection.linkle_clothes.description` | The clothes Linkle wore at the beginning\nof her journey in Ordon Village. |
-| `collection.yeti_tunic.name` | Yeti Tunic |
+| `collection.yeti_tunic.name` | Yeti Clothes |
 | `collection.yeti_tunic.description` | Warm clothes lined with yeti fur. Made to brave the bitter cold. |
 | `collection.yeti_tunic.freeze` | Grants immunity to freezing. |
 | `collection.yeti_tunic.ashei` | Oh, and one more thing... It's pretty\ncold up here. Take this, it'll keep\nyou warm. |
-| `collection.yeti_tunic.get` | You got the *Yeti Tunic*!\nLined with yeti fur, it keeps\nthe bitter cold at bay. |
+| `collection.yeti_tunic.get` | You got the *Yeti Clothes*!\nLined with yeti fur, they keep\nthe bitter cold at bay. |
 | `collection.tunics.hero` | Hero's Clothes |
 | `collection.tunics.zora` | Zora Armor |
 | `collection.tunics.magic` | Magic Armor |
@@ -1592,7 +1722,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>rush</code> (278)</summary>
+<details><summary><code>rush</code> (284)</summary>
 
 | Key | English |
 | --- | --- |
@@ -1691,6 +1821,11 @@ Dumped keys for TE 3.0.2
 | `rush.leave_your_party` | leave your party |
 | `rush.disable_these_mods` | disable these mods: %s |
 | `rush.dusklight_cheats_forced_by_launch_options` | Dusklight cheats forced by launch options: %s |
+| `rush.mods_turned_off` | Mods turned off |
+| `rush.mods_turned_back_on` | Mods turned back on |
+| `rush.turned_off_for` | Turned off for %s: %s |
+| `rush.mod_not_allowed` | Mod not allowed |
+| `rush.stays_off_during` | %s stays off during %s. |
 | `rush.normal_mode` | Normal mode |
 | `rush.practice_mode` | Practice mode |
 | `rush.not_in_the_boss_rush` | not in the Boss Rush |
@@ -1699,6 +1834,7 @@ Dumped keys for TE 3.0.2
 | `rush.best_3` | Best |
 | `rush.sum_of_best` | Sum of Best  %s |
 | `rush.floor` | Floor %d / %d |
+| `rush.floor_single` | Floor %d |
 | `rush.start_phase` | <  Start: Phase %d/%d  > |
 | `rush.start` | <  Start: %s (%d/%d)  > |
 | `rush.start_phase_2` | Start Phase |
