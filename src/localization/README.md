@@ -3,11 +3,11 @@
 Adds a `demo` language. Texts that are missing in
 `res/localization/demo/<feature>/<feature>.json` fall back to English.
 
-## All keys (1887)
+## All keys (1924)
 
 Dumped keys for TE 3.0.2
 
-<details><summary><code>settings</code> (166)</summary>
+<details><summary><code>settings</code> (164)</summary>
 
 | Key | English |
 | --- | --- |
@@ -74,7 +74,6 @@ Dumped keys for TE 3.0.2
 | `panel.preset_ultra_tip` | Modern plus Photo Mode and every graphics upgrade: shadows, water, volumetric clouds and wind. |
 | `panel.preset_performance_tip` | Default features with the demanding graphics features (shadows, water, clouds, wind) turned off. |
 | `quick_start.title` | Quick Start |
-| `quick_start.body` | Tick what you want to use: it gets turned on, the rest is turned off. You can change everything later in the mod settings. |
 | `quick_start.own` | I have my own already |
 | `quick_start.own_tip` | Keeps your current settings and changes nothing. |
 | `quick_start.cutscenes` | Faster Cutscenes & Animations |
@@ -99,7 +98,6 @@ Dumped keys for TE 3.0.2
 | `quick_start.photo_mode_tip` | Freeze the game, move the camera freely and take photos with filters. |
 | `quick_start.graphics` | Graphics |
 | `quick_start.graphics_tip` | Shadows, realistic water, volumetric clouds, wind and 3D grass. Costs performance. |
-| `quick_start.apply` | Apply |
 | `options.default` | Default |
 | `options.botw_wheel` | BotW Wheel |
 | `options.thinner` | Thinner |
@@ -1430,7 +1428,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>collection</code> (132)</summary>
+<details><summary><code>collection</code> (134)</summary>
 
 | Key | English |
 | --- | --- |
@@ -1495,6 +1493,8 @@ Dumped keys for TE 3.0.2
 | `collection.ordon_quest.hero_get_linkle` | You got the *Ordon Heroine*\nclothes! While you wear them,\nEpona runs faster. |
 | `collection.ordon_quest.shield_get` | You got the *Reinforced\nShield*! It knocks foes over,\nbut you'll take more damage. |
 | `collection.ordon_quest.jaggle_greet` | Hup! {N}! I hear you've been\nbusting up monsters all over\nHyrule! |
+| `collection.ordon_quest.jaggle_kids_1` | Hup! {N}! The kids are safe\nin Kakariko?! Phew... That's a\nload off my mind, hup! |
+| `collection.ordon_quest.jaggle_kids_2` | And word is you've been busting\nup monsters all over Hyrule! |
 | `collection.ordon_quest.jaggle_has_1` | Bet that Ordon Shield of yours\nhas taken a beating. Wood only\nholds up so long, y'know. |
 | `collection.ordon_quest.jaggle_has_2` | Leave it with me, and I'll put\nsome metal on it. It'll be tougher\nthan a goat's head! Hup! |
 | `collection.ordon_quest.jaggle_has_ask` | So, whaddya say? Hand it over? |
@@ -2010,5 +2010,49 @@ Dumped keys for TE 3.0.2
 | `rush.personal_best` | Personal Best |
 | `rush.sum_of_best_2` | Sum of Best |
 | `rush.continue` | Continue |
+
+</details>
+
+<details><summary><code>guide</code> (37)</summary>
+
+| Key | English |
+| --- | --- |
+| `panel.guide` | Introduction |
+| `guide.tab_intro` | Introduction |
+| `guide.tab_features` | Features |
+| `guide.intro_welcome` | Welcome to Twilit Essentials!\n\n**Quick Start:** tick what you want to use. Ticked features get turned on, the rest gets turned off. Already have your own settings? Then tick **I have my own already** and nothing changes. You can change everything later in the mod settings.\n\n**New Content** shows the gear that is new in this version. The **Features** tab explains the most important parts of the mod.\n\nWhen you're done, press **Continue** at the bottom. Until then this introduction opens every time you start the game. You can always open it again in the mod's panel with **Introduction**. |
+| `guide.new_content` | New Content |
+| `guide.continue` | Continue |
+| `guide.intro_features` | Explanations for the most important features of Twilit Essentials. Pick a topic on the left. |
+| `guide.yeti.title` | Yeti Clothes |
+| `guide.yeti.text` | Warm fur clothes for the snow. They work for Link and for Linkle, who gets her own version.\n\n**How to get them:** on **Snowpeak**, talk to **Ashei**. The first time you talk to her she gives you her sketch. Right after that she tells you it's pretty cold up there and hands you the **Yeti Clothes**.\n\nAlready met Ashei on Snowpeak before? Then you simply have them once you load your save.\n\n**Wearing them:** pick them in the Collection screen next to your other clothes, or on the **Tunics** page of Quick Access.\n\n**Options** (**Menus** tab, Collection Screen):<br/>**Show Yeti Clothes**: on by default. Turned off, they are hidden, but you still get them.<br/>**Yeti Textures**: with **Only Clothes**, the frosty look for sword, shield, bow, face and hair only shows on Snowpeak and in Snowpeak Ruins. **Everything** shows it everywhere. |
+| `guide.ordon_hero.title` | Ordon Hero |
+| `guide.ordon_hero.text` | A thank-you from the people of Ordon for keeping the children safe. While you wear the clothes, **Epona runs 15% faster**. Linkle gets her own version, the **Ordon Heroine** clothes.\n\n**First:** turn on **Show Ordon Hero** (**Menus** tab, Collection Screen). It is off by default, and without it there is no quest.\n\n**1. Wagon escort:** the quest starts once Telma's wagon has made it to Kakariko. From then on the children are safe there.\n\n**2. The letter:** the postman brings you "Come Home to Ordon!". He only shows up in **Hyrule Field**: walk into one of the open areas there and he comes running. You don't have to wait for him, you can go to Ordon right away.\n\n**3. Bo:** talk to Bo in Ordon during the day. Link tells him the children are safe, and Bo asks you to tell the others.\n\n**4. The villagers:** talk to each of them once, in any order:\n- **Hanch** and **Jaggle**: outside in the village\n- **Uli**: in her house\n- **Pergie**: in Jaggle's house\n- **Sera**: in her shop\n- **Fado**: at the ranch\nBo always tells you who still doesn't know.\n\n**5. Back to Bo:** once everyone knows, he gives you the clothes.\n\nThe clothes are in the Collection screen next to your other clothes. **Ordon Hero cap** gives them Link's cap or Linkle's hood. |
+| `guide.reinforced_shield.title` | Reinforced Shield |
+| `guide.reinforced_shield.text` | Jaggle puts metal on your Ordon Shield. It **never burns**, and with the hidden skill **Shield Attack** most enemies **fall over**. In return you take **25% more damage**, and heavy hits break your guard.\n\nNeeds **Show Ordon Hero** as well.\n\n**1. Goron Mines:** once you have cleared them, Jaggle sends you the letter "Bring Me Your Shield!". You can also just go and talk to him.\n\n**2. Jaggle:** talk to him outside in Ordon during the day and give him your **Ordon Shield**. If you don't have it anymore (for example because it burned), he makes a new one for **100 Rupees**.\n\n**3. Wait one in-game day:** that's 24 in-game hours, about 16 to 17 real minutes. The clock only runs outside, like in Hyrule Field, Faron Woods, Lake Hylia or Castle Town. It stands still in Ordon, Kakariko, indoors, in dungeons and during cutscenes.\n\n**4. Pick it up:** Jaggle sends you "Your Shield's Ready!", but you don't need the letter. Talk to him and you get the shield, already equipped.\n\n**Shield Attack:** Bokoblins, Bulblins, Lizalfos, Dynalfos and many others fall over. Bosses and enemies that can't fall (like Darknuts or Stalfos) get the normal shield attack, so the Helm Splitter still works on them. |
+| `guide.flurry_rush.title` | Flurry Rush |
+| `guide.flurry_rush.text` | Dodge an attack at the very last moment and time slows down, so you can strike again and again.\n\n**How it works:** lock on to an enemy with {btn:L}. Just before its attack hits you, push the stick sideways or back and press {btn:A} to side hop or backflip. If your timing was right, everything slows down. Now hit {btn:B} as fast as you can.\n\n**Unlocking** (**Combat** tab, Flurry Rush, **Unlock**):<br/>**Learn as hidden skill** (default): first learn all seven hidden skills from the Hero's Shade. Midna then feels something stirring in the **Sacred Grove**: a golden wolf waits where the Temple of Time once stood, and the Hero's Shade teaches you Flurry Rush as the eighth hidden skill.<br/>**Always available**: you can use it right away.\n\n**Perfect dodge window**: how many frames after the dodge still count as perfect. Lower is harder.<br/>**Forget Flurry Rush**: resets the skill on this save, so you can learn it again. |
+| `guide.bullet_time.title` | Bullet Time |
+| `guide.bullet_time.text` | Aim the bow in mid-air and time slows down. **Combat** tab, **Bullet Time**.\n\n**How:** jump or fall from a high place, like a cliff or a tall ledge. A small hop is not enough. While you are in the air, draw the bow (bomb arrows and the Hawkeye work too). The world slows down, but Link and his arrows keep their full speed, so you have time to line up your shot.\n\n**It ends** when you land, stop aiming, press {btn:A} or run out of stamina.\n\nWith **Stamina** turned on, Bullet Time drains the meter: a full meter lasts about 10 seconds. Without it, it lasts until you land. |
+| `guide.stamina.title` | Stamina and Sprint |
+| `guide.stamina.text` | A stamina meter for fights, climbing and swimming. **Stamina &amp; Sprint** tab.\n\n**What uses stamina:** sword attacks, hidden skills, jump and spin attacks, rolls, side hops and backflips, blocking, climbing, hanging on ledges, swimming and aiming with items like the bow. Pick what counts in **Choose Stamina Activities** and how much each one costs in **Set Stamina Costs**.\n\n**Sprint:** hold {btn:SPRINT} while running. This also works as a wolf and while swimming (not with the Zora Armor). In the **Controls** tab, **Sprint mode** lets you tap instead of hold.\n\n**Out of stamina:** Link is exhausted and can't attack, roll or sprint until the meter has refilled a bit. Blocking with an empty meter breaks your guard. With **Drown when out of stamina**, running out while swimming costs you a heart.\n\n**More stamina:** with **Scale max stamina with max hearts**, every new heart container gives you more stamina.\n\nThe meter can be a bar in the HUD or a wheel next to Link (**Customization** tab, Stamina Bar, Style). |
+| `guide.zora.title` | Zora Swimming |
+| `guide.zora.text` | Two helpers for the **Zora Armor**, both in the **Quality of Life** tab.\n\n**Auto Zora Armor:** Link puts on the Zora Armor as soon as he swims and switches back to his old clothes on land. You need to own the Zora Armor.<br/>**On**: only while swimming.<br/>**On + shallow water**: also when you wade through shallow water.<br/>**On + shallow water, both feet**: the raised foot gets it too.\n\n**Improved Zora Swimming:** with the Zora Armor under water, just steer with the stick, no button needed. Tap {btn:A} for a speed burst with a barrel roll, hold {btn:A} to swim fast. Link leans into turns and leaves a trail of bubbles. |
+| `guide.quick_access.title` | Quick Access |
+| `guide.quick_access.text` | Use items and bottles without opening the item wheel. **Quick Access** tab.\n\n**Tap** {btn:QA} to use your quick item.<br/>**Hold** {btn:QA} to open the menu. Point the stick at a slot and let go: that item becomes your new quick item.\n\n**Pages:** besides your items there is a page for your **Bottles** ({btn:LB}) and one for your **Tunics**. Other mods can add their own pages.\n\n**Choosing items:** press {btn:X} in the menu to pick which items go on the slots.\n\n**As a wolf**, holding {btn:QA} opens a wheel with **Warp** and the **Sun's Song**.\n\n**Settings:** the button is in the **Controls** tab (Quick Access button), the look in the **Customization** tab: **Radial** like the item wheel, or **Item Bar (BotW-style)** at the top of the screen. **Hide items from item wheel** takes your quick items out of the normal item wheel. |
+| `guide.z_button.title` | Z Button |
+| `guide.z_button.text` | A third item slot on {btn:Z}, next to {btn:X} and {btn:Y}. **Quality of Life** tab, **Enable third item slot**.\n\n**Putting an item on Z:** open the item wheel, point at an item and press {btn:Z}, just like you do with {btn:X} and {btn:Y}.\n\n**Midna** gets her own button, the **Midna button** in the **Controls** tab:<br/>{btn:LB}: Midna's icon sits at the top left, {btn:DPAD_LEFT} toggles the minimap.<br/>{btn:DPAD_LEFT}: call Midna with the D-Pad.<br/>{btn:R} + {btn:DPAD_RIGHT} toggles the minimap in both cases.\n\nTwilight HD and Lazy Tweaks have their own third slot. The settings tell you what to do when one of them is installed. |
+| `guide.map_markers.title` | Map Markers |
+| `guide.map_markers.text` | Place your own markers on the map. **Menus** tab, **Map Markers**.\n\n**On the map:** press {btn:Y} to place a marker or to remove the one under the cursor. Press {btn:X} to choose its symbol and color.\n\n**Beacon:** markers with the Beacon symbol show up as **light beams** in the world and on a **compass** at the top of the screen, so you always know where to go.\n\n**More options:**<br/>**Show on minimap**: your markers also show on the minimap.<br/>**Remove when reached**: a marker disappears once Link gets there.<br/>**Remove all markers**: clears every marker of this save.\n\nMarkers are stored with your save file. |
+| `guide.photo_mode.title` | Photo Mode |
+| `guide.photo_mode.text` | Freeze the game and take pictures. **General** tab, Camera, **Photo mode**.\n\nPress {btn:PHOTO} to open and close it. The world stops and you can fly the camera around freely.\n\nIn its menu you can change the **time of day** and the **weather**, add **depth of field**, **filters** like Black and White or Golden Hour, **particles** like leaves, petals and fireflies, and **frames**. You can also hide Link for scenery shots.\n\n**Track** records smooth camera flights along waypoints. **Presets** saves your favorite setups.\n\nThe hints at the bottom show which button takes the photo, hides the menu or closes photo mode. The photo mode button can be changed in the **Controls** tab. |
+| `guide.boss_rush.title` | Boss Rush |
+| `guide.boss_rush.text` | Fight any boss of the game again, as often as you like. Spoiler warning: you can reach bosses you haven't met in the story yet.\n\n**Starting:** pick **Boss Rush** as the game mode in Dusklight's start menu. You land in the Boss Rush chamber, a hall full of boss statues. Midna explains everything the first time.\n\n**Fighting:** walk up to a statue and press {btn:A}. While you stand there, set up your items in the item wheel and the statue remembers them. At Zant's statue, {btn:DPAD_LEFT_RIGHT} picks one of his six phases.\n\n**Master Rush:** the Master Sword starts every boss back to back, timed as one run.\n\n**Modes** (call Midna in the chamber):<br/>**Normal**: everything allowed, times are only saved locally.<br/>**Glitchless**: only the gear Link normally has at each boss.<br/>**Glitched**: all items.<br/>Glitchless and Glitched turn off all Twilit Essentials features, cheats and other mods, so every run is fair.\n\n**Retry:** the **Retry button** (**Controls** tab) restarts the current fight. Call Midna during a fight to go back to the chamber.\n\n**Leaderboard:** turn on the **Online leaderboard** and set a **Player name** in the **Online** tab before you fight. Call Midna in the chamber to see the Top 10. |
+| `guide.cave.title` | Cave of Ordeals |
+| `guide.cave.text` | A timed run through the **Cave of Ordeals**, with its own leaderboard.\n\n**Starting:** in the Boss Rush chamber, stand under the bell and press {btn:A} (**Start Cave**).\n\nYou fight through the floors one after another against the clock. The floors with the fairies are skipped. Just like the boss fights, your times count for the online leaderboard in Glitchless and Glitched mode.\n\nWith **Show Splits** on, a split list compares you to your best run. |
+| `guide.online.title` | Online Play |
+| `guide.online.text` | Play the Boss Rush and the Dungeon Rush together with other players over the internet.\n\n**Turning it on:** in the **Online** tab, turn on the **Online leaderboard**, set a **Player name** and turn on **Allow online**. You then see the other players in the Boss Rush chamber and in the Dungeon Rush hub.\n\n**Party:** invite players in the **Party** tab of the mod settings. In a party you fight bosses together: when someone starts a fight, the others can join by pressing {btn:A} in the chamber. In the Dungeon Rush, **Party mode** decides if you play **Together** (items, keys and progress are shared) or **Against each other** (the others are only ghosts).\n\n**Duel:** challenge another player to a PvP fight in the **Duel** tab. Whoever challenges picks the arena.\n\n**Chat:** press Enter to open the chat, Tab switches between everyone and your party. With **Voice chat** you can talk using your microphone.\n\nTimes you set while you are in a party are not uploaded to the leaderboard. |
+| `guide.dungeon_rush.title` | Dungeon Rush |
+| `guide.dungeon_rush.text` | Play through the game's dungeons from a central hub, with a timer and splits. Contains spoilers for the whole game.\n\n**Starting:** pick **Dungeon Rush** as the game mode in Dusklight's start menu. You land in a hub with a ring of doors, and Midna explains it the first time.\n\n**A run:** each door leads to a dungeon. Walk through one to start at that dungeon's entrance. A run is always the whole dungeon, the timer stops when the boss falls.\n\n**At a door:**<br/>set up your items in the item wheel, the door remembers them.<br/>{btn:Y} shows the splits: personal best, best segments and Sum of Best.<br/>{btn:X} changes your starting loadout, edits your splits and uploads them to the website.\n\n**Modes** (call Midna): **Normal** allows everything. **Glitchless** gives you only the gear and hearts Link normally has when entering the dungeon. **Glitched** unlocks every item. The mode is shared with the Boss Rush.\n\n**Inside a dungeon:** call Midna to go back to the hub, or press the **Retry button** to start over from the entrance. |
 
 </details>
