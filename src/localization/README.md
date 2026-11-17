@@ -3,7 +3,7 @@
 Adds a `demo` language. Texts that are missing in
 `res/localization/demo/<feature>/<feature>.json` fall back to English.
 
-## All keys (1924)
+## All keys (1926)
 
 Dumped keys for TE 3.0.2
 
@@ -850,7 +850,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>customization</code> (68)</summary>
+<details><summary><code>customization</code> (70)</summary>
 
 | Key | English |
 | --- | --- |
@@ -872,6 +872,8 @@ Dumped keys for TE 3.0.2
 | `customization.button_hud.hd` | HD |
 | `customization.button_hud.oot` | OoT (Modern) |
 | `customization.button_hud.oot_select` | Select |
+| `customization.button_hud.oot_combine` | Combine |
+| `customization.button_hud.oot_separate` | Separate |
 | `customization.button_hud.oot_controls` | OoT Controls |
 | `customization.button_hud.oot_controls.help` | {btn:X} swings the sword, {btn:B} puts it away, {btn:A} rolls and sprints. |
 | `customization.button_hud.xbox` | Xbox |
@@ -1428,7 +1430,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>collection</code> (134)</summary>
+<details><summary><code>collection</code> (77)</summary>
 
 | Key | English |
 | --- | --- |
@@ -1457,6 +1459,65 @@ Dumped keys for TE 3.0.2
 | `collection.reinforced_shield.description` | A traditional Ordon shield reinforced with metal. Stronger and will never burn. |
 | `collection.ordon_hero.epona` | Epona runs faster while worn. |
 | `collection.reinforced_shield.effect` | Shield attacks knock enemies over, but you take more damage. |
+| `collection.ordon_clothes.name` | Ordon Clothes |
+| `collection.ordon_clothes.description` | The clothes Link wore at the beginning\nof his journey in Ordon Village. |
+| `collection.linkle_clothes.name` | Linkle's Clothes |
+| `collection.linkle_clothes.description` | The clothes Linkle wore at the beginning\nof her journey in Ordon Village. |
+| `collection.yeti_tunic.name` | Yeti Clothes |
+| `collection.yeti_tunic.description` | Warm clothes lined with yeti fur. Made to brave the bitter cold. |
+| `collection.yeti_tunic.freeze` | Grants immunity to freezing. |
+| `collection.yeti_tunic.ashei` | Oh, and one more thing... It's pretty\ncold up here. Take this, it'll keep\nyou warm. |
+| `collection.yeti_tunic.get` | You got the *Yeti Clothes*!\nLined with yeti fur, they keep\nthe bitter cold at bay. |
+| `collection.tunics.hero` | Hero's Clothes |
+| `collection.tunics.zora` | Zora Armor |
+| `collection.tunics.magic` | Magic Armor |
+| `collection.unequip` | Unequip |
+| `menus.collection_tracker` | Collection Tracker |
+| `menus.collection_tracker.help` | Shows found **chests**, **Pieces of Heart**, **golden bugs** and **Poe Souls** per region on the map. |
+| `menus.collection_screen.advanced_screen` | Advanced UI |
+| `menus.collection_screen.advanced_screen.help` | Replaces the Collection screen, maps, menus and text boxes with a new design. |
+| `menus.collection_screen.dpad_items` | D-pad Up/Down opens Items |
+| `menus.collection_screen.dpad_items.help` | {btn:DPAD_UP} and {btn:DPAD_DOWN} open the Items tab instead of the item wheel. |
+| `menus.collection_screen.item_glyphs` | Item Button Glyphs |
+| `menus.collection_screen.item_glyphs.help` | Shows the X/Y/Z glyphs on assigned items even without {btn:DPAD_UP} opening Items. |
+| `menus.collection_screen.item_wheel` | Advanced Item Wheel |
+| `menus.collection_screen.item_wheel.help` | Gives the item wheel the Advanced UI look. |
+| `menus.collection_screen.save_preview` | Save Preview |
+| `menus.collection_screen.save_preview.help` | Saving takes a small screenshot that the file select shows next to each file. |
+| `advanced_collection.tab.equipment` | Equipment |
+| `advanced_collection.tab.tools` | Items |
+| `advanced_collection.tab.map` | Map |
+| `advanced_collection.tab.collection` | Collection |
+| `advanced_collection.tab.expansions` | Expansions |
+| `advanced_collection.tab.settings` | Settings |
+| `advanced_collection.expansions.wallets` | Wallets |
+| `advanced_collection.expansions.bomb_bags` | Bomb Bags |
+| `advanced_collection.expansions.quivers` | Quivers |
+| `advanced_collection.settings.load` | Load |
+| `advanced_collection.settings.load.help` | Loads another quest log right away. Unsaved progress is lost. |
+| `advanced_collection.load.which` | Load which quest log? |
+| `advanced_collection.load.question` | Load this quest log? |
+| `advanced_collection.load.warning` | Unsaved progress will be lost. |
+| `advanced_collection.options.targeting.help` | Hold: lock on only while holding the button. Switch: press once to lock on, again to release. |
+| `advanced_collection.options.rumble.help` | Turns controller vibration on or off. |
+| `advanced_collection.options.sound.help` | Sets how the game audio is output. |
+| `advanced_collection.not_found` | Not found yet. |
+| `advanced_collection.bugs.given` | Given to Agitha |
+| `advanced_collection.poes.dungeons` | Dungeons |
+| `advanced_collection.settings.reset` | Reset |
+| `advanced_collection.settings.reset.help` | Returns to the title screen. Unsaved progress is lost. |
+| `advanced_collection.reset.title` | Reset the game? |
+| `advanced_collection.settings.exit` | Exit Game |
+| `advanced_collection.settings.exit.help` | Closes Dusklight. Unsaved progress is lost. |
+| `advanced_collection.exit.title` | Exit the game? |
+| `advanced_collection.exit.warning` | All progress since your last save will be lost. |
+
+</details>
+
+<details><summary><code>quest</code> (57)</summary>
+
+| Key | English |
+| --- | --- |
 | `collection.ordon_quest.letter_subject` | Come Home to Ordon! |
 | `collection.ordon_quest.letter_sender` | Ordon Village |
 | `collection.ordon_quest.letter_text` | Dear {N},\n\nIt's been so long! Are you\nwell out there? We've all been\nworried about you and the kids.\n\nWe made something for you. Come\nback to Ordon and see Bo when\nyou get the chance.\n\nWe'll be waiting!\n\nBo and everyone in Ordon |
@@ -1514,58 +1575,6 @@ Dumped keys for TE 3.0.2
 | `collection.ordon_quest.uli_thanks_1` | {N}! You've seen Colin?\nHe's safe? Oh, thank the\ngoddesses... |
 | `collection.ordon_quest.uli_thanks_2` | Thank you for looking after\nhim. I was so afraid I'd never\nsee him again. |
 | `collection.ordon_quest.uli_thanks_3` | This little one and I owe you\nso much. Please, take care of\nyourself out there. |
-| `collection.ordon_clothes.name` | Ordon Clothes |
-| `collection.ordon_clothes.description` | The clothes Link wore at the beginning\nof his journey in Ordon Village. |
-| `collection.linkle_clothes.name` | Linkle's Clothes |
-| `collection.linkle_clothes.description` | The clothes Linkle wore at the beginning\nof her journey in Ordon Village. |
-| `collection.yeti_tunic.name` | Yeti Clothes |
-| `collection.yeti_tunic.description` | Warm clothes lined with yeti fur. Made to brave the bitter cold. |
-| `collection.yeti_tunic.freeze` | Grants immunity to freezing. |
-| `collection.yeti_tunic.ashei` | Oh, and one more thing... It's pretty\ncold up here. Take this, it'll keep\nyou warm. |
-| `collection.yeti_tunic.get` | You got the *Yeti Clothes*!\nLined with yeti fur, they keep\nthe bitter cold at bay. |
-| `collection.tunics.hero` | Hero's Clothes |
-| `collection.tunics.zora` | Zora Armor |
-| `collection.tunics.magic` | Magic Armor |
-| `collection.unequip` | Unequip |
-| `menus.collection_tracker` | Collection Tracker |
-| `menus.collection_tracker.help` | Shows found **chests**, **Pieces of Heart**, **golden bugs** and **Poe Souls** per region on the map. |
-| `menus.collection_screen.advanced_screen` | Advanced UI |
-| `menus.collection_screen.advanced_screen.help` | Replaces the Collection screen, maps, menus and text boxes with a new design. |
-| `menus.collection_screen.dpad_items` | D-pad Up/Down opens Items |
-| `menus.collection_screen.dpad_items.help` | {btn:DPAD_UP} and {btn:DPAD_DOWN} open the Items tab instead of the item wheel. |
-| `menus.collection_screen.item_glyphs` | Item Button Glyphs |
-| `menus.collection_screen.item_glyphs.help` | Shows the X/Y/Z glyphs on assigned items even without {btn:DPAD_UP} opening Items. |
-| `menus.collection_screen.item_wheel` | Advanced Item Wheel |
-| `menus.collection_screen.item_wheel.help` | Gives the item wheel the Advanced UI look. |
-| `menus.collection_screen.save_preview` | Save Preview |
-| `menus.collection_screen.save_preview.help` | Saving takes a small screenshot that the file select shows next to each file. |
-| `advanced_collection.tab.equipment` | Equipment |
-| `advanced_collection.tab.tools` | Items |
-| `advanced_collection.tab.map` | Map |
-| `advanced_collection.tab.collection` | Collection |
-| `advanced_collection.tab.expansions` | Expansions |
-| `advanced_collection.tab.settings` | Settings |
-| `advanced_collection.expansions.wallets` | Wallets |
-| `advanced_collection.expansions.bomb_bags` | Bomb Bags |
-| `advanced_collection.expansions.quivers` | Quivers |
-| `advanced_collection.settings.load` | Load |
-| `advanced_collection.settings.load.help` | Loads another quest log right away. Unsaved progress is lost. |
-| `advanced_collection.load.which` | Load which quest log? |
-| `advanced_collection.load.question` | Load this quest log? |
-| `advanced_collection.load.warning` | Unsaved progress will be lost. |
-| `advanced_collection.options.targeting.help` | Hold: lock on only while holding the button. Switch: press once to lock on, again to release. |
-| `advanced_collection.options.rumble.help` | Turns controller vibration on or off. |
-| `advanced_collection.options.sound.help` | Sets how the game audio is output. |
-| `advanced_collection.not_found` | Not found yet. |
-| `advanced_collection.bugs.given` | Given to Agitha |
-| `advanced_collection.poes.dungeons` | Dungeons |
-| `advanced_collection.settings.reset` | Reset |
-| `advanced_collection.settings.reset.help` | Returns to the title screen. Unsaved progress is lost. |
-| `advanced_collection.reset.title` | Reset the game? |
-| `advanced_collection.settings.exit` | Exit Game |
-| `advanced_collection.settings.exit.help` | Closes Dusklight. Unsaved progress is lost. |
-| `advanced_collection.exit.title` | Exit the game? |
-| `advanced_collection.exit.warning` | All progress since your last save will be lost. |
 
 </details>
 
