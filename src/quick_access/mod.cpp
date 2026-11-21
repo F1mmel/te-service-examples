@@ -9,6 +9,8 @@ IMPORT_OPTIONAL_SERVICE(TwilitEssentialsQuickAccessService, svc_te_quick_access)
 
 static TwilitEssentialsQuickAccessItemHandle s_item = 0;
 static TwilitEssentialsQuickAccessItemHandle s_fireArrow = 0;
+static TwilitEssentialsQuickAccessItemHandle s_oilRefill = 0;
+static TwilitEssentialsQuickAccessPageHandle s_page = 0;
 static int s_charges = 3;
 
 static uint32_t has_charges(void*) {
@@ -35,6 +37,12 @@ static uint32_t has_oil(void*) {
 
 static uint32_t burn_oil(void*) {
     dComIfGs_setOil(dComIfGs_getOil() - 1000);
+    return 1;
+}
+
+static uint32_t refill_oil(void*) {
+    if (dComIfGs_getOil() >= dComIfGs_getMaxOil()) return 0;
+    dComIfGs_setOil(dComIfGs_getMaxOil());
     return 1;
 }
 
@@ -68,6 +76,22 @@ MOD_EXPORT ModResult mod_initialize(ModError*) {
     fire.is_available = has_oil;
     fire.use = burn_oil;
     svc_te_quick_access->add_item(mod_ctx, &fire, &s_fireArrow);
+
+    // own page next to Items and Tunics, the two items above stay on the shared Mods page
+    TwilitEssentialsQuickAccessPageDesc page = TWILIT_ESSENTIALS_QUICK_ACCESS_PAGE_DESC_INIT;
+    page.id = "te_example.supplies";
+    page.name = "Supplies";
+    page.max_slots = 4;
+    page.use_on_pick = 1; // picking an item uses it right away, 0 = puts it on the Quick Access button
+    svc_te_quick_access->add_page(mod_ctx, &page, &s_page);
+
+    TwilitEssentialsQuickAccessItemDesc oil = TWILIT_ESSENTIALS_QUICK_ACCESS_ITEM_DESC_INIT;
+    oil.id = "te_example.oil_refill";
+    oil.name = "Oil Refill";
+    oil.icon_item = dItemNo_OIL_BOTTLE_e;
+    oil.use = refill_oil;
+    oil.page = s_page; // 0 would put it on the shared Mods page
+    svc_te_quick_access->add_item(mod_ctx, &oil, &s_oilRefill);
     return MOD_OK;
 }
 
@@ -78,8 +102,13 @@ MOD_EXPORT ModResult mod_update(ModError*) {
 MOD_EXPORT ModResult mod_shutdown(ModError*) {
     if (svc_te_quick_access && s_item != 0) svc_te_quick_access->remove_item(mod_ctx, s_item);
     if (svc_te_quick_access && s_fireArrow != 0) svc_te_quick_access->remove_item(mod_ctx, s_fireArrow);
+    // items first, then the page
+    if (svc_te_quick_access && s_oilRefill != 0) svc_te_quick_access->remove_item(mod_ctx, s_oilRefill);
+    if (svc_te_quick_access && s_page != 0) svc_te_quick_access->remove_page(mod_ctx, s_page);
     s_item = 0;
     s_fireArrow = 0;
+    s_oilRefill = 0;
+    s_page = 0;
     return MOD_OK;
 }
 
