@@ -18,6 +18,7 @@ add_mod(te_collection_example
         FEATURES game
         SOURCES src/collection/mod.cpp
         MOD_JSON src/collection/mod.json
+        RES_DIR src/collection/res
 )
 
 add_mod(te_localization_example
