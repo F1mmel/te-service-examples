@@ -3,9 +3,9 @@
 Adds a `demo` language. Texts that are missing in
 `res/localization/demo/<feature>/<feature>.json` fall back to English.
 
-## All keys (1956)
+## All keys (1958)
 
-Dumped keys for TE 3.1.0
+Dumped keys for TE 3.1.1
 
 <details><summary><code>settings</code> (166)</summary>
 
@@ -1454,7 +1454,7 @@ Dumped keys for TE 3.1.0
 
 </details>
 
-<details><summary><code>collection</code> (77)</summary>
+<details><summary><code>collection</code> (79)</summary>
 
 | Key | English |
 | --- | --- |
@@ -1464,22 +1464,24 @@ Dumped keys for TE 3.1.0
 | `menus.collection_screen.keep_ordon_shield_in_collection` | Keep Ordon Shield in collection |
 | `menus.collection_screen.keep_ordon_shield_in_collection.help` | Keeps the Ordon Shield in the Collection even after it burns. Needs the starter gear option. |
 | `menus.collection_screen.tunics` | Clothes |
-| `menus.collection_screen.show_ordon_hero` | Show Ordon Hero |
-| `menus.collection_screen.show_ordon_hero.help` | Adds the Ordon Hero tunic and the Reinforced Shield on a second Collection page once the people of Ordon give them to you. |
-| `menus.collection_screen.ordon_hero_cap` | Ordon Hero cap |
-| `menus.collection_screen.ordon_hero_cap.help` | Gives the Ordon Hero tunic Link's cap or Linkle's hood. |
+| `menus.collection_screen.show_ordon_hero` | Show Ordonian Hero |
+| `menus.collection_screen.show_ordon_hero.help` | Adds the Ordonian Hero tunic and the Ordon Hero's Shield on a second Collection page once the people of Ordon give them to you. |
+| `menus.collection_screen.ordon_hero_cap` | Ordonian Hero cap |
+| `menus.collection_screen.ordon_hero_cap.help` | Gives the Ordonian Hero tunic Link's cap or Linkle's hood. |
 | `menus.collection_screen.show_yeti_tunic` | Show Yeti Clothes |
 | `menus.collection_screen.show_yeti_tunic.help` | Shows the Yeti Clothes in the Collection once you have them. Ashei gives them to you the first time you talk to her on Snowpeak. |
 | `menus.collection_screen.yeti_textures` | Yeti Textures |
 | `menus.collection_screen.yeti_textures.help` | Only Clothes changes just the outfit, but switches the sword, shield, bow, face and hair to the Yeti look on Snowpeak and in Snowpeak Ruins. |
 | `menus.collection_screen.yeti_textures.tunic` | Only Clothes |
 | `menus.collection_screen.yeti_textures.all` | Everything |
+| `menus.collection_screen.chain_mail` | See-through Chain Mail |
+| `menus.collection_screen.chain_mail.help` | Cuts the gaps between the chain mail rings under the hero and Ordonian Hero tunics. Needs a texture pack, the vanilla texture is too small and stays as it is. |
 | `menus.advanced_collection` | Advanced UI |
-| `collection.ordon_hero.name` | Ordon Hero |
+| `collection.ordon_hero.name` | Ordonian Hero |
 | `collection.ordon_hero.description` | Traditional clothes worn by the hero of Ordon. Simple, but made for adventure. |
-| `collection.ordon_hero.name_linkle` | Ordon Heroine |
+| `collection.ordon_hero.name_linkle` | Ordonian Heroine |
 | `collection.ordon_hero.description_linkle` | Traditional clothes worn by the heroine of Ordon. Simple, but made for adventure. |
-| `collection.reinforced_shield.name` | Reinforced Shield |
+| `collection.reinforced_shield.name` | Ordon Hero's Shield |
 | `collection.reinforced_shield.description` | A traditional Ordon shield reinforced with metal. Stronger and will never burn. |
 | `collection.ordon_hero.epona` | Epona runs faster while worn. |
 | `collection.reinforced_shield.effect` | Shield attacks knock enemies over, but you take more damage. |
@@ -1574,9 +1576,9 @@ Dumped keys for TE 3.1.0
 | `collection.ordon_quest.name_fado` | Fado |
 | `collection.ordon_quest.go_to_bo` | Have you seen Bo yet? He's got\nsomething for you. Go see him! |
 | `collection.ordon_quest.go_to_bo_linkle` | Have you seen Bo yet? He's got\nsomething for you. Go see him! |
-| `collection.ordon_quest.hero_get` | You got the *Ordon Hero*\nclothes! While you wear them,\nEpona runs faster. |
-| `collection.ordon_quest.hero_get_linkle` | You got the *Ordon Heroine*\nclothes! While you wear them,\nEpona runs faster. |
-| `collection.ordon_quest.shield_get` | You got the *Reinforced\nShield*! It knocks foes over,\nbut you'll take more damage. |
+| `collection.ordon_quest.hero_get` | You got the *Ordonian Hero*\nclothes! While you wear them,\nEpona runs faster. |
+| `collection.ordon_quest.hero_get_linkle` | You got the *Ordonian Heroine*\nclothes! While you wear them,\nEpona runs faster. |
+| `collection.ordon_quest.shield_get` | You got the *Ordon Hero's\nShield*! It knocks foes over,\nbut you'll take more damage. |
 | `collection.ordon_quest.jaggle_greet` | Hup! {N}! I hear you've been\nbusting up monsters all over\nHyrule! |
 | `collection.ordon_quest.jaggle_kids_1` | Hup! {N}! The kids are safe\nin Kakariko?! Phew... That's a\nload off my mind, hup! |
 | `collection.ordon_quest.jaggle_kids_2` | And word is you've been busting\nup monsters all over Hyrule! |
@@ -2065,10 +2067,10 @@ Dumped keys for TE 3.1.0
 | `guide.intro_features` | Explanations for the most important features of Twilit Essentials. Pick a topic on the left. |
 | `guide.yeti.title` | Yeti Clothes |
 | `guide.yeti.text` | Warm fur clothes for the snow. They work for Link and for Linkle, who gets her own version.\n\n**How to get them:** on **Snowpeak**, talk to **Ashei**. The first time you talk to her she gives you her sketch. Right after that she tells you it's pretty cold up there and hands you the **Yeti Clothes**.\n\nAlready met Ashei on Snowpeak before? Then you simply have them once you load your save.\n\n**Wearing them:** pick them in the Collection screen next to your other clothes, or on the **Tunics** page of Quick Access.\n\n**Options** (**Appearance** tab, Clothes):<br/>**Show Yeti Clothes**: on by default. Turned off, they are hidden, but you still get them.<br/>**Yeti Textures**: with **Only Clothes**, the frosty look for sword, shield, bow, face and hair only shows on Snowpeak and in Snowpeak Ruins. **Everything** shows it everywhere. |
-| `guide.ordon_hero.title` | Ordon Hero |
-| `guide.ordon_hero.text` | A thank-you from the people of Ordon for keeping the children safe. While you wear the clothes, **Epona runs 15% faster**. Linkle gets her own version, the **Ordon Heroine** clothes.\n\n**First:** turn on **Show Ordon Hero** (**Appearance** tab, Clothes). It is off by default, and without it there is no quest.\n\n**1. Wagon escort:** the quest starts once Telma's wagon has made it to Kakariko. From then on the children are safe there.\n\n**2. The letter:** the postman brings you "Come Home to Ordon!". He only shows up in **Hyrule Field**: walk into one of the open areas there and he comes running. You don't have to wait for him, you can go to Ordon right away.\n\n**3. Bo:** talk to Bo in Ordon during the day. Link tells him the children are safe, and Bo asks you to tell the others.\n\n**4. The villagers:** talk to each of them once, in any order:\n- **Hanch** and **Jaggle**: outside in the village\n- **Uli**: in her house\n- **Pergie**: in Jaggle's house\n- **Sera**: in her shop\n- **Fado**: at the ranch\nBo always tells you who still doesn't know.\n\n**5. Back to Bo:** once everyone knows, he gives you the clothes.\n\nThe clothes are in the Collection screen next to your other clothes. **Ordon Hero cap** gives them Link's cap or Linkle's hood. |
-| `guide.reinforced_shield.title` | Reinforced Shield |
-| `guide.reinforced_shield.text` | Jaggle puts metal on your Ordon Shield. It **never burns**, and with the hidden skill **Shield Attack** most enemies **fall over**. In return you take **25% more damage**, and heavy hits break your guard.\n\nNeeds **Show Ordon Hero** as well.\n\n**1. Goron Mines:** once you have cleared them, Jaggle sends you the letter "Bring Me Your Shield!". You can also just go and talk to him.\n\n**2. Jaggle:** talk to him outside in Ordon during the day and give him your **Ordon Shield**. If you don't have it anymore (for example because it burned), he makes a new one for **100 Rupees**.\n\n**3. Wait one in-game day:** that's 24 in-game hours, about 16 to 17 real minutes. The clock only runs outside, like in Hyrule Field, Faron Woods, Lake Hylia or Castle Town. It stands still in Ordon, Kakariko, indoors, in dungeons and during cutscenes.\n\n**4. Pick it up:** Jaggle sends you "Your Shield's Ready!", but you don't need the letter. Talk to him and you get the shield, already equipped.\n\n**Shield Attack:** Bokoblins, Bulblins, Lizalfos, Dynalfos and many others fall over. Bosses and enemies that can't fall (like Darknuts or Stalfos) get the normal shield attack, so the Helm Splitter still works on them. |
+| `guide.ordon_hero.title` | Ordonian Hero |
+| `guide.ordon_hero.text` | A thank-you from the people of Ordon for keeping the children safe. While you wear the clothes, **Epona runs 15% faster**. Linkle gets her own version, the **Ordonian Heroine** clothes.\n\n**First:** turn on **Show Ordonian Hero** (**Appearance** tab, Clothes). It is off by default, and without it there is no quest.\n\n**1. Wagon escort:** the quest starts once Telma's wagon has made it to Kakariko. From then on the children are safe there.\n\n**2. The letter:** the postman brings you "Come Home to Ordon!". He only shows up in **Hyrule Field**: walk into one of the open areas there and he comes running. You don't have to wait for him, you can go to Ordon right away.\n\n**3. Bo:** talk to Bo in Ordon during the day. Link tells him the children are safe, and Bo asks you to tell the others.\n\n**4. The villagers:** talk to each of them once, in any order:\n- **Hanch** and **Jaggle**: outside in the village\n- **Uli**: in her house\n- **Pergie**: in Jaggle's house\n- **Sera**: in her shop\n- **Fado**: at the ranch\nBo always tells you who still doesn't know.\n\n**5. Back to Bo:** once everyone knows, he gives you the clothes.\n\nThe clothes are in the Collection screen next to your other clothes. **Ordonian Hero cap** gives them Link's cap or Linkle's hood. |
+| `guide.reinforced_shield.title` | Ordon Hero's Shield |
+| `guide.reinforced_shield.text` | Jaggle puts metal on your Ordon Shield. It **never burns**, and with the hidden skill **Shield Attack** most enemies **fall over**. In return you take **25% more damage**, and heavy hits break your guard.\n\nNeeds **Show Ordonian Hero** as well.\n\n**1. Goron Mines:** once you have cleared them, Jaggle sends you the letter "Bring Me Your Shield!". You can also just go and talk to him.\n\n**2. Jaggle:** talk to him outside in Ordon during the day and give him your **Ordon Shield**. If you don't have it anymore (for example because it burned), he makes a new one for **100 Rupees**.\n\n**3. Wait one in-game day:** that's 24 in-game hours, about 16 to 17 real minutes. The clock only runs outside, like in Hyrule Field, Faron Woods, Lake Hylia or Castle Town. It stands still in Ordon, Kakariko, indoors, in dungeons and during cutscenes.\n\n**4. Pick it up:** Jaggle sends you "Your Shield's Ready!", but you don't need the letter. Talk to him and you get the shield, already equipped.\n\n**Shield Attack:** Bokoblins, Bulblins, Lizalfos, Dynalfos and many others fall over. Bosses and enemies that can't fall (like Darknuts or Stalfos) get the normal shield attack, so the Helm Splitter still works on them. |
 | `guide.flurry_rush.title` | Flurry Rush |
 | `guide.flurry_rush.text` | Dodge an attack at the very last moment and time slows down, so you can strike again and again.\n\n**How it works:** lock on to an enemy with {btn:L}. Just before its attack hits you, push the stick sideways or back and press {btn:A} to side hop or backflip. If your timing was right, everything slows down. Now hit {btn:B} as fast as you can.\n\n**Unlocking** (**Combat** tab, Flurry Rush, **Unlock**):<br/>**Learn as hidden skill** (default): first learn all seven hidden skills from the Hero's Shade. Midna then feels something stirring in the **Sacred Grove**: a golden wolf waits where the Temple of Time once stood, and the Hero's Shade teaches you Flurry Rush as the eighth hidden skill.<br/>**Always available**: you can use it right away.\n\n**Perfect dodge window**: how many frames after the dodge still count as perfect. Lower is harder.<br/>**Forget Flurry Rush**: resets the skill on this save, so you can learn it again. |
 | `guide.bullet_time.title` | Bullet Time |
