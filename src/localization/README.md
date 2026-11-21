@@ -3,11 +3,11 @@
 Adds a `demo` language. Texts that are missing in
 `res/localization/demo/<feature>/<feature>.json` fall back to English.
 
-## All keys (1926)
+## All keys (1956)
 
-Dumped keys for TE 3.0.2
+Dumped keys for TE 3.1.0
 
-<details><summary><code>settings</code> (164)</summary>
+<details><summary><code>settings</code> (166)</summary>
 
 | Key | English |
 | --- | --- |
@@ -28,16 +28,16 @@ Dumped keys for TE 3.0.2
 | `common.quick_access` | Quick Access |
 | `common.cancel` | Cancel |
 | `common.compass` | Compass |
-| `tabs.general` | General |
-| `tabs.quality_of_life` | Quality of Life |
+| `tabs.gameplay` | Gameplay |
 | `tabs.combat` | Combat |
 | `tabs.stamina_sprint` | Stamina & Sprint |
-| `tabs.visuals` | Visuals |
+| `tabs.camera` | Camera |
+| `tabs.appearance` | Appearance |
 | `tabs.menus` | Menus |
 | `tabs.controls` | Controls |
 | `tabs.party` | Party |
 | `tabs.duel` | Duel |
-| `tabs.customization` | Customization |
+| `tabs.hud` | HUD |
 | `tabs.boss_rush` | Boss Rush |
 | `common.graphics` | Graphics |
 | `common.search` | Search |
@@ -174,11 +174,13 @@ Dumped keys for TE 3.0.2
 | `settings_transfer.export_settings` | Export settings |
 | `settings_transfer.import_settings` | Import settings |
 | `settings_transfer.export_import_settings` | Export / import settings |
+| `settings_transfer.graphics_exported` | Graphics settings exported. |
+| `settings_transfer.imported_graphics` | Imported %s graphics settings. |
 | `bug_report.request_not_started` | The request could not be started (HTTP service unavailable). |
 
 </details>
 
-<details><summary><code>general</code> (49)</summary>
+<details><summary><code>general</code> (59)</summary>
 
 | Key | English |
 | --- | --- |
@@ -186,7 +188,16 @@ Dumped keys for TE 3.0.2
 | `hud_auto_fade.fade_duration` | Fade duration |
 | `hud_auto_fade.hud_auto_fade` | HUD Auto Fade |
 | `hud_auto_fade.hud_auto_fade.help` | Idle time before the HUD fades out and how long the fade takes. |
-| `general.description` | General options. |
+| `gameplay.description` | Faster cutscenes, handy shortcuts, swimming and Epona. |
+| `gameplay.cutscenes` | Cutscenes & Transitions |
+| `gameplay.convenience` | Convenience |
+| `gameplay.movement` | Movement & Swimming |
+| `gameplay.system` | System |
+| `gameplay.background_fps` | Background FPS limit |
+| `gameplay.background_fps.help` | Lowers the frame rate while the game window is not active, to save power. Playing on with a controller keeps it normal. |
+| `gameplay.background_fps.frame_rate` | Background frame rate |
+| `gameplay.background_fps.frame_rate.help` | Highest frame rate while the window is not active. |
+| `camera.description` | Camera distance, aiming over the shoulder and Photo Mode. |
 | `general.skip_all_cutscenes` | Skip all cutscenes |
 | `general.skip_all_cutscenes.help` | Automatically skips skippable cutscenes. Always on with **Skip even more**. |
 | `general.skip_even_more` | Skip even more |
@@ -200,13 +211,11 @@ Dumped keys for TE 3.0.2
 | `general.vanilla` | Vanilla |
 | `general.transition_speed` | Transition speed |
 | `general.transition_speed.help` | **Fast**: faster room, door and map transitions.<br/>**Vanilla**: normal speed. |
-| `general.enable_hud_auto_fade` | Enable HUD auto fade |
 | `general.enable_hud_auto_fade.help` | Hides the HUD while Link stands still. |
 | `general.hud_auto_fade_settings` | HUD Auto Fade Settings... |
 | `general.hud_auto_fade_settings.help` | How long Link stands still before the HUD fades, and how long the fade takes. |
 | `general.cosmetics_hd_textures` | Use HD textures for Cosmetics |
 | `general.cosmetics_hd_textures.help` | Cosmetics recolors use your HD texture pack instead of the low-res originals. |
-| `general.indicator` | Indicator |
 | `general.indicator.damage_vignette` | Damage vignette |
 | `general.indicator.damage_vignette.help` | Red screen edges when hit and at low health. |
 | `general.indicator.drowning_vignette` | Drowning vignette |
@@ -214,6 +223,8 @@ Dumped keys for TE 3.0.2
 | `general.indicator.intensity` | Intensity |
 | `general.indicator.intensity.help` | Strength of both vignettes. |
 | `general.camera` | Camera |
+| `general.camera.field_of_view` | Field of view |
+| `general.camera.field_of_view.help` | Widens or narrows the view in gameplay. 60° is the original, cutscenes stay as they are. |
 | `general.camera.free_camera_distance` | Free camera distance |
 | `general.camera.free_camera_distance.help` | Camera distance to Link with the Free Camera. |
 | `general.camera.allow_for_z_target` | Allow for Z target |
@@ -222,6 +233,7 @@ Dumped keys for TE 3.0.2
 | `general.camera.sprint_fov_kick.help` | Slightly widens the view while sprinting. |
 | `general.camera.third_person_aim` | Third-person camera |
 | `general.camera.third_person_aim.help` | Aim over Link's shoulder. |
+| `general.camera.third_person_aim.prompt` | Switch view |
 | `general.camera.photo_mode` | Photo mode |
 | `general.camera.photo_mode.help` | Opens and closes with {btn:PHOTO}. Change the buttons under Controls. |
 | `general.camera.horse_no_auto_recenter` | Horse camera: no auto-recenter |
@@ -234,11 +246,10 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>qol</code> (41)</summary>
+<details><summary><code>qol</code> (40)</summary>
 
 | Key | English |
 | --- | --- |
-| `qol.description` | Quality of life options. |
 | `qol.warp_as_human` | Warp as human |
 | `qol.warp_as_human.help` | Warp as human Link without turning into a wolf. |
 | `qol.note_this_dusklight_build_lazy` | This Dusklight build (Lazy Tweaks) already has a 3-slot Z button. |
@@ -282,14 +293,15 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>combat</code> (35)</summary>
+<details><summary><code>combat</code> (36)</summary>
 
 | Key | English |
 | --- | --- |
 | `combat.yes_forget_it` | Yes, forget it |
 | `combat.forget_flurry_rush` | Forget Flurry Rush |
 | `combat.forget_flurry_rush.help` | Reset the Flurry Rush hidden skill on this save? Save the game afterwards to keep it. |
-| `combat.combat_tweaks_and_display_overlays` | Combat tweaks and display overlays. |
+| `combat.description` | Enemy health bars, sword moves, Flurry Rush and Bullet Time. |
+| `combat.targeting` | Targeting |
 | `combat.enemy_hp_bars` | Enemy HP Bars |
 | `combat.enemy_hp_bars.show_hp_bars` | Show HP bars |
 | `combat.enemy_hp_bars.show_hp_bars.help` | Shows health bars above nearby enemies. |
@@ -324,7 +336,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>stamina</code> (94)</summary>
+<details><summary><code>stamina</code> (93)</summary>
 
 | Key | English |
 | --- | --- |
@@ -335,10 +347,11 @@ Dumped keys for TE 3.0.2
 | `stamina_activities.blocking_with_the_shield` | Blocking with the shield |
 | `stamina_activities.climbing_walls` | Climbing walls |
 | `stamina_activities.hanging_on_ledges` | Hanging on ledges |
-| `stamina_activities.items` | Items |
+| `stamina_dialog.combat` | Combat |
+| `stamina_dialog.movement` | Movement |
+| `stamina_dialog.aiming` | Aiming |
 | `stamina_activities.items.stamina_activities` | Stamina Activities |
 | `stamina_activities.items.choose_which_activities_draw_from` | Which activities use stamina: |
-| `stamina_costs.actions_cost_per_use` | Actions (cost per use) |
 | `stamina_costs.actions_cost_per.sword_attack` | Sword attack |
 | `stamina_costs.actions_cost_per.sword_attack.help` | Stamina per sword swing. |
 | `stamina_costs.actions_cost_per.jump_attack` | Jump attack |
@@ -353,7 +366,6 @@ Dumped keys for TE 3.0.2
 | `stamina_costs.actions_cost_per.side_hop.help` | Stamina per side hop. |
 | `stamina_costs.actions_cost_per.blocked_hit` | Blocked hit |
 | `stamina_costs.actions_cost_per.blocked_hit.help` | Stamina per blocked hit. Blocking with an empty meter breaks Link's guard. |
-| `stamina_costs.continuous_drain_per_frame_while` | Continuous (drain per frame while doing) |
 | `stamina_costs.continuous_drain_per.bullet_time.help` | Drain during Bullet Time. At 100% a full meter lasts about 10 seconds. |
 | `stamina_costs.continuous_drain_per.climbing` | Climbing |
 | `stamina_costs.continuous_drain_per.climbing.help` | Drain while climbing. |
@@ -372,7 +384,6 @@ Dumped keys for TE 3.0.2
 | `stamina_costs.continuous_drain_per.swim_sprint.help` | Drain while swim sprinting. |
 | `stamina_costs.continuous_drain_per.spin_attack_charge` | Spin attack charge |
 | `stamina_costs.continuous_drain_per.spin_attack_charge.help` | Drain while charging a spin attack. Running out cancels it. |
-| `stamina_costs.items_drain_per_frame_while` | Items (drain per frame while aiming) |
 | `stamina_costs.items_drain_per.slingshot_aiming.help` | Drain while drawing the slingshot. |
 | `stamina_costs.items_drain_per.bow_aiming.help` | Drain while drawing the bow. |
 | `stamina_costs.items_drain_per.ball_and_chain_aiming.help` | Drain while swinging the Ball and Chain. |
@@ -425,7 +436,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>visuals</code> (32)</summary>
+<details><summary><code>visuals</code> (33)</summary>
 
 | Key | English |
 | --- | --- |
@@ -435,7 +446,8 @@ Dumped keys for TE 3.0.2
 | `visible_equipment_dialog.dungeon_keys_key_ring` | Dungeon Keys |
 | `visible_equipment_dialog.horse_call_necklace` | Horse Call |
 | `visible_equipment_dialog.select_which_items_to_display` | Items shown on Link: |
-| `visuals.description` | Visual customization options. |
+| `appearance.description` | Gear and clothes on Link, what other players see and HD textures. |
+| `appearance.textures` | Textures |
 | `visuals.visual_equipment.enabled.help` | Shows your bow, quiver, lantern, bottles, keys and horse call on Link. |
 | `visuals.visual_equipment.choose_visible_items` | Choose Visible Items... |
 | `visuals.visual_equipment.choose_visible_items.help` | Select which items are displayed on Link. |
@@ -464,12 +476,11 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>quick_access</code> (30)</summary>
+<details><summary><code>quick_access</code> (29)</summary>
 
 | Key | English |
 | --- | --- |
-| `quick_access.description` | Quick item access and input modifications. |
-| `quick_access.quick_access.enabled.help` | Tap {btn:QA} to use its item, hold it to open the menu. Change the button in the Controls tab, the look in the Customization tab. |
+| `quick_access.quick_access.enabled.help` | Tap {btn:QA} to use its item, hold it to open the menu. Change the button in the Controls tab, the look in the HUD tab. |
 | `quick_access.quick_access.items_except_bottles` | Items except bottles |
 | `quick_access.quick_access.items_including_bottles` | Items including bottles |
 | `quick_access.quick_access.hide_items_from_item_wheel` | Hide items from item wheel |
@@ -501,7 +512,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>boss_rush</code> (296)</summary>
+<details><summary><code>boss_rush</code> (301)</summary>
 
 | Key | English |
 | --- | --- |
@@ -595,7 +606,7 @@ Dumped keys for TE 3.0.2
 | `boss_rush.leaderboard_status.maintenance_soon` | Runs you start after that are not ranked. |
 | `boss_rush.online` | Online |
 | `boss_rush.online.allow_online` | Allow online |
-| `boss_rush.online.allow_online.help` | Play with others in the chamber and the Dungeon Rush hub (needs Online leaderboard and a player name). Times set while you are in a party are not uploaded. |
+| `boss_rush.online.allow_online.help` | Play with others in the chamber and the Dungeon Rush hub (needs Online leaderboard and a player name). Times set while you are in a party are not uploaded, except Dungeon Rush runs against each other. |
 | `boss_rush.online.chat_scale` | Chat size |
 | `boss_rush.online.chat_scale.help` | Size of the online chat, open it with Enter and switch between all and party with Tab. |
 | `boss_rush.online.chat_x` | Chat X |
@@ -696,7 +707,7 @@ Dumped keys for TE 3.0.2
 | `dungeon_rush.presets.delete.help` | Deletes the selected preset and its split times. |
 | `dungeon_rush.presets.delete.confirm` | Delete this preset and all of its split times? |
 | `dungeon_rush.presets.share` | Share Online |
-| `dungeon_rush.presets.share.help` | Uploads your preset to the website so others can download it. |
+| `dungeon_rush.presets.share.help` | Uploads your preset to the website so others can download it. The default splits can't be shared. |
 | `dungeon_rush.presets.unshare` | Remove From Website |
 | `dungeon_rush.presets.unshare.help` | Takes your shared preset off the website. |
 | `dungeon_rush.presets.edit_section` | Edit Splits |
@@ -728,6 +739,7 @@ Dumped keys for TE 3.0.2
 | `dungeon_rush.presets.download_failed` | The preset could not be downloaded. |
 | `dungeon_rush.presets.uploaded` | Preset shared on the website. |
 | `dungeon_rush.presets.upload_failed` | Sharing failed. Try again later. |
+| `dungeon_rush.presets.default_not_shared` | These are the default splits. Change them before you share them. |
 | `dungeon_rush.presets.not_registered` | Set a leaderboard name in the Boss Rush settings first. |
 | `dungeon_rush.presets.rate_limited` | Too many uploads. Try again later. |
 | `dungeon_rush.presets.unshared` | Preset removed from the website. |
@@ -749,6 +761,10 @@ Dumped keys for TE 3.0.2
 | `dungeon_rush.customize.skill.jump_strike` | Jump Strike |
 | `dungeon_rush.customize.skill.great_spin` | Great Spin |
 | `dungeon_rush.customize.skill.help` | Turn this hidden skill off for runs of this dungeon. |
+| `dungeon_rush.customize.skill.locked` | You dont have this hidden skill yet at this point in the story. |
+| `boss_rush.customize.description` | These settings only apply to this boss. |
+| `boss_rush.customize.skill.help` | Turn this hidden skill off for fights against this boss. |
+| `boss_rush.customize.custom_rupees.help` | Starts the fight with the rupee count below. |
 | `dungeon_rush.customize.rupees_section` | Rupees |
 | `dungeon_rush.customize.custom_rupees` | Set Rupees |
 | `dungeon_rush.customize.custom_rupees.help` | Starts the dungeon with the rupee count below instead of the save file's. |
@@ -804,7 +820,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>controls</code> (39)</summary>
+<details><summary><code>controls</code> (42)</summary>
 
 | Key | English |
 | --- | --- |
@@ -834,13 +850,16 @@ Dumped keys for TE 3.0.2
 | `controls.stamina.sprint_mode.help` | **Hold**: sprint while held.<br/>**Toggle**: tap to sprint. Stops when you release the stick, tap again or run out of stamina. |
 | `controls.jump` | Jump |
 | `controls.jump.jump_button` | Jump button |
-| `controls.jump.jump_button.help` | Button for **Manual jump**. {btn:LS\|L3}/{btn:C\|R3} are the stick clicks, {btn:L\|L2}/{btn:R\|R2} the triggers, {btn:LB}/{btn:RB} the bumpers; on {btn:LB}, Midna moves to {btn:DPAD_LEFT}. |
+| `controls.jump.jump_button.help` | Button for **Manual jump**. {btn:LS\|L3}/{btn:C\|R3} are the stick clicks, {btn:L\|L2}/{btn:R\|R2} the triggers, {btn:LB}/{btn:Z\|RB} the bumpers; on {btn:LB}, Midna moves to {btn:DPAD_LEFT}. |
 | `controls.jump.mode` | Jump direction |
 | `controls.jump.mode.help` | **Forward**: Link always hops forward. **Upward**: standing still, Link jumps straight up; while moving, he jumps forward. |
 | `controls.jump.mode_forward` | Forward |
 | `controls.jump.mode_up` | Upward |
 | `controls.jump.height` | Jump height |
 | `controls.jump.height.help` | How high the manual jump goes, 100% is the normal height. |
+| `controls.aim` | Aiming |
+| `controls.aim.view_button` | First-person toggle |
+| `controls.aim.view_button.help` | While aiming with the **Third-person camera**, switches between over the shoulder and first person. Stays that way for the next aim. {btn:LS\|L3}/{btn:C\|R3} are the stick clicks, {btn:LB}/{btn:Z\|RB} the bumpers. |
 | `controls.photo_mode` | Photo Mode |
 | `controls.photo_mode.hold_button` | Hold button |
 | `controls.photo_mode.hold_button.help` | Button held while pressing the photo mode button. **None**: the photo mode button works alone. |
@@ -850,11 +869,12 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>customization</code> (70)</summary>
+<details><summary><code>customization</code> (71)</summary>
 
 | Key | English |
 | --- | --- |
-| `customization.description` | Customize the look of the bars and menus. |
+| `hud.description` | Screen effects, HUD fading and the look and position of every HUD element. |
+| `hud.screen_effects` | Screen Effects |
 | `customization.stamina_bar` | Stamina Bar |
 | `customization.stamina_bar.style` | Style |
 | `customization.stamina_bar.style.help` | **Default**: Twilight Princess style bar in the HUD.<br/>**BotW Wheel**: stamina wheel next to Link, extra stamina as outer rings. |
@@ -879,7 +899,7 @@ Dumped keys for TE 3.0.2
 | `customization.button_hud.xbox` | Xbox |
 | `customization.button_hud.playstation` | PlayStation |
 | `customization.button_hud.nintendo_switch` | Nintendo Switch |
-| `customization.button_hud.layout.help` | **GameCube**: original button cluster.<br/>**HD**: {btn:A}, {btn:B}, {btn:X} and {btn:Y} in a diamond like on a controller. All button prompts show the chosen controller symbols.<br/>**OoT (Modern)**: one item slot. {btn:R} uses it, hold {btn:Z} for the item list, {btn:Y} jumps, Midna is on {btn:MIDNA}. These buttons are fixed. |
+| `customization.button_hud.layout.help` | **GameCube**: original button cluster.<br/>**HD**: {btn:A}, {btn:B}, {btn:X} and {btn:Y} in a diamond like on a controller. All button prompts show the chosen controller symbols.<br/>**OoT (Modern)**: one item slot. {btn:R} uses it, hold {btn:Z} for the item list, {btn:Y} jumps, Midna is on {btn:MIDNA}. These buttons are fixed. As wolf the HD layout is shown. |
 | `customization.button_hud.scale` | Scale |
 | `customization.button_hud.scale.help` | Size of the HD buttons. |
 | `customization.button_hud.button_icons` | Button Icons |
@@ -927,7 +947,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>graphics</code> (175)</summary>
+<details><summary><code>graphics</code> (179)</summary>
 
 | Key | English |
 | --- | --- |
@@ -939,6 +959,10 @@ Dumped keys for TE 3.0.2
 | `graphics.preset.quality` | Quality |
 | `graphics.preset.ultra` | Ultra |
 | `graphics.preset.custom` | Custom |
+| `graphics.export` | Export Graphics Settings |
+| `graphics.export.help` | Saves only the graphics options to **te_graphics.json**, for example to share your graphics preset. |
+| `graphics.import` | Import Graphics Settings |
+| `graphics.import.help` | Loads a graphics file. Only graphics options change, everything else stays as it is. |
 | `graphics.color_lens` | Color & Lens |
 | `graphics.color_lens.saturation` | Saturation |
 | `graphics.color_lens.contrast` | Contrast |
@@ -1103,7 +1127,7 @@ Dumped keys for TE 3.0.2
 | `graphics.volumetric.flare_halo` | Lens Halo |
 | `graphics.volumetric.above_terrain` | Keep Clouds Above Terrain |
 | `graphics.dynamic_shadows.light_source_shadows_warning` | Can cause flickering in certain areas and situations. |
-| `graphics.dynamic_shadows.deferred_fog_warning` | Not compatible with "Deferred Fog" and causes flickering with it. |
+| `graphics.dynamic_shadows.deferred_fog_warning` | Off while "Deferred Fog" is enabled, together they flicker. |
 | `graphics.realistic_water.mirror_distortion` | Mirror Distortion |
 | `graphics.realistic_water.mirror_distortion_scale` | Mirror Distortion Scale |
 
@@ -1385,7 +1409,7 @@ Dumped keys for TE 3.0.2
 | `menus.remove` | Remove |
 | `menus.remove_all_markers` | Remove all markers |
 | `menus.remove_every_map_marker_of` | Remove all map markers of this save? |
-| `menus.remove_every_map_marker_of.help` | Menu, map and collection screen options. |
+| `menus.description` | Quick Access, the Collection screen, map markers and the collection tracker. |
 | `menus.map_markers` | Map Markers |
 | `menus.map_markers.enabled.help` | Place markers on the map like in Breath of the Wild. {btn:Y} places or removes a marker, {btn:X} picks symbol and color. |
 | `menus.map_markers.light_beams_in_the_world` | Light beams in the world |
@@ -1439,7 +1463,7 @@ Dumped keys for TE 3.0.2
 | `menus.collection_screen.add_wooden_sword_ordon_shield.help` | Adds Wooden Sword, Ordon Shield and Ordon Clothes to the Collection screen. |
 | `menus.collection_screen.keep_ordon_shield_in_collection` | Keep Ordon Shield in collection |
 | `menus.collection_screen.keep_ordon_shield_in_collection.help` | Keeps the Ordon Shield in the Collection even after it burns. Needs the starter gear option. |
-| `menus.collection_screen.tunics` | Tunics |
+| `menus.collection_screen.tunics` | Clothes |
 | `menus.collection_screen.show_ordon_hero` | Show Ordon Hero |
 | `menus.collection_screen.show_ordon_hero.help` | Adds the Ordon Hero tunic and the Reinforced Shield on a second Collection page once the people of Ordon give them to you. |
 | `menus.collection_screen.ordon_hero_cap` | Ordon Hero cap |
@@ -1731,7 +1755,7 @@ Dumped keys for TE 3.0.2
 
 </details>
 
-<details><summary><code>rush</code> (284)</summary>
+<details><summary><code>rush</code> (290)</summary>
 
 | Key | English |
 | --- | --- |
@@ -2019,6 +2043,12 @@ Dumped keys for TE 3.0.2
 | `rush.personal_best` | Personal Best |
 | `rush.sum_of_best_2` | Sum of Best |
 | `rush.continue` | Continue |
+| `rush.leaderboard_view` | %s  -  Leaderboard |
+| `rush.leaderboard_locked_door` | Leaderboard locked - runs are not uploaded |
+| `rush.this_dungeon_is_locked_on_the_leaderboard` | this dungeon is locked on the leaderboard |
+| `rush.open_it_in_the_dungeon_rush_hub` | Open it in the Dungeon Rush hub |
+| `rush.dungeon_rush_replays_play_on_the_website` | Dungeon Rush replays play on the website |
+| `rush.the_game_ran_faster_than_real_time` | the game ran faster than real time |
 
 </details>
 
@@ -2034,9 +2064,9 @@ Dumped keys for TE 3.0.2
 | `guide.continue` | Continue |
 | `guide.intro_features` | Explanations for the most important features of Twilit Essentials. Pick a topic on the left. |
 | `guide.yeti.title` | Yeti Clothes |
-| `guide.yeti.text` | Warm fur clothes for the snow. They work for Link and for Linkle, who gets her own version.\n\n**How to get them:** on **Snowpeak**, talk to **Ashei**. The first time you talk to her she gives you her sketch. Right after that she tells you it's pretty cold up there and hands you the **Yeti Clothes**.\n\nAlready met Ashei on Snowpeak before? Then you simply have them once you load your save.\n\n**Wearing them:** pick them in the Collection screen next to your other clothes, or on the **Tunics** page of Quick Access.\n\n**Options** (**Menus** tab, Collection Screen):<br/>**Show Yeti Clothes**: on by default. Turned off, they are hidden, but you still get them.<br/>**Yeti Textures**: with **Only Clothes**, the frosty look for sword, shield, bow, face and hair only shows on Snowpeak and in Snowpeak Ruins. **Everything** shows it everywhere. |
+| `guide.yeti.text` | Warm fur clothes for the snow. They work for Link and for Linkle, who gets her own version.\n\n**How to get them:** on **Snowpeak**, talk to **Ashei**. The first time you talk to her she gives you her sketch. Right after that she tells you it's pretty cold up there and hands you the **Yeti Clothes**.\n\nAlready met Ashei on Snowpeak before? Then you simply have them once you load your save.\n\n**Wearing them:** pick them in the Collection screen next to your other clothes, or on the **Tunics** page of Quick Access.\n\n**Options** (**Appearance** tab, Clothes):<br/>**Show Yeti Clothes**: on by default. Turned off, they are hidden, but you still get them.<br/>**Yeti Textures**: with **Only Clothes**, the frosty look for sword, shield, bow, face and hair only shows on Snowpeak and in Snowpeak Ruins. **Everything** shows it everywhere. |
 | `guide.ordon_hero.title` | Ordon Hero |
-| `guide.ordon_hero.text` | A thank-you from the people of Ordon for keeping the children safe. While you wear the clothes, **Epona runs 15% faster**. Linkle gets her own version, the **Ordon Heroine** clothes.\n\n**First:** turn on **Show Ordon Hero** (**Menus** tab, Collection Screen). It is off by default, and without it there is no quest.\n\n**1. Wagon escort:** the quest starts once Telma's wagon has made it to Kakariko. From then on the children are safe there.\n\n**2. The letter:** the postman brings you "Come Home to Ordon!". He only shows up in **Hyrule Field**: walk into one of the open areas there and he comes running. You don't have to wait for him, you can go to Ordon right away.\n\n**3. Bo:** talk to Bo in Ordon during the day. Link tells him the children are safe, and Bo asks you to tell the others.\n\n**4. The villagers:** talk to each of them once, in any order:\n- **Hanch** and **Jaggle**: outside in the village\n- **Uli**: in her house\n- **Pergie**: in Jaggle's house\n- **Sera**: in her shop\n- **Fado**: at the ranch\nBo always tells you who still doesn't know.\n\n**5. Back to Bo:** once everyone knows, he gives you the clothes.\n\nThe clothes are in the Collection screen next to your other clothes. **Ordon Hero cap** gives them Link's cap or Linkle's hood. |
+| `guide.ordon_hero.text` | A thank-you from the people of Ordon for keeping the children safe. While you wear the clothes, **Epona runs 15% faster**. Linkle gets her own version, the **Ordon Heroine** clothes.\n\n**First:** turn on **Show Ordon Hero** (**Appearance** tab, Clothes). It is off by default, and without it there is no quest.\n\n**1. Wagon escort:** the quest starts once Telma's wagon has made it to Kakariko. From then on the children are safe there.\n\n**2. The letter:** the postman brings you "Come Home to Ordon!". He only shows up in **Hyrule Field**: walk into one of the open areas there and he comes running. You don't have to wait for him, you can go to Ordon right away.\n\n**3. Bo:** talk to Bo in Ordon during the day. Link tells him the children are safe, and Bo asks you to tell the others.\n\n**4. The villagers:** talk to each of them once, in any order:\n- **Hanch** and **Jaggle**: outside in the village\n- **Uli**: in her house\n- **Pergie**: in Jaggle's house\n- **Sera**: in her shop\n- **Fado**: at the ranch\nBo always tells you who still doesn't know.\n\n**5. Back to Bo:** once everyone knows, he gives you the clothes.\n\nThe clothes are in the Collection screen next to your other clothes. **Ordon Hero cap** gives them Link's cap or Linkle's hood. |
 | `guide.reinforced_shield.title` | Reinforced Shield |
 | `guide.reinforced_shield.text` | Jaggle puts metal on your Ordon Shield. It **never burns**, and with the hidden skill **Shield Attack** most enemies **fall over**. In return you take **25% more damage**, and heavy hits break your guard.\n\nNeeds **Show Ordon Hero** as well.\n\n**1. Goron Mines:** once you have cleared them, Jaggle sends you the letter "Bring Me Your Shield!". You can also just go and talk to him.\n\n**2. Jaggle:** talk to him outside in Ordon during the day and give him your **Ordon Shield**. If you don't have it anymore (for example because it burned), he makes a new one for **100 Rupees**.\n\n**3. Wait one in-game day:** that's 24 in-game hours, about 16 to 17 real minutes. The clock only runs outside, like in Hyrule Field, Faron Woods, Lake Hylia or Castle Town. It stands still in Ordon, Kakariko, indoors, in dungeons and during cutscenes.\n\n**4. Pick it up:** Jaggle sends you "Your Shield's Ready!", but you don't need the letter. Talk to him and you get the shield, already equipped.\n\n**Shield Attack:** Bokoblins, Bulblins, Lizalfos, Dynalfos and many others fall over. Bosses and enemies that can't fall (like Darknuts or Stalfos) get the normal shield attack, so the Helm Splitter still works on them. |
 | `guide.flurry_rush.title` | Flurry Rush |
@@ -2044,23 +2074,23 @@ Dumped keys for TE 3.0.2
 | `guide.bullet_time.title` | Bullet Time |
 | `guide.bullet_time.text` | Aim the bow in mid-air and time slows down. **Combat** tab, **Bullet Time**.\n\n**How:** jump or fall from a high place, like a cliff or a tall ledge. A small hop is not enough. While you are in the air, draw the bow (bomb arrows and the Hawkeye work too). The world slows down, but Link and his arrows keep their full speed, so you have time to line up your shot.\n\n**It ends** when you land, stop aiming, press {btn:A} or run out of stamina.\n\nWith **Stamina** turned on, Bullet Time drains the meter: a full meter lasts about 10 seconds. Without it, it lasts until you land. |
 | `guide.stamina.title` | Stamina and Sprint |
-| `guide.stamina.text` | A stamina meter for fights, climbing and swimming. **Stamina &amp; Sprint** tab.\n\n**What uses stamina:** sword attacks, hidden skills, jump and spin attacks, rolls, side hops and backflips, blocking, climbing, hanging on ledges, swimming and aiming with items like the bow. Pick what counts in **Choose Stamina Activities** and how much each one costs in **Set Stamina Costs**.\n\n**Sprint:** hold {btn:SPRINT} while running. This also works as a wolf and while swimming (not with the Zora Armor). In the **Controls** tab, **Sprint mode** lets you tap instead of hold.\n\n**Out of stamina:** Link is exhausted and can't attack, roll or sprint until the meter has refilled a bit. Blocking with an empty meter breaks your guard. With **Drown when out of stamina**, running out while swimming costs you a heart.\n\n**More stamina:** with **Scale max stamina with max hearts**, every new heart container gives you more stamina.\n\nThe meter can be a bar in the HUD or a wheel next to Link (**Customization** tab, Stamina Bar, Style). |
+| `guide.stamina.text` | A stamina meter for fights, climbing and swimming. **Stamina &amp; Sprint** tab.\n\n**What uses stamina:** sword attacks, hidden skills, jump and spin attacks, rolls, side hops and backflips, blocking, climbing, hanging on ledges, swimming and aiming with items like the bow. Pick what counts in **Choose Stamina Activities** and how much each one costs in **Set Stamina Costs**.\n\n**Sprint:** hold {btn:SPRINT} while running. This also works as a wolf and while swimming (not with the Zora Armor). In the **Controls** tab, **Sprint mode** lets you tap instead of hold.\n\n**Out of stamina:** Link is exhausted and can't attack, roll or sprint until the meter has refilled a bit. Blocking with an empty meter breaks your guard. With **Drown when out of stamina**, running out while swimming costs you a heart.\n\n**More stamina:** with **Scale max stamina with max hearts**, every new heart container gives you more stamina.\n\nThe meter can be a bar in the HUD or a wheel next to Link (**HUD** tab, Stamina Bar, Style). |
 | `guide.zora.title` | Zora Swimming |
-| `guide.zora.text` | Two helpers for the **Zora Armor**, both in the **Quality of Life** tab.\n\n**Auto Zora Armor:** Link puts on the Zora Armor as soon as he swims and switches back to his old clothes on land. You need to own the Zora Armor.<br/>**On**: only while swimming.<br/>**On + shallow water**: also when you wade through shallow water.<br/>**On + shallow water, both feet**: the raised foot gets it too.\n\n**Improved Zora Swimming:** with the Zora Armor under water, just steer with the stick, no button needed. Tap {btn:A} for a speed burst with a barrel roll, hold {btn:A} to swim fast. Link leans into turns and leaves a trail of bubbles. |
+| `guide.zora.text` | Two helpers for the **Zora Armor**, both in the **Gameplay** tab.\n\n**Auto Zora Armor:** Link puts on the Zora Armor as soon as he swims and switches back to his old clothes on land. You need to own the Zora Armor.<br/>**On**: only while swimming.<br/>**On + shallow water**: also when you wade through shallow water.<br/>**On + shallow water, both feet**: the raised foot gets it too.\n\n**Improved Zora Swimming:** with the Zora Armor under water, just steer with the stick, no button needed. Tap {btn:A} for a speed burst with a barrel roll, hold {btn:A} to swim fast. Link leans into turns and leaves a trail of bubbles. |
 | `guide.quick_access.title` | Quick Access |
-| `guide.quick_access.text` | Use items and bottles without opening the item wheel. **Quick Access** tab.\n\n**Tap** {btn:QA} to use your quick item.<br/>**Hold** {btn:QA} to open the menu. Point the stick at a slot and let go: that item becomes your new quick item.\n\n**Pages:** besides your items there is a page for your **Bottles** ({btn:LB}) and one for your **Tunics**. Other mods can add their own pages.\n\n**Choosing items:** press {btn:X} in the menu to pick which items go on the slots.\n\n**As a wolf**, holding {btn:QA} opens a wheel with **Warp** and the **Sun's Song**.\n\n**Settings:** the button is in the **Controls** tab (Quick Access button), the look in the **Customization** tab: **Radial** like the item wheel, or **Item Bar (BotW-style)** at the top of the screen. **Hide items from item wheel** takes your quick items out of the normal item wheel. |
+| `guide.quick_access.text` | Use items and bottles without opening the item wheel. **Menus** tab, Quick Access.\n\n**Tap** {btn:QA} to use your quick item.<br/>**Hold** {btn:QA} to open the menu. Point the stick at a slot and let go: that item becomes your new quick item.\n\n**Pages:** besides your items there is a page for your **Bottles** ({btn:LB}) and one for your **Tunics**. Other mods can add their own pages.\n\n**Choosing items:** press {btn:X} in the menu to pick which items go on the slots.\n\n**As a wolf**, holding {btn:QA} opens a wheel with **Warp** and the **Sun's Song**.\n\n**Settings:** the button is in the **Controls** tab (Quick Access button), the look in the **HUD** tab: **Radial** like the item wheel, or **Item Bar (BotW-style)** at the top of the screen. **Hide items from item wheel** takes your quick items out of the normal item wheel. |
 | `guide.z_button.title` | Z Button |
-| `guide.z_button.text` | A third item slot on {btn:Z}, next to {btn:X} and {btn:Y}. **Quality of Life** tab, **Enable third item slot**.\n\n**Putting an item on Z:** open the item wheel, point at an item and press {btn:Z}, just like you do with {btn:X} and {btn:Y}.\n\n**Midna** gets her own button, the **Midna button** in the **Controls** tab:<br/>{btn:LB}: Midna's icon sits at the top left, {btn:DPAD_LEFT} toggles the minimap.<br/>{btn:DPAD_LEFT}: call Midna with the D-Pad.<br/>{btn:R} + {btn:DPAD_RIGHT} toggles the minimap in both cases.\n\nTwilight HD and Lazy Tweaks have their own third slot. The settings tell you what to do when one of them is installed. |
+| `guide.z_button.text` | A third item slot on {btn:Z}, next to {btn:X} and {btn:Y}. **Gameplay** tab, **Enable third item slot**.\n\n**Putting an item on Z:** open the item wheel, point at an item and press {btn:Z}, just like you do with {btn:X} and {btn:Y}.\n\n**Midna** gets her own button, the **Midna button** in the **Controls** tab:<br/>{btn:LB}: Midna's icon sits at the top left, {btn:DPAD_LEFT} toggles the minimap.<br/>{btn:DPAD_LEFT}: call Midna with the D-Pad.<br/>{btn:R} + {btn:DPAD_RIGHT} toggles the minimap in both cases.\n\nTwilight HD and Lazy Tweaks have their own third slot. The settings tell you what to do when one of them is installed. |
 | `guide.map_markers.title` | Map Markers |
 | `guide.map_markers.text` | Place your own markers on the map. **Menus** tab, **Map Markers**.\n\n**On the map:** press {btn:Y} to place a marker or to remove the one under the cursor. Press {btn:X} to choose its symbol and color.\n\n**Beacon:** markers with the Beacon symbol show up as **light beams** in the world and on a **compass** at the top of the screen, so you always know where to go.\n\n**More options:**<br/>**Show on minimap**: your markers also show on the minimap.<br/>**Remove when reached**: a marker disappears once Link gets there.<br/>**Remove all markers**: clears every marker of this save.\n\nMarkers are stored with your save file. |
 | `guide.photo_mode.title` | Photo Mode |
-| `guide.photo_mode.text` | Freeze the game and take pictures. **General** tab, Camera, **Photo mode**.\n\nPress {btn:PHOTO} to open and close it. The world stops and you can fly the camera around freely.\n\nIn its menu you can change the **time of day** and the **weather**, add **depth of field**, **filters** like Black and White or Golden Hour, **particles** like leaves, petals and fireflies, and **frames**. You can also hide Link for scenery shots.\n\n**Track** records smooth camera flights along waypoints. **Presets** saves your favorite setups.\n\nThe hints at the bottom show which button takes the photo, hides the menu or closes photo mode. The photo mode button can be changed in the **Controls** tab. |
+| `guide.photo_mode.text` | Freeze the game and take pictures. **Camera** tab, **Photo mode**.\n\nPress {btn:PHOTO} to open and close it. The world stops and you can fly the camera around freely.\n\nIn its menu you can change the **time of day** and the **weather**, add **depth of field**, **filters** like Black and White or Golden Hour, **particles** like leaves, petals and fireflies, and **frames**. You can also hide Link for scenery shots.\n\n**Track** records smooth camera flights along waypoints. **Presets** saves your favorite setups.\n\nThe hints at the bottom show which button takes the photo, hides the menu or closes photo mode. The photo mode button can be changed in the **Controls** tab. |
 | `guide.boss_rush.title` | Boss Rush |
 | `guide.boss_rush.text` | Fight any boss of the game again, as often as you like. Spoiler warning: you can reach bosses you haven't met in the story yet.\n\n**Starting:** pick **Boss Rush** as the game mode in Dusklight's start menu. You land in the Boss Rush chamber, a hall full of boss statues. Midna explains everything the first time.\n\n**Fighting:** walk up to a statue and press {btn:A}. While you stand there, set up your items in the item wheel and the statue remembers them. At Zant's statue, {btn:DPAD_LEFT_RIGHT} picks one of his six phases.\n\n**Master Rush:** the Master Sword starts every boss back to back, timed as one run.\n\n**Modes** (call Midna in the chamber):<br/>**Normal**: everything allowed, times are only saved locally.<br/>**Glitchless**: only the gear Link normally has at each boss.<br/>**Glitched**: all items.<br/>Glitchless and Glitched turn off all Twilit Essentials features, cheats and other mods, so every run is fair.\n\n**Retry:** the **Retry button** (**Controls** tab) restarts the current fight. Call Midna during a fight to go back to the chamber.\n\n**Leaderboard:** turn on the **Online leaderboard** and set a **Player name** in the **Online** tab before you fight. Call Midna in the chamber to see the Top 10. |
 | `guide.cave.title` | Cave of Ordeals |
 | `guide.cave.text` | A timed run through the **Cave of Ordeals**, with its own leaderboard.\n\n**Starting:** in the Boss Rush chamber, stand under the bell and press {btn:A} (**Start Cave**).\n\nYou fight through the floors one after another against the clock. The floors with the fairies are skipped. Just like the boss fights, your times count for the online leaderboard in Glitchless and Glitched mode.\n\nWith **Show Splits** on, a split list compares you to your best run. |
 | `guide.online.title` | Online Play |
-| `guide.online.text` | Play the Boss Rush and the Dungeon Rush together with other players over the internet.\n\n**Turning it on:** in the **Online** tab, turn on the **Online leaderboard**, set a **Player name** and turn on **Allow online**. You then see the other players in the Boss Rush chamber and in the Dungeon Rush hub.\n\n**Party:** invite players in the **Party** tab of the mod settings. In a party you fight bosses together: when someone starts a fight, the others can join by pressing {btn:A} in the chamber. In the Dungeon Rush, **Party mode** decides if you play **Together** (items, keys and progress are shared) or **Against each other** (the others are only ghosts).\n\n**Duel:** challenge another player to a PvP fight in the **Duel** tab. Whoever challenges picks the arena.\n\n**Chat:** press Enter to open the chat, Tab switches between everyone and your party. With **Voice chat** you can talk using your microphone.\n\nTimes you set while you are in a party are not uploaded to the leaderboard. |
+| `guide.online.text` | Play the Boss Rush and the Dungeon Rush together with other players over the internet.\n\n**Turning it on:** in the **Online** tab, turn on the **Online leaderboard**, set a **Player name** and turn on **Allow online**. You then see the other players in the Boss Rush chamber and in the Dungeon Rush hub.\n\n**Party:** invite players in the **Party** tab of the mod settings. In a party you fight bosses together: when someone starts a fight, the others can join by pressing {btn:A} in the chamber. In the Dungeon Rush, **Party mode** decides if you play **Together** (items, keys and progress are shared) or **Against each other** (the others are only ghosts).\n\n**Duel:** challenge another player to a PvP fight in the **Duel** tab. Whoever challenges picks the arena.\n\n**Chat:** press Enter to open the chat, Tab switches between everyone and your party. With **Voice chat** you can talk using your microphone.\n\nTimes you set while you are in a party are not uploaded to the leaderboard. Only Dungeon Rush runs where you play against each other count. |
 | `guide.dungeon_rush.title` | Dungeon Rush |
 | `guide.dungeon_rush.text` | Play through the game's dungeons from a central hub, with a timer and splits. Contains spoilers for the whole game.\n\n**Starting:** pick **Dungeon Rush** as the game mode in Dusklight's start menu. You land in a hub with a ring of doors, and Midna explains it the first time.\n\n**A run:** each door leads to a dungeon. Walk through one to start at that dungeon's entrance. A run is always the whole dungeon, the timer stops when the boss falls.\n\n**At a door:**<br/>set up your items in the item wheel, the door remembers them.<br/>{btn:Y} shows the splits: personal best, best segments and Sum of Best.<br/>{btn:X} changes your starting loadout, edits your splits and uploads them to the website.\n\n**Modes** (call Midna): **Normal** allows everything. **Glitchless** gives you only the gear and hearts Link normally has when entering the dungeon. **Glitched** unlocks every item. The mode is shared with the Boss Rush.\n\n**Inside a dungeon:** call Midna to go back to the hub, or press the **Retry button** to start over from the entrance. |
 
