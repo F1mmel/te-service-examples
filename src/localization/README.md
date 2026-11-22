@@ -3,9 +3,9 @@
 Adds a `demo` language. Texts that are missing in
 `res/localization/demo/<feature>/<feature>.json` fall back to English.
 
-## All keys (1958)
+## All keys (1968)
 
-Dumped keys for TE 3.1.1
+Dumped keys for TE 3.1.2
 
 <details><summary><code>settings</code> (166)</summary>
 
@@ -512,7 +512,7 @@ Dumped keys for TE 3.1.1
 
 </details>
 
-<details><summary><code>boss_rush</code> (301)</summary>
+<details><summary><code>boss_rush</code> (311)</summary>
 
 | Key | English |
 | --- | --- |
@@ -700,6 +700,8 @@ Dumped keys for TE 3.1.1
 | `dungeon_rush.presets.my_splits` | My Splits |
 | `dungeon_rush.presets.shared` | shared |
 | `dungeon_rush.presets.new` | New Preset |
+| `dungeon_rush.presets.new_mode` | New Preset For |
+| `dungeon_rush.presets.created_other_mode` | Preset created. It only shows up in the mode you picked for it. |
 | `dungeon_rush.presets.new.help` | Copies the selected preset so you can edit it. |
 | `dungeon_rush.presets.name` | Name |
 | `dungeon_rush.presets.name.help` | Renames the selected preset. |
@@ -776,6 +778,14 @@ Dumped keys for TE 3.1.1
 | `dungeon_rush.customize.form.locked` | In this mode the wolf form unlocks in a later dungeon. |
 | `dungeon_rush.customize.human` | Link |
 | `dungeon_rush.customize.wolf` | Wolf |
+| `dungeon_rush.customize.health_section` | Health |
+| `dungeon_rush.customize.custom_health` | Set Health |
+| `dungeon_rush.customize.custom_health.help` | Starts the dungeon with the health below instead of full hearts. |
+| `dungeon_rush.customize.health` | Health (Quarter Hearts) |
+| `dungeon_rush.customize.health.help` | 4 is one heart. It never goes above your heart containers. |
+| `dungeon_rush.customize.boss_flag_section` | Early Boss Fight |
+| `dungeon_rush.customize.boss_flag` | Boss Flag |
+| `dungeon_rush.customize.boss_flag.help` | Enters the dungeon with the boss flag (EBF) set, so boss cutscenes are skipped and tricks like Early Monkeys work. |
 | `dungeon_rush.customize.items_section` | Items |
 | `dungeon_rush.customize.item_set` | Item Set |
 | `dungeon_rush.customize.item_set.all` | All |
