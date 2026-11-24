@@ -3,9 +3,9 @@
 Adds a `demo` language. Texts that are missing in
 `res/localization/demo/<feature>/<feature>.json` fall back to English.
 
-## All keys (1968)
+## All keys (1982)
 
-Dumped keys for TE 3.1.2
+Dumped keys for TE 3.1.3
 
 <details><summary><code>settings</code> (166)</summary>
 
@@ -236,8 +236,8 @@ Dumped keys for TE 3.1.2
 | `general.camera.third_person_aim.prompt` | Switch view |
 | `general.camera.photo_mode` | Photo mode |
 | `general.camera.photo_mode.help` | Opens and closes with {btn:PHOTO}. Change the buttons under Controls. |
-| `general.camera.horse_no_auto_recenter` | Horse camera: no auto-recenter |
-| `general.camera.horse_no_auto_recenter.help` | On Epona, the camera stays where you point it. |
+| `general.camera.horse_no_auto_recenter` | Riding camera: no auto-recenter |
+| `general.camera.horse_no_auto_recenter.help` | On Epona and boars, the camera stays where you point it. |
 | `general.debug` | Debug |
 | `general.debug.export_save` | Debug: Export current save |
 | `general.debug.export_save.help` | Writes your current save game to a file that can be used as a Rush preset. |
@@ -512,7 +512,7 @@ Dumped keys for TE 3.1.2
 
 </details>
 
-<details><summary><code>boss_rush</code> (311)</summary>
+<details><summary><code>boss_rush</code> (317)</summary>
 
 | Key | English |
 | --- | --- |
@@ -542,6 +542,11 @@ Dumped keys for TE 3.1.2
 | `boss_rush.personal_bests_only` | Personal bests only |
 | `boss_rush.save_replays` | Save replays |
 | `boss_rush.save_replays.help` | **All fights**: the 50 newest.<br/>**Personal bests only**: only new best times.<br/>**Off**: none. |
+| `dungeon_rush.ghost` | Ghost |
+| `dungeon_rush.ghost.help` | A see-through Link that runs the dungeon in sync with your timer.<br/>**Personal best**: your fastest run.<br/>**Leaderboard #1**: the best run online, or yours if there is none.<br/>**Chosen run**: press {btn:B} at a door and pick a run with {btn:A}. |
+| `dungeon_rush.ghost.personal_best` | Personal best |
+| `dungeon_rush.ghost.leaderboard` | Leaderboard #1 |
+| `dungeon_rush.ghost.run` | Chosen run |
 | `boss_rush.game_code_2` | Game code:  |
 | `boss_rush.enter_this_code_next_to_show` | Enter this code next to **Show in game** on the website to start replays here. |
 | `boss_rush.replay_tutorial` | Replay tutorial |
@@ -751,6 +756,7 @@ Dumped keys for TE 3.1.2
 | `dungeon_rush.presets.kind.switch` | [Flag] |
 | `dungeon_rush.presets.kind.item` | [Item] |
 | `dungeon_rush.presets.kind.story` | [Story] |
+| `dungeon_rush.presets.kind.room` | [Room] |
 | `dungeon_rush.presets.kind.default` | [Default] |
 | `dungeon_rush.customize.loadout_tab` | Loadout |
 | `dungeon_rush.customize.description` | These settings only apply to this dungeon. |
@@ -879,7 +885,7 @@ Dumped keys for TE 3.1.2
 
 </details>
 
-<details><summary><code>customization</code> (71)</summary>
+<details><summary><code>customization</code> (72)</summary>
 
 | Key | English |
 | --- | --- |
@@ -909,6 +915,7 @@ Dumped keys for TE 3.1.2
 | `customization.button_hud.xbox` | Xbox |
 | `customization.button_hud.playstation` | PlayStation |
 | `customization.button_hud.nintendo_switch` | Nintendo Switch |
+| `customization.button_hud.steam_deck` | Steam Deck |
 | `customization.button_hud.layout.help` | **GameCube**: original button cluster.<br/>**HD**: {btn:A}, {btn:B}, {btn:X} and {btn:Y} in a diamond like on a controller. All button prompts show the chosen controller symbols.<br/>**OoT (Modern)**: one item slot. {btn:R} uses it, hold {btn:Z} for the item list, {btn:Y} jumps, Midna is on {btn:MIDNA}. These buttons are fixed. As wolf the HD layout is shown. |
 | `customization.button_hud.scale` | Scale |
 | `customization.button_hud.scale.help` | Size of the HD buttons. |
@@ -1464,7 +1471,7 @@ Dumped keys for TE 3.1.2
 
 </details>
 
-<details><summary><code>collection</code> (79)</summary>
+<details><summary><code>collection</code> (81)</summary>
 
 | Key | English |
 | --- | --- |
@@ -1478,6 +1485,8 @@ Dumped keys for TE 3.1.2
 | `menus.collection_screen.show_ordon_hero.help` | Adds the Ordonian Hero tunic and the Ordon Hero's Shield on a second Collection page once the people of Ordon give them to you. |
 | `menus.collection_screen.ordon_hero_cap` | Ordonian Hero cap |
 | `menus.collection_screen.ordon_hero_cap.help` | Gives the Ordonian Hero tunic Link's cap or Linkle's hood. |
+| `menus.collection_screen.ordon_hero_sd` | Ordonian Hero SD textures |
+| `menus.collection_screen.ordon_hero_sd.help` | Uses low-res textures on the Ordonian Hero clothes instead of the HD ones. |
 | `menus.collection_screen.show_yeti_tunic` | Show Yeti Clothes |
 | `menus.collection_screen.show_yeti_tunic.help` | Shows the Yeti Clothes in the Collection once you have them. Ashei gives them to you the first time you talk to her on Snowpeak. |
 | `menus.collection_screen.yeti_textures` | Yeti Textures |
@@ -1767,7 +1776,7 @@ Dumped keys for TE 3.1.2
 
 </details>
 
-<details><summary><code>rush</code> (290)</summary>
+<details><summary><code>rush</code> (295)</summary>
 
 | Key | English |
 | --- | --- |
@@ -1846,6 +1855,11 @@ Dumped keys for TE 3.1.2
 | `rush.replay_too_large` | replay too large |
 | `rush.run_not_found_on_the_server` | run not found on the server |
 | `rush.replay_from_the_website` | Replay from the website |
+| `rush.ghost_from_the_leaderboard` | Ghost from the leaderboard |
+| `rush.set_as_ghost` | Set as ghost |
+| `rush.ghost_set` | Ghost set |
+| `rush.no_replay_for_this_run` | No replay for this run |
+| `rush.leaderboard_is_still_loading` | Leaderboard is still loading |
 | `rush.every_boss_in_a_row` | Every boss in a row |
 | `rush.your_best` | Your Best |
 | `rush.online_rank` | Online Rank %d |
