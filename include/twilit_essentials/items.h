@@ -4,20 +4,23 @@
 
 #define TWILIT_ESSENTIALS_ITEMS_SERVICE_ID "com.dusklight.twilit_essentials.items"
 #define TWILIT_ESSENTIALS_ITEMS_SERVICE_MAJOR 1u
-#define TWILIT_ESSENTIALS_ITEMS_SERVICE_MINOR 0u
+#define TWILIT_ESSENTIALS_ITEMS_SERVICE_MINOR 1u
 
 // Maximum length of an item id
 #define TWILIT_ESSENTIALS_ITEM_ID_MAX 63u
 
-// Most items all mods together can have
-#define TWILIT_ESSENTIALS_MAX_ITEMS 20u
+// Items per Modded page in the item wheel and Advanced UI (extra pages appear automatically)
+#define TWILIT_ESSENTIALS_ITEMS_PER_PAGE 20u
+
+// Legacy alias kept for source compatibility; there is no longer a 20-item limit
+#define TWILIT_ESSENTIALS_MAX_ITEMS TWILIT_ESSENTIALS_ITEMS_PER_PAGE
 
 // Returned by get_item_button when the item is on no button
 #define TWILIT_ESSENTIALS_ITEM_BUTTON_NONE 0xFFu
 
 typedef uint64_t TwilitEssentialsItemHandle;
 
-// An item on the Modded page of the item wheel (and on Items > Modded in the Advanced UI).
+// An item on the Modded page(s) of the item wheel (and on Items > Modded in the Advanced UI).
 // The player puts it on X, Y or the Twilit Essentials Z button like a normal item
 struct TwilitEssentialsItemDesc {
     // Size of the struct, used for version compatibility
@@ -50,11 +53,21 @@ struct TwilitEssentialsItemDesc {
 
     // Size in the item wheel, 1 = as big as the game's own items there
     float icon_scale;
+
+    // .bmd for the 3D preview in the Advanced UI, nullptr = icon_item's model
+    const char* model;
+
+    // Optional .btk and .brk animations for the model, both loop
+    const char* model_btk;
+    const char* model_brk;
+
+    // Size of the model in the preview, 1 = fills the box like the game's items
+    float model_scale;
 };
 
 #define TWILIT_ESSENTIALS_ITEM_DESC_INIT                                                                  \
     {sizeof(TwilitEssentialsItemDesc), nullptr, nullptr, nullptr, nullptr, 0xFFu, nullptr, nullptr, nullptr, \
-        nullptr, 1.0f}
+        nullptr, 1.0f, nullptr, nullptr, nullptr, 1.0f}
 
 struct TwilitEssentialsItemsService {
     ServiceHeader header;

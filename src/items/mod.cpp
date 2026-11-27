@@ -41,6 +41,11 @@ MOD_EXPORT ModResult mod_initialize(ModError*) {
     // pouch.icon = "textures/rupee_pouch.bti";
     // pouch.is_unlocked = nullptr; // nullptr = always owned
     // pouch.icon_scale = 1.0f; // size in the item wheel, 1 = like the game items
+
+    // the Advanced UI shows the wallet in 3D, so you can provide a model for it here
+    // pouch.model = "models/rupee_pouch.bmd";
+    // pouch.model_brk = "models/rupee_pouch.brk"; // optional
+    // pouch.model_scale = 1.0f; // 1 = fills the preview box
     pouch.use = use_pouch;
     pouch.get_count = pouch_count;
     svc_te_items->add_item(mod_ctx, &pouch, &s_pouch);
