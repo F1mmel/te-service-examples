@@ -3,11 +3,11 @@
 Adds a `demo` language. Texts that are missing in
 `res/localization/demo/<feature>/<feature>.json` fall back to English.
 
-## All keys (1373)
+## All keys (1456)
 
-Dumped keys for TE 3.1.3
+Dumped keys for TE 3.1.4
 
-<details><summary><code>settings</code> (166)</summary>
+<details><summary><code>settings</code> (170)</summary>
 
 | Key | English |
 | --- | --- |
@@ -127,6 +127,9 @@ Dumped keys for TE 3.1.3
 | `options.x_top` | X (top) |
 | `tabs.dungeon_rush` | Dungeon Rush |
 | `tabs.online` | Online |
+| `tabs.te_online` | TE Online |
+| `tabs.customization` | Customization |
+| `tabs.privacy` | Privacy |
 | `tabs.replays` | Replays |
 | `tabs.split_presets` | Splits |
 | `tabs.splits` | Splits |
@@ -148,6 +151,7 @@ Dumped keys for TE 3.1.3
 | `bug_report.type_bug` | Bug |
 | `bug_report.type_grass_here` | Grass should grow here |
 | `bug_report.type_no_grass_here` | No grass should grow here |
+| `bug_report.type_te_online` | TE Online |
 | `bug_report.type_help` | For grass reports, stand exactly on the spot before sending. |
 | `bug_report.a_bug_report_is_already_being_sent` | A bug report is already being sent. |
 | `bug_report.send_report` | Send report |
@@ -180,7 +184,7 @@ Dumped keys for TE 3.1.3
 
 </details>
 
-<details><summary><code>general</code> (59)</summary>
+<details><summary><code>general</code> (62)</summary>
 
 | Key | English |
 | --- | --- |
@@ -207,6 +211,8 @@ Dumped keys for TE 3.1.3
 | `general.fast_forward_speed.help` | Speed of fast-forwarded cutscenes and doors. |
 | `general.fast_door_animations` | Fast door animations |
 | `general.fast_door_animations.help` | Speeds up only opening and walking through doors. Included in **Skip even more**. |
+| `general.faster_game_over` | Faster game over |
+| `general.faster_game_over.help` | Asks to retry right away instead of waiting for the game over music to end. |
 | `general.fast` | Fast |
 | `general.vanilla` | Vanilla |
 | `general.transition_speed` | Transition speed |
@@ -243,6 +249,7 @@ Dumped keys for TE 3.1.3
 | `general.debug.export_save.help` | Writes your current save game to a file that can be used as a Rush preset. |
 | `general.debug.save_exported` | Save exported:  |
 | `general.debug.save_export_failed` | The save could not be exported. |
+| `general.midna_flow.talk_to_midna` | Talk to Midna |
 
 </details>
 
@@ -273,7 +280,7 @@ Dumped keys for TE 3.1.3
 | `qol.switch_target_with_right_stick` | Switch target with right stick |
 | `qol.switch_target_with_right_stick.help` | While locked on, flick the **right stick** towards another enemy to target it. |
 | `qol.manual_jump` | Manual jump |
-| `qol.manual_jump.help` | Jump from the ground with {btn:JUMP} (Controls tab) as human or wolf; the button loses its normal action. |
+| `qol.manual_jump.help` | Jump from the ground with {btn:JUMP} (Controls tab) as human or wolf; on walls and ladders it climbs faster. The button loses its normal action. |
 | `qol.disable_sword_flourish` | Disable sword flourish |
 | `qol.disable_sword_flourish.help` | Link sheathes his sword without twirling it after a kill. |
 | `qol.remove_enemy_combat_music` | Remove enemy combat music |
@@ -436,7 +443,7 @@ Dumped keys for TE 3.1.3
 
 </details>
 
-<details><summary><code>visuals</code> (33)</summary>
+<details><summary><code>visuals</code> (30)</summary>
 
 | Key | English |
 | --- | --- |
@@ -460,10 +467,7 @@ Dumped keys for TE 3.1.3
 | `visuals.visual_equipment.dynamic_quiver_arrows` | Dynamic quiver arrows |
 | `visuals.visual_equipment.dynamic_quiver_arrows.help` | The quiver shows as many arrows as you have, and they sway as you move. |
 | `visuals.visual_equipment.on_other_players` | On other players |
-| `visuals.visual_equipment.on_other_players.help` | Shows your gear on other players in Crests of Courage. |
-| `visuals.visual_equipment.share_custom_gear` | Share custom weapons |
-| `visuals.visual_equipment.share_custom_gear.help` | Crests of Courage players with Twilit Essentials see your custom swords and shields. |
-| `visuals.crests_of_courage` | Crests of Courage |
+| `visuals.visual_equipment.on_other_players.help` | Shows the Visible Equipment of other players in TE Online and the rush modes. |
 | `visuals.visual_equipment.default_by_arrow_capacity` | Default (by arrow capacity) |
 | `visuals.visual_equipment.big_quiver` | Big Quiver |
 | `visuals.visual_equipment.giant_quiver` | Giant Quiver |
@@ -476,7 +480,7 @@ Dumped keys for TE 3.1.3
 
 </details>
 
-<details><summary><code>quick_access</code> (29)</summary>
+<details><summary><code>quick_access</code> (32)</summary>
 
 | Key | English |
 | --- | --- |
@@ -495,11 +499,14 @@ Dumped keys for TE 3.1.3
 | `quick_access.lantern_no_oil` | Lantern (No Oil) |
 | `quick_access.fishing_rod` | Fishing Rod |
 | `quick_access.a_add_remove` | A Add/Remove |
+| `quick_access.hints.add` | Add |
+| `quick_access.hints.remove` | Remove |
+| `quick_access.hints.a_add` | A Add |
+| `quick_access.hints.a_remove` | A Remove |
 | `quick_access.hints.y_clear` | Y Clear |
 | `quick_access.x_back` | X Back |
 | `quick_access.b_close` | B Close |
 | `quick_access.customize_quick_slots` | Customize Quick Slots |
-| `quick_access.customize_quick_slots_4` | Customize Quick Slots   %d/4 |
 | `quick_access.no_items` | No items |
 | `quick_access.warp` | Warp |
 | `quick_access.mods` | Mods |
@@ -561,7 +568,7 @@ Dumped keys for TE 3.1.3
 
 </details>
 
-<details><summary><code>customization</code> (72)</summary>
+<details><summary><code>customization</code> (74)</summary>
 
 | Key | English |
 | --- | --- |
@@ -622,6 +629,8 @@ Dumped keys for TE 3.1.3
 | `customization.hearts.damage_effect.help` | Hearts flash and shatter when you lose health. |
 | `customization.hearts.heal_effect` | Heal Effect |
 | `customization.hearts.heal_effect.help` | Hearts glow and sparkle when you regain health. |
+| `customization.epona.spur_indicator` | Spur Indicator |
+| `customization.epona.spur_indicator.help` | Spurs refill visibly after you use them. |
 | `customization.boss_bar` | Boss Bar |
 | `customization.boss_bar.style.help` | **Default**: Twilight Princess style with brass frame.<br/>**Thinner**: thin bar at the bottom with the boss's full title. |
 | `customization.boss_bar.x_offset.help` | Moves the boss bar horizontally. |
@@ -680,7 +689,6 @@ Dumped keys for TE 3.1.3
 | `graphics.grass.patch_density` | Patch Density |
 | `graphics.grass.patch_size` | Patch Size |
 | `graphics.grass.patch_height` | Patch Height |
-| `graphics.grass.patch_distance` | Patch Distance |
 | `graphics.grass.ground` | Grass on the Ground |
 | `graphics.grass.ground_density` | Ground Density |
 | `graphics.grass.ground_height` | Ground Height |
@@ -776,6 +784,7 @@ Dumped keys for TE 3.1.3
 | `graphics.realistic_water.waterfalls_both` | Splash + Reflection |
 | `graphics.realistic_water.underwater` | Underwater Effect |
 | `graphics.realistic_water.underwater_rays` | Underwater Light Rays |
+| `graphics.realistic_water.underwater_line` | Water Line |
 | `graphics.realistic_water.camera_drops` | Water Drops on Camera |
 | `graphics.realistic_water.mirror` | Mirror |
 | `graphics.realistic_water.mirror_high` | Mirror (High) |
@@ -1150,7 +1159,7 @@ Dumped keys for TE 3.1.3
 
 </details>
 
-<details><summary><code>collection</code> (81)</summary>
+<details><summary><code>collection</code> (101)</summary>
 
 | Key | English |
 | --- | --- |
@@ -1162,12 +1171,22 @@ Dumped keys for TE 3.1.3
 | `menus.collection_screen.tunics` | Clothes |
 | `menus.collection_screen.show_ordon_hero` | Show Ordonian Hero |
 | `menus.collection_screen.show_ordon_hero.help` | Adds the Ordonian Hero tunic and the Ordon Hero's Shield on a second Collection page once the people of Ordon give them to you. |
+| `menus.collection_screen.ordon_hero_unlock` | Ordonian Hero unlock |
+| `menus.collection_screen.ordon_hero_unlock.help` | **Off**: no quest and no letters.<br/>**Quest**: the people of Ordon make the clothes and the shield for you.<br/>**Always**: yours from the start, no letters. |
+| `menus.collection_screen.reset_ordon_quest` | Reset Ordonian Hero quest |
+| `menus.collection_screen.reset_ordon_quest.help` | Takes the Ordonian Hero clothes and shield away and starts the quest over. |
+| `menus.collection_screen.ordon_quest_reset` | Ordonian Hero quest reset. |
 | `menus.collection_screen.ordon_hero_cap` | Ordonian Hero cap |
 | `menus.collection_screen.ordon_hero_cap.help` | Gives the Ordonian Hero tunic Link's cap or Linkle's hood. |
 | `menus.collection_screen.ordon_hero_sd` | Ordonian Hero SD textures |
 | `menus.collection_screen.ordon_hero_sd.help` | Uses low-res textures on the Ordonian Hero clothes instead of the HD ones. |
 | `menus.collection_screen.show_yeti_tunic` | Show Yeti Clothes |
 | `menus.collection_screen.show_yeti_tunic.help` | Shows the Yeti Clothes in the Collection once you have them. Ashei gives them to you the first time you talk to her on Snowpeak. |
+| `menus.collection_screen.yeti_unlock` | Yeti Clothes unlock |
+| `menus.collection_screen.yeti_unlock.help` | **Off**: Ashei doesn't give them to you.<br/>**Quest**: Ashei gives them to you on Snowpeak.<br/>**Always**: yours from the start. |
+| `menus.collection_screen.unlock.quest` | Quest |
+| `menus.collection_screen.unlock.always` | Always |
+| `menus.collection_screen.unlock_randomizer` | Always off in the Randomizer. |
 | `menus.collection_screen.yeti_textures` | Yeti Textures |
 | `menus.collection_screen.yeti_textures.help` | Only Clothes changes just the outfit, but switches the sword, shield, bow, face and hair to the Yeti look on Snowpeak and in Snowpeak Ruins. |
 | `menus.collection_screen.yeti_textures.tunic` | Only Clothes |
@@ -1208,11 +1227,21 @@ Dumped keys for TE 3.1.3
 | `menus.collection_screen.item_wheel.help` | Gives the item wheel the Advanced UI look. |
 | `menus.collection_screen.save_preview` | Save Preview |
 | `menus.collection_screen.save_preview.help` | Saving takes a small screenshot that the file select shows next to each file. |
+| `menus.collection_screen.speaker_names` | Speaker Names |
+| `menus.collection_screen.speaker_names.help` | Text boxes show who is speaking. |
+| `menus.collection_screen.dialog_style` | Dialogue Style |
+| `menus.collection_screen.dialog_style.help` | **Automatic**: OoT text boxes with the OoT (Modern) button layout.<br/>**Classic**: the usual text boxes.<br/>**OoT (Modern)**: always OoT text boxes. |
+| `menus.collection_screen.dialog_style.auto` | Automatic |
+| `menus.collection_screen.dialog_style.classic` | Classic |
+| `menus.collection_screen.dialog_style.oot` | OoT (Modern) |
+| `menus.collection_screen.window_style` | Window Style |
+| `menus.collection_screen.window_style.help` | **Automatic**: OoT windows (item info, save menu, place names...) with the OoT (Modern) button layout.<br/>**Classic**: the usual windows.<br/>**OoT (Modern)**: always OoT windows. |
 | `advanced_collection.tab.equipment` | Equipment |
 | `advanced_collection.tab.tools` | Items |
 | `advanced_collection.tab.map` | Map |
 | `advanced_collection.tab.collection` | Collection |
 | `advanced_collection.tab.expansions` | Expansions |
+| `advanced_collection.tab.modded` | Modded |
 | `advanced_collection.tab.settings` | Settings |
 | `advanced_collection.expansions.wallets` | Wallets |
 | `advanced_collection.expansions.bomb_bags` | Bomb Bags |
@@ -1302,7 +1331,7 @@ Dumped keys for TE 3.1.3
 
 </details>
 
-<details><summary><code>names</code> (146)</summary>
+<details><summary><code>names</code> (200)</summary>
 
 | Key | English |
 | --- | --- |
@@ -1452,6 +1481,60 @@ Dumped keys for TE 3.1.3
 | `names.preset` | Preset  |
 | `names.track` | Track  |
 | `names.hyrule_field` | Hyrule Field |
+| `names.speaker.ashei` | Ashei |
+| `names.speaker.shad` | Shad |
+| `names.speaker.auru` | Auru |
+| `names.speaker.impaz` | Impaz |
+| `names.speaker.agitha` | Agitha |
+| `names.speaker.purlo` | Purlo |
+| `names.speaker.heros_shade` | Hero's Shade |
+| `names.speaker.postman` | Postman |
+| `names.speaker.light_spirit` | Light Spirit |
+| `names.speaker.ooccoo` | Ooccoo |
+| `names.speaker.ooccoo_jr` | Ooccoo Jr. |
+| `names.speaker.jovani` | Jovani |
+| `names.speaker.midna` | Midna |
+| `names.speaker.rutela` | Rutela |
+| `names.speaker.coro` | Coro |
+| `names.speaker.ralis` | Ralis |
+| `names.speaker.ilia` | Ilia |
+| `names.speaker.bo` | Bo |
+| `names.speaker.fado` | Fado |
+| `names.speaker.jaggle` | Jaggle |
+| `names.speaker.pergie` | Pergie |
+| `names.speaker.talo` | Talo |
+| `names.speaker.malo` | Malo |
+| `names.speaker.rusl` | Rusl |
+| `names.speaker.uli` | Uli |
+| `names.speaker.colin` | Colin |
+| `names.speaker.hanch` | Hanch |
+| `names.speaker.sera` | Sera |
+| `names.speaker.beth` | Beth |
+| `names.speaker.zelda` | Zelda |
+| `names.speaker.luda` | Luda |
+| `names.speaker.renado` | Renado |
+| `names.speaker.fanadi` | Fanadi |
+| `names.speaker.fyer` | Fyer |
+| `names.speaker.falbi` | Falbi |
+| `names.speaker.iza` | Iza |
+| `names.speaker.telma` | Telma |
+| `names.speaker.barnes` | Barnes |
+| `names.speaker.zora` | Zora |
+| `names.speaker.borville` | Borville |
+| `names.speaker.yeto` | Yeto |
+| `names.speaker.yeta` | Yeta |
+| `names.speaker.hena` | Hena |
+| `names.speaker.goron` | Goron |
+| `names.speaker.darbus` | Darbus |
+| `names.speaker.charlo` | Charlo |
+| `names.speaker.great_fairy` | Great Fairy |
+| `names.speaker.chudley` | Chudley |
+| `names.speaker.cat` | Cat |
+| `names.speaker.dog` | Dog |
+| `names.speaker.cucco` | Cucco |
+| `names.speaker.squirrel` | Squirrel |
+| `names.speaker.monkey` | Monkey |
+| `names.speaker.epona` | Epona |
 
 </details>
 
